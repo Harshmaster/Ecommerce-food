@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "297514237571",
+    "firebase_url": "https://mirch-masala-78a38.firebaseio.com",
+    "project_id": "mirch-masala-78a38",
+    "storage_bucket": "mirch-masala-78a38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297514237571:android:1090619ffb3dec3df7a5b6",
+        "android_client_info": {
+          "package_name": "com.example.kirana_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297514237571-630m79prldv928a80l0hesksqa3svo1t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsu7A-eR9nd-KLZmiXBlNL-aFLX09Urns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297514237571-630m79prldv928a80l0hesksqa3svo1t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
