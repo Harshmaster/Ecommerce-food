@@ -6,6 +6,7 @@ import 'package:kirana_app/UI/HomeUIComponent/ChatItem.dart';
 import 'package:kirana_app/UI/HomeUIComponent/Search.dart';
 import 'package:kirana_app/UI/temp_add.dart';
 import 'package:kirana_app/UI/temp_pump_data.dart';
+import 'package:kirana_app/colors.dart';
 
 
 class AppbarGradient extends StatefulWidget {
@@ -37,8 +38,10 @@ class _AppbarGradientState extends State<AppbarGradient> {
                 colors: [
                   // const Color(0xFFA3BDED),
                   // const Color(0xFF6991C7),
-                  Colors.redAccent,
-                  Colors.redAccent,
+                  // Colors.redAccent,
+                  // Colors.redAccent,
+                  ColorPlatte.themecolor,
+                  ColorPlatte.themecolor
                 ],
                 begin: const FractionalOffset(0.0, 0.0),
                 end: const FractionalOffset(1.0, 0.0),
@@ -105,10 +108,10 @@ class _AppbarGradientState extends State<AppbarGradient> {
             /// Icon chat (if user click navigate to chat layout)
             InkWell(
                 onTap: () {
-                  Navigator.of(context).push(
-                      PageRouteBuilder(pageBuilder: (_, __, ___) => new chatItem(message: "",)));
-                      // Navigator.of(context).push(
-                      // PageRouteBuilder(pageBuilder: (_, __, ___) => new FacultyContactPage()));
+                  // Navigator.of(context).push(
+                  //     PageRouteBuilder(pageBuilder: (_, __, ___) => new chatItem()));
+                      Navigator.of(context).push(
+                      PageRouteBuilder(pageBuilder: (_, __, ___) => new FacultyContactPage()));
 
 
                 },
@@ -131,14 +134,14 @@ class _AppbarGradientState extends State<AppbarGradient> {
                     "assets/img/notifications-button.png",
                     height: 24.0,
                   ),
-                  CircleAvatar(
-                    radius: 8.6,
-                    backgroundColor: Colors.redAccent,
-                    child: Text(
-                      CountNotice,
-                      style: TextStyle(fontSize: 13.0, color: Colors.white),
-                    ),
-                  )
+                  // CircleAvatar(
+                  //   radius: 8.6,
+                  //   backgroundColor: Colors.redAccent,
+                  //   child: Text(
+                  //     CountNotice,
+                  //     style: TextStyle(fontSize: 13.0, color: Colors.white),
+                  //   ),
+                  // )
                 ],
               ),
 

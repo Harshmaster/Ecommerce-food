@@ -34,12 +34,12 @@ final pages = [
       iconColor: Colors.black,
       bubbleBackgroundColor: Colors.black,
       title: Text(
-        'E-Commerce App',style: _fontHeaderStyle,
+        'Online Grocery App',style: _fontHeaderStyle,
       ),
       body: Container(
         height: 250.0,
         child: Text(
-          'E commerce application template \nbuy this code template in codecanyon',textAlign: TextAlign.center,
+          'Best Online Grocery App in Chhatarpur',textAlign: TextAlign.center,
           style: _fontDescriptionStyle
         ),
       ),
@@ -60,7 +60,7 @@ final pages = [
       body: Container(
         height: 250.0,
         child: Text(
-            'Choose Items wherever you are with this application to make life easier',textAlign: TextAlign.center,
+            'Choose from variety of products and get it delivered at your doorStep',textAlign: TextAlign.center,
             style: _fontDescriptionStyle
         ),
       ),
@@ -81,7 +81,7 @@ final pages = [
       body: Container(
         height: 250.0,
         child: Text(
-            'Shop from thousand brands in the world \n in one application at throwaway \nprices ',textAlign: TextAlign.center,
+            'We are commited to provide high quality and upto date products at reasonable price',textAlign: TextAlign.center,
             style: _fontDescriptionStyle
         ),
       ),

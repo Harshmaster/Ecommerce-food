@@ -1,4 +1,4 @@
-package com.example.kirana_app
+package com.rasoi.ghar
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

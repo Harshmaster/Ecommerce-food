@@ -11,7 +11,7 @@
     "status": "available"
   },
   {
-    "product_id": 10001,
+    "A": 10001,
     "product_name": "SOOJI Gangwal",
     "product_size": "500 GRAM",
     "product_price": 24,
@@ -22,7 +22,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10002,
+    "A": 10002,
     "product_name": "SOOJI Fortune",
     "product_size": "500 GRAM",
     "product_price": 24,
@@ -33,7 +33,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10003,
+    "A": 10003,
     "product_name": "Tata Salt",
     "product_size": "1 KG",
     "product_price": 19,
@@ -44,7 +44,7 @@
     "status": "available"
   },
   {
-    "product_id": 10004,
+    "A": 10004,
     "product_name": "SALT Ankur",
     "product_size": "1 KG",
     "product_price": 10,
@@ -55,7 +55,7 @@
     "status": "available"
   },
   {
-    "product_id": 10005,
+    "A": 10005,
     "product_name": "SALT Bhaskar",
     "product_size": "1KG",
     "product_price": 10,
@@ -66,7 +66,7 @@
     "status": "available"
   },
   {
-    "product_id": 10006,
+    "A": 10006,
     "product_name": "ACHAR MASALA Pushp",
     "product_size": "500GRAM",
     "product_price": 90,
@@ -77,7 +77,7 @@
     "status": "available"
   },
   {
-    "product_id": 10007,
+    "A": 10007,
     "product_name": "PEANUT OIL (MOONGFALI) DHARA",
     "product_size": "1 LITER",
     "product_price": 170,
@@ -88,7 +88,7 @@
     "status": "available"
   },
   {
-    "product_id": 10008,
+    "A": 10008,
     "product_name": "CHHOLE",
     "product_size": "500GRAM",
     "product_price": 44,
@@ -99,7 +99,7 @@
     "status": "available"
   },
   {
-    "product_id": 10009,
+    "A": 10009,
     "product_name": "URAD DAL CHILKA",
     "product_size": "500GRAM",
     "product_price": 43,
@@ -110,7 +110,7 @@
     "status": "available"
   },
   {
-    "product_id": 10010,
+    "A": 10010,
     "product_name": "URAD DAL DHULI",
     "product_size": "500GRAM",
     "product_price": 55,
@@ -121,7 +121,7 @@
     "status": "available"
   },
   {
-    "product_id": 10011,
+    "A": 10011,
     "product_name": "URAD DAL DHULI",
     "product_size": "1 KG",
     "product_price": 105,
@@ -132,7 +132,7 @@
     "status": "available"
   },
   {
-    "product_id": 10012,
+    "A": 10012,
     "product_name": "baJAJ AMOND DROP HAIR OIL",
     "product_size": "1KG",
     "product_price": 95,
@@ -143,7 +143,7 @@
     "status": "available"
   },
   {
-    "product_id": 10013,
+    "A": 10013,
     "product_name": "MOONG DAL DHULI",
     "product_size": "500GRAM",
     "product_price": 62,
@@ -154,7 +154,7 @@
     "status": "available"
   },
   {
-    "product_id": 10014,
+    "A": 10014,
     "product_name": "MOONG DAL CHILKA",
     "product_size": "500GRAM",
     "product_price": 55,
@@ -165,7 +165,7 @@
     "status": "available"
   },
   {
-    "product_id": 10015,
+    "A": 10015,
     "product_name": "MOONG DAL DHULI",
     "product_size": "1 KG",
     "product_price": 120,
@@ -176,7 +176,7 @@
     "status": "available"
   },
   {
-    "product_id": 10016,
+    "A": 10016,
     "product_name": "MOONG DAL CHHILKA",
     "product_size": "1KG",
     "product_price": 105,
@@ -187,7 +187,7 @@
     "status": "available"
   },
   {
-    "product_id": 10017,
+    "A": 10017,
     "product_name": "Toor DAL (Arhar)",
     "product_size": "1KG",
     "product_price": 110,
@@ -198,7 +198,7 @@
     "status": "available"
   },
   {
-    "product_id": 10018,
+    "A": 10018,
     "product_name": "POHA LOOSE",
     "product_size": "1KG",
     "product_price": 35,
@@ -209,7 +209,7 @@
     "status": "available"
   },
   {
-    "product_id": 10019,
+    "A": 10019,
     "product_name": "POHA(SANSKAR)",
     "product_size": "1KG",
     "product_price": 50,
@@ -220,7 +220,7 @@
     "status": "available"
   },
   {
-    "product_id": 10020,
+    "A": 10020,
     "product_name": "OIL DALDA khjoor",
     "product_size": "1 KG",
     "product_price": 95,
@@ -231,7 +231,7 @@
     "status": "available"
   },
   {
-    "product_id": 10021,
+    "A": 10021,
     "product_name": "SARSO OIL DALDA",
     "product_size": "1KG",
     "product_price": 115,
@@ -242,7 +242,7 @@
     "status": "available"
   },
   {
-    "product_id": 10022,
+    "A": 10022,
     "product_name": "SUNFLOWER OIL DALDA",
     "product_size": "1KG",
     "product_price": 125,
@@ -253,7 +253,7 @@
     "status": "available"
   },
   {
-    "product_id": 10023,
+    "A": 10023,
     "product_name": "SOYA OIL ruchi star",
     "product_size": "1KG",
     "product_price": 110,
@@ -264,7 +264,7 @@
     "status": "available"
   },
   {
-    "product_id": 10024,
+    "A": 10024,
     "product_name": "URAD DAL DHULI",
     "product_size": "1KG",
     "product_price": 65,
@@ -275,7 +275,7 @@
     "status": "available"
   },
   {
-    "product_id": 10025,
+    "A": 10025,
     "product_name": "RICE KHULE",
     "product_size": "1KG",
     "product_price": 30,
@@ -286,7 +286,7 @@
     "status": "available"
   },
   {
-    "product_id": 10026,
+    "A": 10026,
     "product_name": "RICE KHULE",
     "product_size": "1KG",
     "product_price": 40,
@@ -297,7 +297,7 @@
     "status": "available"
   },
   {
-    "product_id": 10027,
+    "A": 10027,
     "product_name": "RICE KHULE",
     "product_size": "1KG",
     "product_price": 55,
@@ -308,7 +308,7 @@
     "status": "available"
   },
   {
-    "product_id": 10028,
+    "A": 10028,
     "product_name": "INDIA GATE RICE MINI MONGRA 2",
     "product_size": "10KG",
     "product_price": 340,
@@ -319,7 +319,7 @@
     "status": "available"
   },
   {
-    "product_id": 10029,
+    "A": 10029,
     "product_name": "INDIA GATE RICE DUBAR",
     "product_size": "5KG",
     "product_price": 450,
@@ -330,7 +330,7 @@
     "status": "available"
   },
   {
-    "product_id": 10030,
+    "A": 10030,
     "product_name": "INDIA GATE RICE TIBAR",
     "product_size": "5KG",
     "product_price": 475,
@@ -341,7 +341,7 @@
     "status": "available"
   },
   {
-    "product_id": 10031,
+    "A": 10031,
     "product_name": "INDIA GATE RICE MONGRA",
     "product_size": "5KG",
     "product_price": 300,
@@ -352,7 +352,7 @@
     "status": "available"
   },
   {
-    "product_id": 10032,
+    "A": 10032,
     "product_name": "INDIA GATE RICE MINI MONGRA",
     "product_size": "10KG",
     "product_price": 440,
@@ -363,7 +363,7 @@
     "status": "available"
   },
   {
-    "product_id": 10033,
+    "A": 10033,
     "product_name": "PANCH RATAN AATA",
     "product_size": "10",
     "product_price": 280,
@@ -374,7 +374,7 @@
     "status": "available"
   },
   {
-    "product_id": 10034,
+    "A": 10034,
     "product_name": "AATA TULSI",
     "product_size": "10",
     "product_price": 590,
@@ -385,7 +385,7 @@
     "status": "available"
   },
   {
-    "product_id": 10035,
+    "A": 10035,
     "product_name": "OM ATTA",
     "product_size": "24KG",
     "product_price": 590,
@@ -396,7 +396,7 @@
     "status": "available"
   },
   {
-    "product_id": 10036,
+    "A": 10036,
     "product_name": "CLOVE(LONG)",
     "product_size": "50G",
     "product_price": 42,
@@ -407,7 +407,7 @@
     "status": "available"
   },
   {
-    "product_id": 10037,
+    "A": 10037,
     "product_name": "BLACK PEPPER (KALI MIRCH)",
     "product_size": "50G",
     "product_price": 30,
@@ -418,7 +418,7 @@
     "status": "available"
   },
   {
-    "product_id": 10038,
+    "A": 10038,
     "product_name": "CARDAMOM (ILAICHI)",
     "product_size": "50G",
     "product_price": 250,
@@ -429,7 +429,7 @@
     "status": "available"
   },
   {
-    "product_id": 10039,
+    "A": 10039,
     "product_name": "KHAMAN DHOKLA (GANGWAL)",
     "product_size": "500G",
     "product_price": 70,
@@ -440,7 +440,7 @@
     "status": "na"
   },
   {
-    "product_id": 10040,
+    "A": 10040,
     "product_name": "CHANA",
     "product_size": "1 KG",
     "product_price": 65,
@@ -451,7 +451,7 @@
     "status": "available"
   },
   {
-    "product_id": 10041,
+    "A": 10041,
     "product_name": "BHHORA SAKKAR",
     "product_size": "1KG",
     "product_price": 45,
@@ -462,7 +462,7 @@
     "status": "available"
   },
   {
-    "product_id": 10042,
+    "A": 10042,
     "product_name": "SUGAR",
     "product_size": "1KG",
     "product_price": 41,
@@ -473,7 +473,7 @@
     "status": "available"
   },
   {
-    "product_id": 10043,
+    "A": 10043,
     "product_name": "KAJU OM",
     "product_size": "250G",
     "product_price": 210,
@@ -484,7 +484,7 @@
     "status": "available"
   },
   {
-    "product_id": 10044,
+    "A": 10044,
     "product_name": "ALMONDS LOOSE",
     "product_size": "250 G",
     "product_price": 220,
@@ -495,7 +495,7 @@
     "status": "available"
   },
   {
-    "product_id": 10045,
+    "A": 10045,
     "product_name": "RAISINS (KISMIS)",
     "product_size": "250G",
     "product_price": 60,
@@ -506,7 +506,7 @@
     "status": "available"
   },
   {
-    "product_id": 10046,
+    "A": 10046,
     "product_name": "PISTA",
     "product_size": "100G",
     "product_price": 180,
@@ -517,7 +517,7 @@
     "status": "available"
   },
   {
-    "product_id": 10047,
+    "A": 10047,
     "product_name": "CHIRONJI",
     "product_size": "50G",
     "product_price": 55,
@@ -528,7 +528,7 @@
     "status": "available"
   },
   {
-    "product_id": 10048,
+    "A": 10048,
     "product_name": "MAKHANA om",
     "product_size": "250G",
     "product_price": 170,
@@ -539,7 +539,7 @@
     "status": "available"
   },
   {
-    "product_id": 10049,
+    "A": 10049,
     "product_name": "GARAM MASALA goldee",
     "product_size": "100G",
     "product_price": 75,
@@ -550,7 +550,7 @@
     "status": "available"
   },
   {
-    "product_id": 10050,
+    "A": 10050,
     "product_name": "CHAT MASALA everest",
     "product_size": "50G",
     "product_price": 33,
@@ -561,7 +561,7 @@
     "status": "available"
   },
   {
-    "product_id": 10051,
+    "A": 10051,
     "product_name": "AMCHUR MASALA",
     "product_size": "100G",
     "product_price": 26,
@@ -572,7 +572,7 @@
     "status": "available"
   },
   {
-    "product_id": 10052,
+    "A": 10052,
     "product_name": "DHANA MASALA",
     "product_size": "500G",
     "product_price": 85,
@@ -583,7 +583,7 @@
     "status": "available"
   },
   {
-    "product_id": 10053,
+    "A": 10053,
     "product_name": "HALDI POWDER GOLDIE",
     "product_size": "500G",
     "product_price": 90,
@@ -594,7 +594,7 @@
     "status": "available"
   },
   {
-    "product_id": 10054,
+    "A": 10054,
     "product_name": "CHILLI POWDER GOLDIE",
     "product_size": "500G",
     "product_price": 110,
@@ -605,7 +605,7 @@
     "status": "available"
   },
   {
-    "product_id": 10055,
+    "A": 10055,
     "product_name": "KASHMIRI LAL MIRCH GOLDIE",
     "product_size": "50G",
     "product_price": 25,
@@ -616,7 +616,7 @@
     "status": "available"
   },
   {
-    "product_id": 10056,
+    "A": 10056,
     "product_name": "KASOORI MAITHI GOLDIE",
     "product_size": "25G",
     "product_price": 20,
@@ -627,7 +627,7 @@
     "status": "available"
   },
   {
-    "product_id": 10057,
+    "A": 10057,
     "product_name": "SAMBHAR MASALA",
     "product_size": "50G",
     "product_price": 23,
@@ -638,7 +638,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10058,
+    "A": 10058,
     "product_name": "CHHOLE MASSALA",
     "product_size": "50G",
     "product_price": 34,
@@ -649,7 +649,7 @@
     "status": "available"
   },
   {
-    "product_id": 10059,
+    "A": 10059,
     "product_name": "PAV BHAJI MASALA",
     "product_size": "50G",
     "product_price": 32,
@@ -660,7 +660,7 @@
     "status": "available"
   },
   {
-    "product_id": 10060,
+    "A": 10060,
     "product_name": "PANI PURI MASALA",
     "product_size": "50G",
     "product_price": 30,
@@ -671,7 +671,7 @@
     "status": "available"
   },
   {
-    "product_id": 10061,
+    "A": 10061,
     "product_name": "JAL JEELA POWDER",
     "product_size": "50G",
     "product_price": 23,
@@ -682,7 +682,7 @@
     "status": "available"
   },
   {
-    "product_id": 10062,
+    "A": 10062,
     "product_name": "FRIED RICE MASALA",
     "product_size": "20G",
     "product_price": 10,
@@ -693,7 +693,7 @@
     "status": "available"
   },
   {
-    "product_id": 10063,
+    "A": 10063,
     "product_name": "SALT(SENDHA NAMAK)",
     "product_size": "1KG",
     "product_price": 53,
@@ -704,7 +704,7 @@
     "status": "available"
   },
   {
-    "product_id": 10064,
+    "A": 10064,
     "product_name": "SALT(KALA NAMAK)",
     "product_size": "1KG",
     "product_price": 68,
@@ -715,7 +715,7 @@
     "status": "available"
   },
   {
-    "product_id": 10065,
+    "A": 10065,
     "product_name": "Knorr SOUP",
     "product_size": "107GRAM",
     "product_price": 10,
@@ -726,7 +726,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10066,
+    "A": 10066,
     "product_name": "TOMATO KETCHUP MAGGI",
     "product_size": "1 LITER",
     "product_price": 145,
@@ -737,7 +737,7 @@
     "status": "available"
   },
   {
-    "product_id": 10067,
+    "A": 10067,
     "product_name": "MAGGI (NESTLE)",
     "product_size": "560GRAM",
     "product_price": 85,
@@ -748,7 +748,7 @@
     "status": "available"
   },
   {
-    "product_id": 10068,
+    "A": 10068,
     "product_name": "MAGGI (NESTLE)",
     "product_size": "420GRAM",
     "product_price": 66,
@@ -759,7 +759,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10069,
+    "A": 10069,
     "product_name": "MAGGI (NESTLE)",
     "product_size": "280GRAM",
     "product_price": 45,
@@ -770,7 +770,7 @@
     "status": "available"
   },
   {
-    "product_id": 10070,
+    "A": 10070,
     "product_name": "MAGGI (NESTLE)",
     "product_size": "140GRAM",
     "product_price": 23,
@@ -781,7 +781,7 @@
     "status": "available"
   },
   {
-    "product_id": 10071,
+    "A": 10071,
     "product_name": "MAGGI (NESTLE)",
     "product_size": "70GRAM",
     "product_price": 12,
@@ -792,7 +792,7 @@
     "status": "available"
   },
   {
-    "product_id": 10072,
+    "A": 10072,
     "product_name": "PASTA KULA",
     "product_size": "1KG",
     "product_price": 50,
@@ -803,7 +803,7 @@
     "status": "available"
   },
   {
-    "product_id": 10073,
+    "A": 10073,
     "product_name": "PASTA HALDIRAM",
     "product_size": "150",
     "product_price": 20,
@@ -814,7 +814,7 @@
     "status": "available"
   },
   {
-    "product_id": 10074,
+    "A": 10074,
     "product_name": "MACRONI",
     "product_size": "150G",
     "product_price": 20,
@@ -825,7 +825,7 @@
     "status": "available"
   },
   {
-    "product_id": 10075,
+    "A": 10075,
     "product_name": "MACRONI KULA",
     "product_size": "1KG",
     "product_price": 50,
@@ -836,7 +836,7 @@
     "status": "available"
   },
   {
-    "product_id": 10076,
+    "A": 10076,
     "product_name": "CHOWMEIN TOP TASTE",
     "product_size": "700GRAM",
     "product_price": 60,
@@ -847,7 +847,7 @@
     "status": "available"
   },
   {
-    "product_id": 10077,
+    "A": 10077,
     "product_name": "CHOWMIEN",
     "product_size": "700GRAM",
     "product_price": 30,
@@ -858,7 +858,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10078,
+    "A": 10078,
     "product_name": "SINGHADE KA AATA",
     "product_size": "1KG",
     "product_price": 160,
@@ -869,7 +869,7 @@
     "status": "available"
   },
   {
-    "product_id": 10079,
+    "A": 10079,
     "product_name": "SABU DANE (KHULA) MOTIDANA",
     "product_size": "1KG",
     "product_price": 84,
@@ -880,7 +880,7 @@
     "status": "available"
   },
   {
-    "product_id": 10080,
+    "A": 10080,
     "product_name": "SABU DANE (KHULA) KHICHDI",
     "product_size": "1KG",
     "product_price": 84,
@@ -891,7 +891,7 @@
     "status": "available"
   },
   {
-    "product_id": 10081,
+    "A": 10081,
     "product_name": "SABUDANE PACKET BRLAXMI",
     "product_size": "500",
     "product_price": 49,
@@ -902,7 +902,7 @@
     "status": "available"
   },
   {
-    "product_id": 10082,
+    "A": 10082,
     "product_name": "MEETHA SODA",
     "product_size": "100G",
     "product_price": 10,
@@ -913,7 +913,7 @@
     "status": "available"
   },
   {
-    "product_id": 10083,
+    "A": 10083,
     "product_name": "MOONGFALI DANA",
     "product_size": "1KG",
     "product_price": 90,
@@ -924,7 +924,7 @@
     "status": "available"
   },
   {
-    "product_id": 10084,
+    "A": 10084,
     "product_name": "RAJMA",
     "product_size": "1KG",
     "product_price": 100,
@@ -935,7 +935,7 @@
     "status": "available"
   },
   {
-    "product_id": 10085,
+    "A": 10085,
     "product_name": "KHAS KHAS DANE",
     "product_size": "50GRAM",
     "product_price": 55,
@@ -946,7 +946,7 @@
     "status": "available"
   },
   {
-    "product_id": 10086,
+    "A": 10086,
     "product_name": "KHADA MASALA",
     "product_size": "100GRAM",
     "product_price": 50,
@@ -957,7 +957,7 @@
     "status": "available"
   },
   {
-    "product_id": 10087,
+    "A": 10087,
     "product_name": "KHADA MASALA",
     "product_size": "200GRAM",
     "product_price": 100,
@@ -968,7 +968,7 @@
     "status": "available"
   },
   {
-    "product_id": 10088,
+    "A": 10088,
     "product_name": "CHAAT MATAR",
     "product_size": "500",
     "product_price": 33,
@@ -979,7 +979,7 @@
     "status": "available"
   },
   {
-    "product_id": 10089,
+    "A": 10089,
     "product_name": "SAUNTH (DRY GINGER)",
     "product_size": "50GRAM",
     "product_price": 20,
@@ -990,7 +990,7 @@
     "status": "available"
   },
   {
-    "product_id": 10090,
+    "A": 10090,
     "product_name": "HEENG",
     "product_size": "20GRSM",
     "product_price": 85,
@@ -1001,7 +1001,7 @@
     "status": "available"
   },
   {
-    "product_id": 10091,
+    "A": 10091,
     "product_name": "HEENG",
     "product_size": "10GRAM",
     "product_price": 42,
@@ -1012,7 +1012,7 @@
     "status": "available"
   },
   {
-    "product_id": 10092,
+    "A": 10092,
     "product_name": "CHILLI SAUCE TOPS",
     "product_size": "660GRAM",
     "product_price": 62,
@@ -1023,7 +1023,7 @@
     "status": "available"
   },
   {
-    "product_id": 10093,
+    "A": 10093,
     "product_name": "CHILLI SAUCE TOPS",
     "product_size": "200GRAM",
     "product_price": 50,
@@ -1034,7 +1034,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10094,
+    "A": 10094,
     "product_name": "SOYA SAUCE TOPS",
     "product_size": "200GRAM",
     "product_price": 50,
@@ -1045,7 +1045,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10095,
+    "A": 10095,
     "product_name": "SOYA SAUCE TOPS",
     "product_size": "660GRAM",
     "product_price": 62,
@@ -1056,7 +1056,7 @@
     "status": "available"
   },
   {
-    "product_id": 10096,
+    "A": 10096,
     "product_name": "JAM KISSAN",
     "product_size": "200GRAM",
     "product_price": 60,
@@ -1067,7 +1067,7 @@
     "status": "available"
   },
   {
-    "product_id": 10097,
+    "A": 10097,
     "product_name": "JAM KISSAN",
     "product_size": "500GRAM",
     "product_price": 145,
@@ -1078,7 +1078,7 @@
     "status": "available"
   },
   {
-    "product_id": 10098,
+    "A": 10098,
     "product_name": "VINEGAR TOPS",
     "product_size": "600GRAM",
     "product_price": 45,
@@ -1089,7 +1089,7 @@
     "status": "available"
   },
   {
-    "product_id": 10099,
+    "A": 10099,
     "product_name": "VINEGAR TOPS",
     "product_size": "200GRAM",
     "product_price": 25,
@@ -1100,7 +1100,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10100,
+    "A": 10100,
     "product_name": "MAKKA DANA",
     "product_size": "500GRAM",
     "product_price": 50,
@@ -1111,7 +1111,7 @@
     "status": "available"
   },
   {
-    "product_id": 10101,
+    "A": 10101,
     "product_name": "CORN FLOUR TOPS",
     "product_size": "100GRAM",
     "product_price": 25,
@@ -1122,7 +1122,7 @@
     "status": "available"
   },
   {
-    "product_id": 10102,
+    "A": 10102,
     "product_name": "MAIDA",
     "product_size": "1KG",
     "product_price": 27,
@@ -1133,7 +1133,7 @@
     "status": "available"
   },
   {
-    "product_id": 10103,
+    "A": 10103,
     "product_name": "BESAN",
     "product_size": "1KG",
     "product_price": 70,
@@ -1144,7 +1144,7 @@
     "status": "available"
   },
   {
-    "product_id": 10104,
+    "A": 10104,
     "product_name": "BESAN FORTUNE",
     "product_size": "1KG",
     "product_price": 80,
@@ -1155,7 +1155,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10105,
+    "A": 10105,
     "product_name": "CHAI PATTI AGNI",
     "product_size": "1KG",
     "product_price": 180,
@@ -1166,7 +1166,7 @@
     "status": "available"
   },
   {
-    "product_id": 10106,
+    "A": 10106,
     "product_name": "CHAI PATTI AGNI",
     "product_size": "250GRAM",
     "product_price": 48,
@@ -1177,7 +1177,7 @@
     "status": "available"
   },
   {
-    "product_id": 10107,
+    "A": 10107,
     "product_name": "CHAI PATTI TAAZA",
     "product_size": "1KG",
     "product_price": 230,
@@ -1188,7 +1188,7 @@
     "status": "available"
   },
   {
-    "product_id": 10108,
+    "A": 10108,
     "product_name": "CHAI PATTI TAAZA",
     "product_size": "500GRAM",
     "product_price": 160,
@@ -1199,7 +1199,7 @@
     "status": "available"
   },
   {
-    "product_id": 10109,
+    "A": 10109,
     "product_name": "CHAI PATTI TAAZA",
     "product_size": "250GRAM",
     "product_price": 57,
@@ -1210,7 +1210,7 @@
     "status": "available"
   },
   {
-    "product_id": 10110,
+    "A": 10110,
     "product_name": "CHAI PATTI RED LABEL",
     "product_size": "1KG",
     "product_price": 370,
@@ -1221,7 +1221,7 @@
     "status": "available"
   },
   {
-    "product_id": 10111,
+    "A": 10111,
     "product_name": "CHAI PATTI RED LABEL",
     "product_size": "500GRAM",
     "product_price": 195,
@@ -1232,7 +1232,7 @@
     "status": "available"
   },
   {
-    "product_id": 10112,
+    "A": 10112,
     "product_name": "CHAI PATTI RED LABEL",
     "product_size": "250GRAM",
     "product_price": 95,
@@ -1243,7 +1243,7 @@
     "status": "available"
   },
   {
-    "product_id": 10113,
+    "A": 10113,
     "product_name": "CHAI PATTI TAZ MAHAL",
     "product_size": "250GRAM",
     "product_price": 120,
@@ -1254,7 +1254,7 @@
     "status": "available"
   },
   {
-    "product_id": 10114,
+    "A": 10114,
     "product_name": "CHAI PATTI TAZ MAHAL",
     "product_size": "500GRAM",
     "product_price": 230,
@@ -1265,7 +1265,7 @@
     "status": "available"
   },
   {
-    "product_id": 10115,
+    "A": 10115,
     "product_name": "CHAI PATTI TAZ MAHAL",
     "product_size": "1KG",
     "product_price": 455,
@@ -1276,7 +1276,7 @@
     "status": "available"
   },
   {
-    "product_id": 10116,
+    "A": 10116,
     "product_name": "DABUR HONEY",
     "product_size": "50GRAM",
     "product_price": 40,
@@ -1287,7 +1287,7 @@
     "status": "available"
   },
   {
-    "product_id": 10117,
+    "A": 10117,
     "product_name": "DABUR HONEY",
     "product_size": "100GRAM",
     "product_price": 60,
@@ -1298,7 +1298,7 @@
     "status": "available"
   },
   {
-    "product_id": 10118,
+    "A": 10118,
     "product_name": "DABUR HONEY",
     "product_size": "250GRAM",
     "product_price": 125,
@@ -1309,7 +1309,7 @@
     "status": "available"
   },
   {
-    "product_id": 10119,
+    "A": 10119,
     "product_name": "DABUR HONEY",
     "product_size": "500GRAM",
     "product_price": 199,
@@ -1320,7 +1320,7 @@
     "status": "available"
   },
   {
-    "product_id": 10120,
+    "A": 10120,
     "product_name": "DABUR HONEY",
     "product_size": "1KG",
     "product_price": 385,
@@ -1331,7 +1331,7 @@
     "status": "available"
   },
   {
-    "product_id": 10121,
+    "A": 10121,
     "product_name": "PATANJALI HONEY",
     "product_size": "250GRAM",
     "product_price": 70,
@@ -1342,7 +1342,7 @@
     "status": "available"
   },
   {
-    "product_id": 10122,
+    "A": 10122,
     "product_name": "PATANJALI HONEY",
     "product_size": "500GRAM",
     "product_price": 140,
@@ -1353,7 +1353,7 @@
     "status": "available"
   },
   {
-    "product_id": 10123,
+    "A": 10123,
     "product_name": "PATANJALI HONEY",
     "product_size": "1KG",
     "product_price": 270,
@@ -1364,7 +1364,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10124,
+    "A": 10124,
     "product_name": "GUD DESI",
     "product_size": "500GRAM",
     "product_price": 20,
@@ -1375,7 +1375,7 @@
     "status": "available"
   },
   {
-    "product_id": 10125,
+    "A": 10125,
     "product_name": "GUD BATI",
     "product_size": "500GRAM",
     "product_price": 24,
@@ -1386,7 +1386,7 @@
     "status": "available"
   },
   {
-    "product_id": 10126,
+    "A": 10126,
     "product_name": "GUD DESI",
     "product_size": "1KG",
     "product_price": 40,
@@ -1397,7 +1397,7 @@
     "status": "available"
   },
   {
-    "product_id": 10127,
+    "A": 10127,
     "product_name": "EXO STEEL SCRUB",
     "product_size": "1 PC",
     "product_price": 12,
@@ -1408,7 +1408,7 @@
     "status": "available"
   },
   {
-    "product_id": 10128,
+    "A": 10128,
     "product_name": "SATTU (SATUA)",
     "product_size": " 500G",
     "product_price": 60,
@@ -1419,7 +1419,7 @@
     "status": "available"
   },
   {
-    "product_id": 10129,
+    "A": 10129,
     "product_name": "SATTU(SATUA)",
     "product_size": " 1KG",
     "product_price": 120,
@@ -1430,7 +1430,7 @@
     "status": "available"
   },
   {
-    "product_id": 10130,
+    "A": 10130,
     "product_name": "SCRUB PAD",
     "product_size": "3 PC",
     "product_price": 40,
@@ -1441,7 +1441,7 @@
     "status": "available"
   },
   {
-    "product_id": 10131,
+    "A": 10131,
     "product_name": "BROOM NORMAL",
     "product_size": "1 PC",
     "product_price": 170,
@@ -1452,7 +1452,7 @@
     "status": "available"
   },
   {
-    "product_id": 10132,
+    "A": 10132,
     "product_name": "SURF EXCEL LIQUID",
     "product_size": "500 ML",
     "product_price": 122,
@@ -1463,7 +1463,7 @@
     "status": "available"
   },
   {
-    "product_id": 10133,
+    "A": 10133,
     "product_name": "SURF EXCEL LIQUID",
     "product_size": "200 ML",
     "product_price": 50,
@@ -1474,7 +1474,7 @@
     "status": "available"
   },
   {
-    "product_id": 10134,
+    "A": 10134,
     "product_name": "SURF EXCEL LIQUID",
     "product_size": "1 LITER",
     "product_price": 182,
@@ -1485,7 +1485,7 @@
     "status": "available"
   },
   {
-    "product_id": 10135,
+    "A": 10135,
     "product_name": "HARPIC POWER PLUS",
     "product_size": "500ML",
     "product_price": 80,
@@ -1496,7 +1496,7 @@
     "status": "available"
   },
   {
-    "product_id": 10136,
+    "A": 10136,
     "product_name": "HARPIC POWER PLUS",
     "product_size": "1L",
     "product_price": 155,
@@ -1507,7 +1507,7 @@
     "status": "available"
   },
   {
-    "product_id": 10137,
+    "A": 10137,
     "product_name": "HARPIC POWER PLUS",
     "product_size": "200ML",
     "product_price": 35,
@@ -1518,7 +1518,7 @@
     "status": "available"
   },
   {
-    "product_id": 10138,
+    "A": 10138,
     "product_name": "HARPIC POWER PLUS",
     "product_size": "650ML",
     "product_price": 80,
@@ -1529,7 +1529,7 @@
     "status": "available"
   },
   {
-    "product_id": 10139,
+    "A": 10139,
     "product_name": "BAJAJ AMOND DROP HAIR OIL",
     "product_size": "100GM",
     "product_price": 63,
@@ -1540,7 +1540,7 @@
     "status": "available"
   },
   {
-    "product_id": 10140,
+    "A": 10140,
     "product_name": "BAJAJ AMOND DROP HAIR OIL",
     "product_size": "200GM",
     "product_price": 115,
@@ -1551,7 +1551,7 @@
     "status": "available"
   },
   {
-    "product_id": 10141,
+    "A": 10141,
     "product_name": "BAJAJ AMOND DROP HAIR OIL",
     "product_size": "500GM",
     "product_price": 260,
@@ -1562,7 +1562,7 @@
     "status": "available"
   },
   {
-    "product_id": 10142,
+    "A": 10142,
     "product_name": "BAJAJ AMOND DROP HAIR OIL",
     "product_size": "300GM",
     "product_price": 154,
@@ -1573,7 +1573,7 @@
     "status": "available"
   },
   {
-    "product_id": 10143,
+    "A": 10143,
     "product_name": "BAJAJ AMOND DROP HAIR OIL",
     "product_size": "50GM",
     "product_price": 30,
@@ -1584,7 +1584,7 @@
     "status": "available"
   },
   {
-    "product_id": 10144,
+    "A": 10144,
     "product_name": "AGNI CHA IPATTI",
     "product_size": "1 KG",
     "product_price": 180,
@@ -1595,7 +1595,7 @@
     "status": "available"
   },
   {
-    "product_id": 10145,
+    "A": 10145,
     "product_name": "AGNI CHAI PATTI",
     "product_size": "250GRAM",
     "product_price": 48,
@@ -1606,7 +1606,7 @@
     "status": "available"
   },
   {
-    "product_id": 10146,
+    "A": 10146,
     "product_name": "TAAZA CHAI PATTI",
     "product_size": "250GRAM",
     "product_price": 57,
@@ -1617,7 +1617,7 @@
     "status": "available"
   },
   {
-    "product_id": 10147,
+    "A": 10147,
     "product_name": "TAAZA CHAI PATTI",
     "product_size": "500GRAM",
     "product_price": 160,
@@ -1628,7 +1628,7 @@
     "status": "available"
   },
   {
-    "product_id": 10148,
+    "A": 10148,
     "product_name": "TAAZA CHAI PATTI",
     "product_size": "1 KG",
     "product_price": 230,
@@ -1639,7 +1639,7 @@
     "status": "available"
   },
   {
-    "product_id": 10149,
+    "A": 10149,
     "product_name": "RED LABEL CHAI PATTI",
     "product_size": "250GRAM",
     "product_price": 95,
@@ -1650,7 +1650,7 @@
     "status": "available"
   },
   {
-    "product_id": 10150,
+    "A": 10150,
     "product_name": "RED LABEL CHAI PATTI",
     "product_size": "500GRAM",
     "product_price": 195,
@@ -1661,7 +1661,7 @@
     "status": "available"
   },
   {
-    "product_id": 10151,
+    "A": 10151,
     "product_name": "RED LABEL CHAI PATTI",
     "product_size": "1KG",
     "product_price": 370,
@@ -1672,7 +1672,7 @@
     "status": "available"
   },
   {
-    "product_id": 10152,
+    "A": 10152,
     "product_name": "TAJ MAHAL CHAI PATTI",
     "product_size": "500GRAM",
     "product_price": 230,
@@ -1683,7 +1683,7 @@
     "status": "available"
   },
   {
-    "product_id": 10153,
+    "A": 10153,
     "product_name": "TAJ MAHAL CHAI PATTI",
     "product_size": "1 KG",
     "product_price": 455,
@@ -1694,7 +1694,7 @@
     "status": "available"
   },
   {
-    "product_id": 10154,
+    "A": 10154,
     "product_name": "TAJ MAHAL CHAI PATTI",
     "product_size": "250GRAM",
     "product_price": 120,
@@ -1705,7 +1705,7 @@
     "status": "available"
   },
   {
-    "product_id": 10155,
+    "A": 10155,
     "product_name": "MARVEL CHAI PATTI",
     "product_size": "250GRAM",
     "product_price": 90,
@@ -1716,7 +1716,7 @@
     "status": "available"
   },
   {
-    "product_id": 10156,
+    "A": 10156,
     "product_name": "MARVEL CHAI PATTI",
     "product_size": "500GRAM",
     "product_price": 180,
@@ -1727,7 +1727,7 @@
     "status": "available"
   },
   {
-    "product_id": 10157,
+    "A": 10157,
     "product_name": "MARVEL CHAI PATTI",
     "product_size": "1 KG",
     "product_price": 360,
@@ -1738,7 +1738,7 @@
     "status": "available"
   },
   {
-    "product_id": 10158,
+    "A": 10158,
     "product_name": "DOUBLE DIAMOND CHAI PATTI",
     "product_size": "250GRAM",
     "product_price": 95,
@@ -1749,7 +1749,7 @@
     "status": "available"
   },
   {
-    "product_id": 10159,
+    "A": 10159,
     "product_name": "DOUBLE DIAMOND CHAI PATTI",
     "product_size": "500GRAM",
     "product_price": 190,
@@ -1760,7 +1760,7 @@
     "status": "available"
   },
   {
-    "product_id": 10160,
+    "A": 10160,
     "product_name": "DOUBLE DIAMOND CHAI PATTI",
     "product_size": "1KG",
     "product_price": 380,
@@ -1771,7 +1771,7 @@
     "status": "available"
   },
   {
-    "product_id": 10161,
+    "A": 10161,
     "product_name": "CUSTORD POWDER(TOPS)",
     "product_size": "100GRAM",
     "product_price": 38,
@@ -1782,7 +1782,7 @@
     "status": "available"
   },
   {
-    "product_id": 10162,
+    "A": 10162,
     "product_name": "VANILA ESSENCE",
     "product_size": "10GRAM",
     "product_price": 20,
@@ -1793,7 +1793,7 @@
     "status": "available"
   },
   {
-    "product_id": 10163,
+    "A": 10163,
     "product_name": "NUTRELA SOYA CHUNKS",
     "product_size": "1 PACK",
     "product_price": 10,
@@ -1804,7 +1804,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10164,
+    "A": 10164,
     "product_name": "PARACHUTE COCONUT OIL",
     "product_size": "500GRAM",
     "product_price": 200,
@@ -1815,7 +1815,7 @@
     "status": "available"
   },
   {
-    "product_id": 10165,
+    "A": 10165,
     "product_name": "COCONOUT OIL",
     "product_size": "200GRAM",
     "product_price": 70,
@@ -1826,7 +1826,7 @@
     "status": "available"
   },
   {
-    "product_id": 10166,
+    "A": 10166,
     "product_name": "NESCAFE COFFEE",
     "product_size": "25GRAM",
     "product_price": 75,
@@ -1837,7 +1837,7 @@
     "status": "available"
   },
   {
-    "product_id": 10167,
+    "A": 10167,
     "product_name": "NESCAFE COFFEE",
     "product_size": "50GRAM",
     "product_price": 145,
@@ -1848,7 +1848,7 @@
     "status": "available"
   },
   {
-    "product_id": 10168,
+    "A": 10168,
     "product_name": "SOYABEAN",
     "product_size": "1KG",
     "product_price": 70,
@@ -1859,7 +1859,7 @@
     "status": "available"
   },
   {
-    "product_id": 10169,
+    "A": 10169,
     "product_name": "SAUF (PATLI)",
     "product_size": "100GRAM",
     "product_price": 25,
@@ -1870,7 +1870,7 @@
     "status": "available"
   },
   {
-    "product_id": 10170,
+    "A": 10170,
     "product_name": "METHI",
     "product_size": "100GRAM",
     "product_price": 10,
@@ -1881,7 +1881,7 @@
     "status": "available"
   },
   {
-    "product_id": 10171,
+    "A": 10171,
     "product_name": "RAISINS(KISMIS)",
     "product_size": "100GRAM",
     "product_price": 26,
@@ -1892,7 +1892,7 @@
     "status": "available"
   },
   {
-    "product_id": 10172,
+    "A": 10172,
     "product_name": "JEERA",
     "product_size": "100GRAM",
     "product_price": 28,
@@ -1903,7 +1903,7 @@
     "status": "available"
   },
   {
-    "product_id": 10173,
+    "A": 10173,
     "product_name": "AZWAIN",
     "product_size": "100GRAM",
     "product_price": 20,
@@ -1914,7 +1914,7 @@
     "status": "available"
   },
   {
-    "product_id": 10174,
+    "A": 10174,
     "product_name": "PEELI SARSO",
     "product_size": "100GRAM",
     "product_price": 10,
@@ -1925,7 +1925,7 @@
     "status": "available"
   },
   {
-    "product_id": 10175,
+    "A": 10175,
     "product_name": "SAUF (BADI)",
     "product_size": "100GRAM",
     "product_price": 20,
@@ -1936,7 +1936,7 @@
     "status": "available"
   },
   {
-    "product_id": 10176,
+    "A": 10176,
     "product_name": "CAMPHOR(KAPOOR)",
     "product_size": "50GRAM",
     "product_price": 55,
@@ -1947,7 +1947,7 @@
     "status": "available"
   },
   {
-    "product_id": 10177,
+    "A": 10177,
     "product_name": "MATCH BOX",
     "product_size": "PACK OF 10",
     "product_price": 10,
@@ -1958,7 +1958,7 @@
     "status": "available"
   },
   {
-    "product_id": 10178,
+    "A": 10178,
     "product_name": "AGARBATTI (CYCLE)",
     "product_size": "1PACK",
     "product_price": 10,
@@ -1969,7 +1969,7 @@
     "status": "available"
   },
   {
-    "product_id": 10179,
+    "A": 10179,
     "product_name": "AGARBATTI (CYCLE)",
     "product_size": "1PACK",
     "product_price": 20,
@@ -1980,7 +1980,7 @@
     "status": "available"
   },
   {
-    "product_id": 10180,
+    "A": 10180,
     "product_name": "AGARBATTI (CYCLE)",
     "product_size": "1PACK",
     "product_price": 50,
@@ -1991,7 +1991,7 @@
     "status": "available"
   },
   {
-    "product_id": 10181,
+    "A": 10181,
     "product_name": "DHOOPBATTI (KASHI)",
     "product_size": "1 PACK",
     "product_price": 10,
@@ -2002,7 +2002,7 @@
     "status": "available"
   },
   {
-    "product_id": 10182,
+    "A": 10182,
     "product_name": "HAWAN SAMAGRI",
     "product_size": "1KG",
     "product_price": 100,
@@ -2013,7 +2013,7 @@
     "status": "available"
   },
   {
-    "product_id": 10183,
+    "A": 10183,
     "product_name": "HORLICKS",
     "product_size": "75GRAM",
     "product_price": 30,
@@ -2024,7 +2024,7 @@
     "status": "available"
   },
   {
-    "product_id": 10184,
+    "A": 10184,
     "product_name": "HORLICKS",
     "product_size": "500GRAM",
     "product_price": 200,
@@ -2035,7 +2035,7 @@
     "status": "available"
   },
   {
-    "product_id": 10185,
+    "A": 10185,
     "product_name": "BOURNVITA",
     "product_size": "75GRAM",
     "product_price": 30,
@@ -2046,7 +2046,7 @@
     "status": "available"
   },
   {
-    "product_id": 10186,
+    "A": 10186,
     "product_name": "BOURNVITA",
     "product_size": "500GRAM",
     "product_price": 220,
@@ -2057,7 +2057,7 @@
     "status": "available"
   },
   {
-    "product_id": 10187,
+    "A": 10187,
     "product_name": "BOURNVITA",
     "product_size": "1KG",
     "product_price": 400,
@@ -2068,7 +2068,7 @@
     "status": "available"
   },
   {
-    "product_id": 10188,
+    "A": 10188,
     "product_name": "COMPLAN KESAR BADAM",
     "product_size": "500GRAM",
     "product_price": 290,
@@ -2079,7 +2079,7 @@
     "status": "available"
   },
   {
-    "product_id": 10189,
+    "A": 10189,
     "product_name": "COMPLAN CHOCOLATE",
     "product_size": "500GRAM",
     "product_price": 280,
@@ -2090,7 +2090,7 @@
     "status": "available"
   },
   {
-    "product_id": 10190,
+    "A": 10190,
     "product_name": "AMUL GHEE COW",
     "product_size": "1KG",
     "product_price": 540,
@@ -2101,7 +2101,7 @@
     "status": "available"
   },
   {
-    "product_id": 10191,
+    "A": 10191,
     "product_name": "AMUL GHEE BUFFALOW",
     "product_size": "1KG",
     "product_price": 520,
@@ -2112,7 +2112,7 @@
     "status": "available"
   },
   {
-    "product_id": 10192,
+    "A": 10192,
     "product_name": "ANIK GHEE",
     "product_size": "1KG",
     "product_price": 540,
@@ -2123,7 +2123,7 @@
     "status": "available"
   },
   {
-    "product_id": 10193,
+    "A": 10193,
     "product_name": "CHANDAN",
     "product_size": "20GRAM",
     "product_price": 10,
@@ -2134,7 +2134,7 @@
     "status": "available"
   },
   {
-    "product_id": 10194,
+    "A": 10194,
     "product_name": "ROORI",
     "product_size": "20GRAM",
     "product_price": 10,
@@ -2145,7 +2145,7 @@
     "status": "available"
   },
   {
-    "product_id": 10195,
+    "A": 10195,
     "product_name": "KHADA DHANA",
     "product_size": "500GRAM",
     "product_price": 50,
@@ -2156,7 +2156,7 @@
     "status": "available"
   },
   {
-    "product_id": 10196,
+    "A": 10196,
     "product_name": "KHADA DHANA",
     "product_size": "1KG",
     "product_price": 100,
@@ -2167,7 +2167,7 @@
     "status": "available"
   },
   {
-    "product_id": 10197,
+    "A": 10197,
     "product_name": "COLGATE TOOTHPASTE",
     "product_size": "100GRAM",
     "product_price": 50,
@@ -2178,7 +2178,7 @@
     "status": "available"
   },
   {
-    "product_id": 10198,
+    "A": 10198,
     "product_name": "COLGATE TOOTHPASTE",
     "product_size": "200GRAM",
     "product_price": 90,
@@ -2189,7 +2189,7 @@
     "status": "available"
   },
   {
-    "product_id": 10199,
+    "A": 10199,
     "product_name": "COLGATE TOOTHPASTE",
     "product_size": "300GRAM",
     "product_price": 134,
@@ -2200,7 +2200,7 @@
     "status": "available"
   },
   {
-    "product_id": 10200,
+    "A": 10200,
     "product_name": "COLGATE TOOTHPASTE",
     "product_size": "500GRAM",
     "product_price": 176,
@@ -2211,7 +2211,7 @@
     "status": "available"
   },
   {
-    "product_id": 10201,
+    "A": 10201,
     "product_name": "PEPSODENT TOOTHPASTE",
     "product_size": "100GRAM",
     "product_price": 52,
@@ -2222,7 +2222,7 @@
     "status": "available"
   },
   {
-    "product_id": 10202,
+    "A": 10202,
     "product_name": "PEPSODENT TOOTHPASTE",
     "product_size": "150GRAM",
     "product_price": 82,
@@ -2233,7 +2233,7 @@
     "status": "available"
   },
   {
-    "product_id": 10203,
+    "A": 10203,
     "product_name": "PEPSODENT TOOTHPASTE",
     "product_size": "200GRAM",
     "product_price": 96,
@@ -2244,7 +2244,7 @@
     "status": "available"
   },
   {
-    "product_id": 10204,
+    "A": 10204,
     "product_name": "CLOSEUP TOOTHPASTE",
     "product_size": "100GRAM",
     "product_price": 40,
@@ -2255,7 +2255,7 @@
     "status": "available"
   },
   {
-    "product_id": 10205,
+    "A": 10205,
     "product_name": "CLOSEUP TOOTHPASTE",
     "product_size": "200GRAM",
     "product_price": 82,
@@ -2266,7 +2266,7 @@
     "status": "available"
   },
   {
-    "product_id": 10206,
+    "A": 10206,
     "product_name": "CLOSEUP TOOTHPASTE",
     "product_size": "300GRAM",
     "product_price": 140,
@@ -2277,7 +2277,7 @@
     "status": "available"
   },
   {
-    "product_id": 10207,
+    "A": 10207,
     "product_name": "GUD(JAGGERY)",
     "product_size": "1KG",
     "product_price": 38,
@@ -2288,7 +2288,7 @@
     "status": "available"
   },
   {
-    "product_id": 10208,
+    "A": 10208,
     "product_name": "TOOTH BRUSH",
     "product_size": "1pcs",
     "product_price": 10,
@@ -2299,7 +2299,7 @@
     "status": "available"
   },
   {
-    "product_id": 10209,
+    "A": 10209,
     "product_name": "TOOTH BRUSH",
     "product_size": "1pcs",
     "product_price": 20,
@@ -2310,7 +2310,7 @@
     "status": "available"
   },
   {
-    "product_id": 10210,
+    "A": 10210,
     "product_name": "TOOTH BRUSH",
     "product_size": "1pcs",
     "product_price": 30,
@@ -2321,7 +2321,7 @@
     "status": "available"
   },
   {
-    "product_id": 10211,
+    "A": 10211,
     "product_name": "NEIL UJALA",
     "product_size": "75GRAM",
     "product_price": 22,
@@ -2332,7 +2332,7 @@
     "status": "available"
   },
   {
-    "product_id": 10212,
+    "A": 10212,
     "product_name": "NEIL UJALA",
     "product_size": "250GRAM",
     "product_price": 65,
@@ -2343,7 +2343,7 @@
     "status": "available"
   },
   {
-    "product_id": 10213,
+    "A": 10213,
     "product_name": "TIDE DETERGENT",
     "product_size": "500GRAM",
     "product_price": 56,
@@ -2354,7 +2354,7 @@
     "status": "available"
   },
   {
-    "product_id": 10214,
+    "A": 10214,
     "product_name": "TIDE DETERGENT",
     "product_size": "1KG",
     "product_price": 103,
@@ -2365,7 +2365,7 @@
     "status": "available"
   },
   {
-    "product_id": 10215,
+    "A": 10215,
     "product_name": "TIDE DETERGENT",
     "product_size": "5KG",
     "product_price": 485,
@@ -2376,7 +2376,7 @@
     "status": "available"
   },
   {
-    "product_id": 10216,
+    "A": 10216,
     "product_name": "TIDE DETERGENT",
     "product_size": "8KG",
     "product_price": 700,
@@ -2387,7 +2387,7 @@
     "status": "available"
   },
   {
-    "product_id": 10217,
+    "A": 10217,
     "product_name": "GHADI DETERGENT",
     "product_size": "500GRAM",
     "product_price": 27,
@@ -2398,7 +2398,7 @@
     "status": "available"
   },
   {
-    "product_id": 10218,
+    "A": 10218,
     "product_name": "GHADI DETERGENT",
     "product_size": "1KG",
     "product_price": 50,
@@ -2409,7 +2409,7 @@
     "status": "available"
   },
   {
-    "product_id": 10219,
+    "A": 10219,
     "product_name": "GHADI DETERGENT",
     "product_size": "2KG",
     "product_price": 100,
@@ -2420,7 +2420,7 @@
     "status": "available"
   },
   {
-    "product_id": 10220,
+    "A": 10220,
     "product_name": "GHADI DETERGENT",
     "product_size": "3KG",
     "product_price": 150,
@@ -2431,7 +2431,7 @@
     "status": "available"
   },
   {
-    "product_id": 10221,
+    "A": 10221,
     "product_name": "WHEEL DETERGENT",
     "product_size": "1KG",
     "product_price": 52,
@@ -2442,7 +2442,7 @@
     "status": "available"
   },
   {
-    "product_id": 10222,
+    "A": 10222,
     "product_name": "NIVEA MAN DARK SPOT RIDUCTION",
     "product_size": "50GRAM",
     "product_price": 95,
@@ -2453,7 +2453,7 @@
     "status": "available"
   },
   {
-    "product_id": 10223,
+    "A": 10223,
     "product_name": "MEDIMEX SOAP",
     "product_size": "100GRAM",
     "product_price": 45,
@@ -2464,7 +2464,7 @@
     "status": "available"
   },
   {
-    "product_id": 10224,
+    "A": 10224,
     "product_name": "MEDIMEX SOAP",
     "product_size": "PACK OF 3",
     "product_price": 135,
@@ -2475,7 +2475,7 @@
     "status": "available"
   },
   {
-    "product_id": 10225,
+    "A": 10225,
     "product_name": "HIMALAYA FACEWASH",
     "product_size": "200 GRAM",
     "product_price": 115,
@@ -2486,7 +2486,7 @@
     "status": "available"
   },
   {
-    "product_id": 10226,
+    "A": 10226,
     "product_name": "DETTOL SOAP",
     "product_size": "45GRAM",
     "product_price": 10,
@@ -2497,7 +2497,7 @@
     "status": "available"
   },
   {
-    "product_id": 10227,
+    "A": 10227,
     "product_name": "DETTOL SOAP",
     "product_size": "75GRAM",
     "product_price": 24,
@@ -2508,7 +2508,7 @@
     "status": "available"
   },
   {
-    "product_id": 10228,
+    "A": 10228,
     "product_name": "DETTOL SOAP",
     "product_size": "125GRAM",
     "product_price": 45,
@@ -2519,7 +2519,7 @@
     "status": "available"
   },
   {
-    "product_id": 10229,
+    "A": 10229,
     "product_name": "DOVE SOAP",
     "product_size": "50GRAM",
     "product_price": 20,
@@ -2530,7 +2530,7 @@
     "status": "available"
   },
   {
-    "product_id": 10230,
+    "A": 10230,
     "product_name": "DOVE SOAP",
     "product_size": "75GRAM",
     "product_price": 45,
@@ -2541,7 +2541,7 @@
     "status": "available"
   },
   {
-    "product_id": 10231,
+    "A": 10231,
     "product_name": "BUTTER",
     "product_size": "100G",
     "product_price": 48,
@@ -2552,7 +2552,7 @@
     "status": "available"
   },
   {
-    "product_id": 10232,
+    "A": 10232,
     "product_name": "BUTTER",
     "product_size": "500GRAM",
     "product_price": 235,
@@ -2563,7 +2563,7 @@
     "status": "available"
   },
   {
-    "product_id": 10233,
+    "A": 10233,
     "product_name": "HIMALAYA FACE WASH",
     "product_size": "50GRAM",
     "product_price": 60,
@@ -2574,7 +2574,7 @@
     "status": "available"
   },
   {
-    "product_id": 10234,
+    "A": 10234,
     "product_name": "VIM BAR",
     "product_size": "100GRAM",
     "product_price": 10,
@@ -2585,7 +2585,7 @@
     "status": "available"
   },
   {
-    "product_id": 10235,
+    "A": 10235,
     "product_name": "VIM BAR",
     "product_size": "200GRAM",
     "product_price": 20,
@@ -2596,7 +2596,7 @@
     "status": "available"
   },
   {
-    "product_id": 10236,
+    "A": 10236,
     "product_name": "VIM BAR",
     "product_size": "250GRAM",
     "product_price": 27,
@@ -2607,7 +2607,7 @@
     "status": "available"
   },
   {
-    "product_id": 10237,
+    "A": 10237,
     "product_name": "VIM BAR",
     "product_size": "500GRAM",
     "product_price": 48,
@@ -2618,7 +2618,7 @@
     "status": "available"
   },
   {
-    "product_id": 10238,
+    "A": 10238,
     "product_name": "VIM LIQUID",
     "product_size": "200GRAM",
     "product_price": 45,
@@ -2629,7 +2629,7 @@
     "status": "available"
   },
   {
-    "product_id": 10239,
+    "A": 10239,
     "product_name": "VIM LIQUID",
     "product_size": "500GRAM",
     "product_price": 105,
@@ -2640,7 +2640,7 @@
     "status": "available"
   },
   {
-    "product_id": 10240,
+    "A": 10240,
     "product_name": "ALLOUT (REFIL)",
     "product_size": "45 NIGHT",
     "product_price": 70,
@@ -2651,7 +2651,7 @@
     "status": "available"
   },
   {
-    "product_id": 10241,
+    "A": 10241,
     "product_name": "ALLOUT WITH MACHINE",
     "product_size": "1PACK",
     "product_price": 89,
@@ -2662,7 +2662,7 @@
     "status": "available"
   },
   {
-    "product_id": 10242,
+    "A": 10242,
     "product_name": "MORTIEN(REFIL)",
     "product_size": "1PACK",
     "product_price": 66,
@@ -2673,7 +2673,7 @@
     "status": "available"
   },
   {
-    "product_id": 10243,
+    "A": 10243,
     "product_name": "MORTIEN(REFIL) + MACHINE",
     "product_size": "1PACK",
     "product_price": 89,
@@ -2684,7 +2684,7 @@
     "status": "available"
   },
   {
-    "product_id": 10244,
+    "A": 10244,
     "product_name": "MAX COIL",
     "product_size": "1PACK",
     "product_price": 25,
@@ -2695,7 +2695,7 @@
     "status": "available"
   },
   {
-    "product_id": 10245,
+    "A": 10245,
     "product_name": "LIFEBOY HAND WASH(REFIL)",
     "product_size": "200ML",
     "product_price": 25,
@@ -2706,7 +2706,7 @@
     "status": "available"
   },
   {
-    "product_id": 10246,
+    "A": 10246,
     "product_name": "LIFEBOY HAND WASH(REFIL)",
     "product_size": "900ML",
     "product_price": 170,
@@ -2717,7 +2717,7 @@
     "status": "available"
   },
   {
-    "product_id": 10247,
+    "A": 10247,
     "product_name": "DETTOL HANDWASH(REFIL)",
     "product_size": "200ML",
     "product_price": 50,
@@ -2728,7 +2728,7 @@
     "status": "available"
   },
   {
-    "product_id": 10248,
+    "A": 10248,
     "product_name": "DETTOL HANDWASH(REFIL) WITH PUMP",
     "product_size": "200ML",
     "product_price": 95,
@@ -2739,7 +2739,7 @@
     "status": "available"
   },
   {
-    "product_id": 10249,
+    "A": 10249,
     "product_name": "DETTOL HANDWASH (REFIL)",
     "product_size": "750ML",
     "product_price": 105,
@@ -2750,7 +2750,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10250,
+    "A": 10250,
     "product_name": "SANTOOR HANDWASH",
     "product_size": "1L",
     "product_price": 200,
@@ -2761,7 +2761,7 @@
     "status": "available"
   },
   {
-    "product_id": 10251,
+    "A": 10251,
     "product_name": "FAST CARD",
     "product_size": "1PACK",
     "product_price": 10,
@@ -2772,7 +2772,7 @@
     "status": "available"
   },
   {
-    "product_id": 10252,
+    "A": 10252,
     "product_name": "TOAST rusk",
     "product_size": "1PACK",
     "product_price": 40,
@@ -2783,7 +2783,7 @@
     "status": "available"
   },
   {
-    "product_id": 10253,
+    "A": 10253,
     "product_name": "SOYA BARI",
     "product_size": "200GRAM",
     "product_price": 45,
@@ -2794,7 +2794,7 @@
     "status": "available"
   },
   {
-    "product_id": 10254,
+    "A": 10254,
     "product_name": "PUNGA",
     "product_size": "1KG",
     "product_price": 60,
@@ -2805,7 +2805,7 @@
     "status": "available"
   },
   {
-    "product_id": 10255,
+    "A": 10255,
     "product_name": "V-JOHN SHAVING CREAM",
     "product_size": "150GRAM",
     "product_price": 50,
@@ -2816,7 +2816,7 @@
     "status": "available"
   },
   {
-    "product_id": 10256,
+    "A": 10256,
     "product_name": "GILLETE SHAVING CREAM",
     "product_size": "25GRAM",
     "product_price": 35,
@@ -2827,7 +2827,7 @@
     "status": "available"
   },
   {
-    "product_id": 10257,
+    "A": 10257,
     "product_name": "RAAI",
     "product_size": "100G",
     "product_price": 11,
@@ -2838,7 +2838,7 @@
     "status": "available"
   },
   {
-    "product_id": 10258,
+    "A": 10258,
     "product_name": "CORN FLAKES",
     "product_size": "500GRAM",
     "product_price": 120,
@@ -2849,7 +2849,7 @@
     "status": "available"
   },
   {
-    "product_id": 10259,
+    "A": 10259,
     "product_name": "CORNFLEX",
     "product_size": "200GRAM",
     "product_price": 50,
@@ -2860,7 +2860,7 @@
     "status": "available"
   },
   {
-    "product_id": 10260,
+    "A": 10260,
     "product_name": "ODOMAS",
     "product_size": "50G",
     "product_price": 50,
@@ -2871,7 +2871,7 @@
     "status": "available"
   },
   {
-    "product_id": 10261,
+    "A": 10261,
     "product_name": "SHUPADI Sabut",
     "product_size": "100GRAM",
     "product_price": 36,
@@ -2882,7 +2882,7 @@
     "status": "available"
   },
   {
-    "product_id": 10262,
+    "A": 10262,
     "product_name": "SHUPADI(KUTI)",
     "product_size": "100GRAM",
     "product_price": 38,
@@ -2893,7 +2893,7 @@
     "status": "available"
   },
   {
-    "product_id": 10263,
+    "A": 10263,
     "product_name": "TUMBHAKU(PATTE)",
     "product_size": "1",
     "product_price": 5,
@@ -2904,7 +2904,7 @@
     "status": "available"
   },
   {
-    "product_id": 10264,
+    "A": 10264,
     "product_name": "DHOKLA POWDER",
     "product_size": "500GRAM",
     "product_price": 70,
@@ -2915,7 +2915,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10265,
+    "A": 10265,
     "product_name": "IDLI POWDER",
     "product_size": "500GRAM",
     "product_price": 80,
@@ -2926,7 +2926,7 @@
     "status": "available"
   },
   {
-    "product_id": 10266,
+    "A": 10266,
     "product_name": "DOSA POWDER",
     "product_size": "500GRAM",
     "product_price": 58,
@@ -2937,7 +2937,7 @@
     "status": "available"
   },
   {
-    "product_id": 10267,
+    "A": 10267,
     "product_name": "LAAI",
     "product_size": "500GRAM",
     "product_price": 30,
@@ -2948,7 +2948,7 @@
     "status": "available"
   },
   {
-    "product_id": 10268,
+    "A": 10268,
     "product_name": "PHENYL",
     "product_size": "1L",
     "product_price": 50,
@@ -2959,7 +2959,7 @@
     "status": "available"
   },
   {
-    "product_id": 10269,
+    "A": 10269,
     "product_name": "PICKELS TOPS mix and aam",
     "product_size": "1KG",
     "product_price": 110,
@@ -2970,7 +2970,7 @@
     "status": "available"
   },
   {
-    "product_id": 10270,
+    "A": 10270,
     "product_name": "HARPIC",
     "product_size": "500ML",
     "product_price": 88,
@@ -2981,7 +2981,7 @@
     "status": "available"
   },
   {
-    "product_id": 10271,
+    "A": 10271,
     "product_name": "HARPIC",
     "product_size": "1L",
     "product_price": 165,
@@ -2992,7 +2992,7 @@
     "status": "available"
   },
   {
-    "product_id": 10272,
+    "A": 10272,
     "product_name": "MISRI",
     "product_size": "1KG",
     "product_price": 65,
@@ -3003,7 +3003,7 @@
     "status": "available"
   },
   {
-    "product_id": 10273,
+    "A": 10273,
     "product_name": "TIKIYA PACKETS",
     "product_size": "1PAKT",
     "product_price": 40,
@@ -3014,7 +3014,7 @@
     "status": "available"
   },
   {
-    "product_id": 10274,
+    "A": 10274,
     "product_name": "BAKING POWDER",
     "product_size": "100GRAM",
     "product_price": 30,
@@ -3025,7 +3025,7 @@
     "status": "available"
   },
   {
-    "product_id": 10275,
+    "A": 10275,
     "product_name": "MAGGI MASALA",
     "product_size": "1pcs",
     "product_price": 5,
@@ -3036,7 +3036,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10276,
+    "A": 10276,
     "product_name": "PASTA MASALA",
     "product_size": "1pcs",
     "product_price": 5,
@@ -3047,7 +3047,7 @@
     "status": "available"
   },
   {
-    "product_id": 10277,
+    "A": 10277,
     "product_name": "MILK POWDER amul",
     "product_size": "500",
     "product_price": 200,
@@ -3058,7 +3058,7 @@
     "status": "available"
   },
   {
-    "product_id": 10278,
+    "A": 10278,
     "product_name": "BLADE(SUPERMAX)",
     "product_size": "1",
     "product_price": 20,
@@ -3069,7 +3069,7 @@
     "status": "available"
   },
   {
-    "product_id": 10279,
+    "A": 10279,
     "product_name": "AKHROAT",
     "product_size": "500gm",
     "product_price": 420,
@@ -3080,7 +3080,7 @@
     "status": "available"
   },
   {
-    "product_id": 10280,
+    "A": 10280,
     "product_name": "KALIMIRCH POWDER",
     "product_size": "50",
     "product_price": 50,
@@ -3091,7 +3091,7 @@
     "status": "available"
   },
   {
-    "product_id": 10281,
+    "A": 10281,
     "product_name": "RASNA",
     "product_size": "1 BOTTLE",
     "product_price": 140,
@@ -3102,7 +3102,7 @@
     "status": "available"
   },
   {
-    "product_id": 10282,
+    "A": 10282,
     "product_name": "ROOAFZA",
     "product_size": "1 BOTTLE",
     "product_price": 145,
@@ -3113,7 +3113,7 @@
     "status": "available"
   },
   {
-    "product_id": 10283,
+    "A": 10283,
     "product_name": "ACHAR MASALA LALAJI",
     "product_size": "500GRAM",
     "product_price": 80,
@@ -3124,7 +3124,7 @@
     "status": "available"
   },
   {
-    "product_id": 10284,
+    "A": 10284,
     "product_name": "INDIA GATE SUPER",
     "product_size": "1KG",
     "product_price": 140,
@@ -3135,7 +3135,7 @@
     "status": "available"
   },
   {
-    "product_id": 10285,
+    "A": 10285,
     "product_name": "INDIA GATE REGULAR CHOICE",
     "product_size": "1KG",
     "product_price": 75,
@@ -3146,7 +3146,7 @@
     "status": "available"
   },
   {
-    "product_id": 10286,
+    "A": 10286,
     "product_name": "INDIA GATE CLASSIC",
     "product_size": "5KG",
     "product_price": 800,
@@ -3157,7 +3157,7 @@
     "status": "available"
   },
   {
-    "product_id": 10287,
+    "A": 10287,
     "product_name": "KAJU KHULA",
     "product_size": "250GRAM",
     "product_price": 210,
@@ -3168,7 +3168,7 @@
     "status": "available"
   },
   {
-    "product_id": 10288,
+    "A": 10288,
     "product_name": "KISMIS (KANDHARI)",
     "product_size": "250GRAM",
     "product_price": 90,
@@ -3179,7 +3179,7 @@
     "status": "available"
   },
   {
-    "product_id": 10289,
+    "A": 10289,
     "product_name": "BAJAJ ALMOND DROP HAIR OIL",
     "product_size": "100GRAM",
     "product_price": 70,
@@ -3190,7 +3190,7 @@
     "status": "available"
   },
   {
-    "product_id": 10290,
+    "A": 10290,
     "product_name": "BAJAJ ALMOND DROP HAIR OIL",
     "product_size": "200GRAM",
     "product_price": 125,
@@ -3201,7 +3201,7 @@
     "status": "available"
   },
   {
-    "product_id": 10291,
+    "A": 10291,
     "product_name": "BAJAJ ALMOND DROP HAIR OIL",
     "product_size": "500GRAM",
     "product_price": 280,
@@ -3212,7 +3212,7 @@
     "status": "available"
   },
   {
-    "product_id": 10292,
+    "A": 10292,
     "product_name": "BAJAJ ALMOND DROP HAIR OIL",
     "product_size": "300GRAM",
     "product_price": 175,
@@ -3223,7 +3223,7 @@
     "status": "available"
   },
   {
-    "product_id": 10293,
+    "A": 10293,
     "product_name": "BAJAJ ALMOND DROP HAIR OIL",
     "product_size": "50ML",
     "product_price": 35,
@@ -3234,7 +3234,7 @@
     "status": "available"
   },
   {
-    "product_id": 10294,
+    "A": 10294,
     "product_name": "DABUR ALMOND HAIR OIL",
     "product_size": "100ML",
     "product_price": 65,
@@ -3245,7 +3245,7 @@
     "status": "available"
   },
   {
-    "product_id": 10295,
+    "A": 10295,
     "product_name": "DABUR ALMOND HAIR OIL",
     "product_size": "500ML",
     "product_price": 255,
@@ -3256,7 +3256,7 @@
     "status": "available"
   },
   {
-    "product_id": 10296,
+    "A": 10296,
     "product_name": "DABUR AMLA HAIR OIL",
     "product_size": "275ML",
     "product_price": 134,
@@ -3267,7 +3267,7 @@
     "status": "available"
   },
   {
-    "product_id": 10297,
+    "A": 10297,
     "product_name": "DABUR AMLA HAIR OIL",
     "product_size": "90ML",
     "product_price": 45,
@@ -3278,7 +3278,7 @@
     "status": "available"
   },
   {
-    "product_id": 10298,
+    "A": 10298,
     "product_name": "DABUR AMLA HAIR OIL",
     "product_size": "180ML",
     "product_price": 88,
@@ -3289,7 +3289,7 @@
     "status": "available"
   },
   {
-    "product_id": 10299,
+    "A": 10299,
     "product_name": "DABUR AMLA HAIR OIL",
     "product_size": "450ML",
     "product_price": 199,
@@ -3300,7 +3300,7 @@
     "status": "available"
   },
   {
-    "product_id": 10300,
+    "A": 10300,
     "product_name": "LUX SOAP",
     "product_size": "100X5 GRAM",
     "product_price": 95,
@@ -3311,7 +3311,7 @@
     "status": "available"
   },
   {
-    "product_id": 10301,
+    "A": 10301,
     "product_name": "LIFEBUOY SOAP",
     "product_size": "100X4GRAM",
     "product_price": 75,
@@ -3322,7 +3322,7 @@
     "status": "available"
   },
   {
-    "product_id": 10302,
+    "A": 10302,
     "product_name": "RIN",
     "product_size": "200X4",
     "product_price": 90,
@@ -3333,7 +3333,7 @@
     "status": "available"
   },
   {
-    "product_id": 10303,
+    "A": 10303,
     "product_name": "GODREJ NO.1",
     "product_size": "5PCS",
     "product_price": 65,
@@ -3344,7 +3344,7 @@
     "status": "available"
   },
   {
-    "product_id": 10304,
+    "A": 10304,
     "product_name": "DYNA",
     "product_size": "5PCS",
     "product_price": 65,
@@ -3355,7 +3355,7 @@
     "status": "available"
   },
   {
-    "product_id": 10305,
+    "A": 10305,
     "product_name": "JOY",
     "product_size": "5PCS",
     "product_price": 65,
@@ -3366,7 +3366,7 @@
     "status": "available"
   },
   {
-    "product_id": 10306,
+    "A": 10306,
     "product_name": "BIKANO BIKANERI BHUJIA",
     "product_size": "1KG",
     "product_price": 237,
@@ -3377,7 +3377,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10307,
+    "A": 10307,
     "product_name": "BIKANO KHATTA MEETHA",
     "product_size": "1KG",
     "product_price": 237,
@@ -3388,7 +3388,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10308,
+    "A": 10308,
     "product_name": "BIKANO TASTY",
     "product_size": "1KG",
     "product_price": 237,
@@ -3399,7 +3399,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10309,
+    "A": 10309,
     "product_name": "BIKANO NAVRATAN MIXTURE",
     "product_size": "1KG",
     "product_price": 237,
@@ -3410,7 +3410,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10310,
+    "A": 10310,
     "product_name": "BIKANO SHAHI MIXTURE",
     "product_size": "1KG",
     "product_price": 247,
@@ -3421,7 +3421,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10311,
+    "A": 10311,
     "product_name": "BIKANO MOONG DAL",
     "product_size": "1KG",
     "product_price": 247,
@@ -3432,7 +3432,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10312,
+    "A": 10312,
     "product_name": "BIKANO ALOO BHUJIYA",
     "product_size": "200GRAM",
     "product_price": 48,
@@ -3443,7 +3443,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10313,
+    "A": 10313,
     "product_name": "BIKANO BADAM LACHHA",
     "product_size": "200GRAM",
     "product_price": 82,
@@ -3454,7 +3454,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10314,
+    "A": 10314,
     "product_name": "BIKANO NAVRATAN MIXTURE",
     "product_size": "200GRAM",
     "product_price": 48,
@@ -3465,7 +3465,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10315,
+    "A": 10315,
     "product_name": "BIKANO TASTY",
     "product_size": "200GRAM",
     "product_price": 48,
@@ -3476,7 +3476,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10316,
+    "A": 10316,
     "product_name": "PARLE TWENTY-TWENTY",
     "product_size": "200GRAM",
     "product_price": 25,
@@ -3487,7 +3487,7 @@
     "status": "available"
   },
   {
-    "product_id": 10317,
+    "A": 10317,
     "product_name": "KRACK -JACK BISCUIT",
     "product_size": "400GRAM",
     "product_price": 60,
@@ -3498,7 +3498,7 @@
     "status": "available"
   },
   {
-    "product_id": 10318,
+    "A": 10318,
     "product_name": "RUSK TOAST",
     "product_size": "275GRAM",
     "product_price": 40,
@@ -3509,7 +3509,7 @@
     "status": "available"
   },
   {
-    "product_id": 10319,
+    "A": 10319,
     "product_name": "PARLE G GOLD",
     "product_size": "1KG",
     "product_price": 115,
@@ -3520,7 +3520,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10320,
+    "A": 10320,
     "product_name": "BOURBON",
     "product_size": "1PCS",
     "product_price": 10,
@@ -3531,7 +3531,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10321,
+    "A": 10321,
     "product_name": "PARLE G GOLD",
     "product_size": "1PCS",
     "product_price": 10,
@@ -3542,7 +3542,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10322,
+    "A": 10322,
     "product_name": "MARIE GOLD(PATANJALI)",
     "product_size": "250GRAM",
     "product_price": 30,
@@ -3553,7 +3553,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10323,
+    "A": 10323,
     "product_name": "MIRINDA",
     "product_size": "1.5L",
     "product_price": 75,
@@ -3564,7 +3564,7 @@
     "status": "available"
   },
   {
-    "product_id": 10324,
+    "A": 10324,
     "product_name": "MIRINDA",
     "product_size": "750ML",
     "product_price": 40,
@@ -3575,7 +3575,7 @@
     "status": "available"
   },
   {
-    "product_id": 10325,
+    "A": 10325,
     "product_name": "FROOTI",
     "product_size": "600ML",
     "product_price": 35,
@@ -3586,7 +3586,7 @@
     "status": "available"
   },
   {
-    "product_id": 10326,
+    "A": 10326,
     "product_name": "PEPSI",
     "product_size": "2.25L",
     "product_price": 90,
@@ -3597,7 +3597,7 @@
     "status": "available"
   },
   {
-    "product_id": 10327,
+    "A": 10327,
     "product_name": "FROOTI",
     "product_size": "2.25L",
     "product_price": 100,
@@ -3608,7 +3608,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10328,
+    "A": 10328,
     "product_name": "MOUNTAIN DEW",
     "product_size": "1.5L",
     "product_price": 75,
@@ -3619,7 +3619,7 @@
     "status": "available"
   },
   {
-    "product_id": 10329,
+    "A": 10329,
     "product_name": "APPY FIZZ",
     "product_size": "1.5L",
     "product_price": 85,
@@ -3630,7 +3630,7 @@
     "status": "available"
   },
   {
-    "product_id": 10330,
+    "A": 10330,
     "product_name": "KELLOGGS CORN FLAKES",
     "product_size": "1.10KG",
     "product_price": 310,
@@ -3641,7 +3641,7 @@
     "status": "available"
   },
   {
-    "product_id": 10331,
+    "A": 10331,
     "product_name": "KELLOGG'S CHOCOS CHOCOLATE",
     "product_size": "1.2KG",
     "product_price": 455,
@@ -3652,7 +3652,7 @@
     "status": "available"
   },
   {
-    "product_id": 10332,
+    "A": 10332,
     "product_name": "RED LABEL CHAI PATTI",
     "product_size": "250GRAM",
     "product_price": 95,
@@ -3663,7 +3663,7 @@
     "status": "available"
   },
   {
-    "product_id": 10333,
+    "A": 10333,
     "product_name": "RED LABEL CHAI PATTI",
     "product_size": "500GRAM",
     "product_price": 195,
@@ -3674,7 +3674,7 @@
     "status": "available"
   },
   {
-    "product_id": 10334,
+    "A": 10334,
     "product_name": "RED LABEL CHAI PATTI",
     "product_size": "1KG",
     "product_price": 370,
@@ -3685,7 +3685,7 @@
     "status": "available"
   },
   {
-    "product_id": 10335,
+    "A": 10335,
     "product_name": "TAAZA CHAI PATTI",
     "product_size": "250GRAM",
     "product_price": 57,
@@ -3696,7 +3696,7 @@
     "status": "available"
   },
   {
-    "product_id": 10336,
+    "A": 10336,
     "product_name": "TAAZA CHAI PATTI",
     "product_size": "500GRAM",
     "product_price": 160,
@@ -3707,7 +3707,7 @@
     "status": "available"
   },
   {
-    "product_id": 10337,
+    "A": 10337,
     "product_name": "TAAZA CHAI PATTI",
     "product_size": "1 KG",
     "product_price": 230,
@@ -3718,7 +3718,7 @@
     "status": "available"
   },
   {
-    "product_id": 10338,
+    "A": 10338,
     "product_name": "AGNI CHA IPATTI",
     "product_size": "1 KG",
     "product_price": 180,
@@ -3729,7 +3729,7 @@
     "status": "available"
   },
   {
-    "product_id": 10339,
+    "A": 10339,
     "product_name": "AGNI CHAI PATTI",
     "product_size": "250GRAM",
     "product_price": 48,
@@ -3740,7 +3740,7 @@
     "status": "available"
   },
   {
-    "product_id": 10340,
+    "A": 10340,
     "product_name": "BIKANO COMBO CHIPS",
     "product_size": "PACK OF 3",
     "product_price": 50,
@@ -3751,7 +3751,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10341,
+    "A": 10341,
     "product_name": "KISSAN SWEET SPICY",
     "product_size": "1KG",
     "product_price": 155,
@@ -3762,7 +3762,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10342,
+    "A": 10342,
     "product_name": "KISSAN SWEET SPICY",
     "product_size": "50O GRAM",
     "product_price": 99,
@@ -3773,7 +3773,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10343,
+    "A": 10343,
     "product_name": "KISSAN TOMATO KETCHUP",
     "product_size": "1KG",
     "product_price": 140,
@@ -3784,7 +3784,7 @@
     "status": "available"
   },
   {
-    "product_id": 10344,
+    "A": 10344,
     "product_name": "KISSAN TOMATO KETCHUP REFIL",
     "product_size": "950GRAM",
     "product_price": 130,
@@ -3795,7 +3795,7 @@
     "status": "available"
   },
   {
-    "product_id": 10345,
+    "A": 10345,
     "product_name": "DHARA MUSTARD OIL",
     "product_size": "1L",
     "product_price": 155,
@@ -3806,7 +3806,7 @@
     "status": "available"
   },
   {
-    "product_id": 10346,
+    "A": 10346,
     "product_name": "FORTUNE MUSTARD OIL",
     "product_size": "500ML",
     "product_price": 85,
@@ -3817,7 +3817,7 @@
     "status": "available"
   },
   {
-    "product_id": 10347,
+    "A": 10347,
     "product_name": "FORTUNE PURE MUSTARD OIL (PACKET)",
     "product_size": "910GRAM",
     "product_price": 161,
@@ -3828,7 +3828,7 @@
     "status": "available"
   },
   {
-    "product_id": 10348,
+    "A": 10348,
     "product_name": "SAFFOLA ACTIVE PACKET",
     "product_size": "1L",
     "product_price": 135,
@@ -3839,7 +3839,7 @@
     "status": "available"
   },
   {
-    "product_id": 10349,
+    "A": 10349,
     "product_name": "SAFFOLA GOLD PACKET",
     "product_size": "1L",
     "product_price": 139,
@@ -3850,7 +3850,7 @@
     "status": "available"
   },
   {
-    "product_id": 10350,
+    "A": 10350,
     "product_name": "FORTUNE SUNLITE",
     "product_size": "1L",
     "product_price": 137,
@@ -3861,7 +3861,7 @@
     "status": "available"
   },
   {
-    "product_id": 10351,
+    "A": 10351,
     "product_name": "FORTUNE SOYA HEALTH (PACKET)",
     "product_size": "1L",
     "product_price": 135,
@@ -3872,7 +3872,7 @@
     "status": "available"
   },
   {
-    "product_id": 10352,
+    "A": 10352,
     "product_name": "WHISPER",
     "product_size": "20PAD",
     "product_price": 78,
@@ -3883,7 +3883,7 @@
     "status": "available"
   },
   {
-    "product_id": 10353,
+    "A": 10353,
     "product_name": "STAYFREE",
     "product_size": "40PAD",
     "product_price": 210,
@@ -3894,7 +3894,7 @@
     "status": "available"
   },
   {
-    "product_id": 10354,
+    "A": 10354,
     "product_name": "HARPIC TOILET CLEANER",
     "product_size": "500ML",
     "product_price": 86,
@@ -3905,7 +3905,7 @@
     "status": "available"
   },
   {
-    "product_id": 10355,
+    "A": 10355,
     "product_name": "HARPIC BATHROOM CLEANER",
     "product_size": "500ML",
     "product_price": 99,
@@ -3916,7 +3916,7 @@
     "status": "available"
   },
   {
-    "product_id": 10356,
+    "A": 10356,
     "product_name": "ANIK GHEE",
     "product_size": "500ML",
     "product_price": 285,
@@ -3927,7 +3927,7 @@
     "status": "available"
   },
   {
-    "product_id": 10357,
+    "A": 10357,
     "product_name": "AMUL GHEE",
     "product_size": "1L",
     "product_price": 520,
@@ -3938,7 +3938,7 @@
     "status": "available"
   },
   {
-    "product_id": 10358,
+    "A": 10358,
     "product_name": "ANIK GHEE",
     "product_size": "1L",
     "product_price": 530,
@@ -3949,7 +3949,7 @@
     "status": "available"
   },
   {
-    "product_id": 10359,
+    "A": 10359,
     "product_name": "PONDS POWDER(DREAM FLOWER)",
     "product_size": "400GRAM",
     "product_price": 280,
@@ -3960,7 +3960,7 @@
     "status": "available"
   },
   {
-    "product_id": 10360,
+    "A": 10360,
     "product_name": "PONDS POWDER(MAGIC)",
     "product_size": "400GRAM",
     "product_price": 300,
@@ -3971,7 +3971,7 @@
     "status": "available"
   },
   {
-    "product_id": 10361,
+    "A": 10361,
     "product_name": "PONDS POWDER (STARLIGHT)",
     "product_size": "300GRAM",
     "product_price": 280,
@@ -3982,7 +3982,7 @@
     "status": "available"
   },
   {
-    "product_id": 10362,
+    "A": 10362,
     "product_name": "PONDS POWDER(SANDAL)",
     "product_size": "300GRAM",
     "product_price": 280,
@@ -3993,7 +3993,7 @@
     "status": "available"
   },
   {
-    "product_id": 10363,
+    "A": 10363,
     "product_name": "SANTOOR (REFILL) HAND WASH",
     "product_size": "180*3=540 ML",
     "product_price": 110,
@@ -4004,7 +4004,7 @@
     "status": "available"
   },
   {
-    "product_id": 10364,
+    "A": 10364,
     "product_name": "COLGATE MAXFRESH",
     "product_size": "150G",
     "product_price": 92,
@@ -4015,7 +4015,7 @@
     "status": "available"
   },
   {
-    "product_id": 10365,
+    "A": 10365,
     "product_name": "COLGATE MAXFRESH",
     "product_size": "300GRAM",
     "product_price": 164,
@@ -4026,7 +4026,7 @@
     "status": "available"
   },
   {
-    "product_id": 10366,
+    "A": 10366,
     "product_name": "COLGATE STRONG TEETH",
     "product_size": "100GRAM",
     "product_price": 50,
@@ -4037,7 +4037,7 @@
     "status": "available"
   },
   {
-    "product_id": 10367,
+    "A": 10367,
     "product_name": "COLGATE STRONG TEETH",
     "product_size": "200GRAM",
     "product_price": 95,
@@ -4048,7 +4048,7 @@
     "status": "available"
   },
   {
-    "product_id": 10368,
+    "A": 10368,
     "product_name": "PEPSODENT GERMI CHECK",
     "product_size": "300GRAM",
     "product_price": 123,
@@ -4059,7 +4059,7 @@
     "status": "available"
   },
   {
-    "product_id": 10369,
+    "A": 10369,
     "product_name": "PEPSODENT GERMI CHECK",
     "product_size": "200+200+150GRAM",
     "product_price": 170,
@@ -4070,7 +4070,7 @@
     "status": "available"
   },
   {
-    "product_id": 10370,
+    "A": 10370,
     "product_name": "SANTOOR SOAP (SANDAL)",
     "product_size": "625 GRAM",
     "product_price": 135,
@@ -4081,7 +4081,7 @@
     "status": "available"
   },
   {
-    "product_id": 10371,
+    "A": 10371,
     "product_name": "SANTOOR SOAP(ALOE VERA+LEMON)",
     "product_size": "625GRAM",
     "product_price": 150,
@@ -4092,7 +4092,7 @@
     "status": "available"
   },
   {
-    "product_id": 10372,
+    "A": 10372,
     "product_name": "REAL JUICE APPLE",
     "product_size": "1L",
     "product_price": 130,
@@ -4103,7 +4103,7 @@
     "status": "available"
   },
   {
-    "product_id": 10373,
+    "A": 10373,
     "product_name": "TROPICANA LITCHI JUICE",
     "product_size": "1L",
     "product_price": 110,
@@ -4114,7 +4114,7 @@
     "status": "available"
   },
   {
-    "product_id": 10374,
+    "A": 10374,
     "product_name": "TROPICANA MIXED FRUITS",
     "product_size": "1L",
     "product_price": 100,
@@ -4125,7 +4125,7 @@
     "status": "available"
   },
   {
-    "product_id": 10375,
+    "A": 10375,
     "product_name": "TROPICANA POMENGRATE JUICE",
     "product_size": "1L",
     "product_price": 110,
@@ -4136,7 +4136,7 @@
     "status": "available"
   },
   {
-    "product_id": 10376,
+    "A": 10376,
     "product_name": "TROPICANA APPLE JUICE",
     "product_size": "1L",
     "product_price": 110,
@@ -4147,7 +4147,7 @@
     "status": "available"
   },
   {
-    "product_id": 10377,
+    "A": 10377,
     "product_name": "ALMOND",
     "product_size": "1KG",
     "product_price": 880,
@@ -4158,7 +4158,7 @@
     "status": "available"
   },
   {
-    "product_id": 10378,
+    "A": 10378,
     "product_name": "ALMOND",
     "product_size": "500GRAM",
     "product_price": 440,
@@ -4169,7 +4169,7 @@
     "status": "available"
   },
   {
-    "product_id": 10379,
+    "A": 10379,
     "product_name": "TIDE DETERGENT",
     "product_size": "5KG",
     "product_price": 465,
@@ -4180,7 +4180,7 @@
     "status": "available"
   },
   {
-    "product_id": 10380,
+    "A": 10380,
     "product_name": "RIN DETERGENT",
     "product_size": "4KG",
     "product_price": 338,
@@ -4191,7 +4191,7 @@
     "status": "available"
   },
   {
-    "product_id": 10381,
+    "A": 10381,
     "product_name": "HOME NINJA COMBI (DISH WASH+TOILET CLEANER+FLOOR CLEANER)",
     "product_size": "",
     "product_price": 135,
@@ -4202,7 +4202,7 @@
     "status": "available"
   },
   {
-    "product_id": 10382,
+    "A": 10382,
     "product_name": "Everest Masala Powder - Chicken, 100g Carton",
     "product_size": "100GRAM",
     "product_price": 72,
@@ -4213,7 +4213,7 @@
     "status": "available"
   },
   {
-    "product_id": 10383,
+    "A": 10383,
     "product_name": "Everest Masala, Garam, 100g Carton",
     "product_size": "100GRAM",
     "product_price": 78,
@@ -4224,7 +4224,7 @@
     "status": "available"
   },
   {
-    "product_id": 10384,
+    "A": 10384,
     "product_name": "Everest Tikhalal Chilli Powder, 500g",
     "product_size": "500GRAM",
     "product_price": 175,
@@ -4235,7 +4235,7 @@
     "status": "available"
   },
   {
-    "product_id": 10385,
+    "A": 10385,
     "product_name": "Everest Powder, Dry Mango, 100g Carton",
     "product_size": "100GRAM",
     "product_price": 70,
@@ -4246,7 +4246,7 @@
     "status": "available"
   },
   {
-    "product_id": 10386,
+    "A": 10386,
     "product_name": "Everest Powder - White Pepper, 100g Carton",
     "product_size": "100GRAM",
     "product_price": 200,
@@ -4257,7 +4257,7 @@
     "status": "available"
   },
   {
-    "product_id": 10387,
+    "A": 10387,
     "product_name": "Everest Sambhar Masala, 100 g Carton",
     "product_size": "100GRAM",
     "product_price": 63,
@@ -4268,7 +4268,7 @@
     "status": "available"
   },
   {
-    "product_id": 10388,
+    "A": 10388,
     "product_name": "Everest Chhole Masala, 50 g Carton",
     "product_size": "50GRAM",
     "product_price": 33,
@@ -4279,7 +4279,7 @@
     "status": "available"
   },
   {
-    "product_id": 10389,
+    "A": 10389,
     "product_name": "Everest Powder - Turmeric",
     "product_size": "200GRAM",
     "product_price": 56,
@@ -4290,7 +4290,7 @@
     "status": "available"
   },
   {
-    "product_id": 10390,
+    "A": 10390,
     "product_name": "Everest Powder - Golden Yellow Turmeric",
     "product_size": "100GRAM",
     "product_price": 28,
@@ -4301,7 +4301,7 @@
     "status": "available"
   },
   {
-    "product_id": 10391,
+    "A": 10391,
     "product_name": "Everest Powder - Black Pepper, 50 g Carton",
     "product_size": "50GRAM",
     "product_price": 80,
@@ -4312,7 +4312,7 @@
     "status": "available"
   },
   {
-    "product_id": 10392,
+    "A": 10392,
     "product_name": "Everest Kasuri Methi, 100 g Carton",
     "product_size": "100GRAM",
     "product_price": 84,
@@ -4323,7 +4323,7 @@
     "status": "available"
   },
   {
-    "product_id": 10393,
+    "A": 10393,
     "product_name": "GLUCON-D ORANGE",
     "product_size": "200GRAM",
     "product_price": 64,
@@ -4334,7 +4334,7 @@
     "status": "available"
   },
   {
-    "product_id": 10394,
+    "A": 10394,
     "product_name": "GLUCON-D ORANGE",
     "product_size": "1KG",
     "product_price": 310,
@@ -4345,7 +4345,7 @@
     "status": "available"
   },
   {
-    "product_id": 10395,
+    "A": 10395,
     "product_name": "GLUCON-D ORIGNAL",
     "product_size": "125G",
     "product_price": 28,
@@ -4356,7 +4356,7 @@
     "status": "available"
   },
   {
-    "product_id": 10396,
+    "A": 10396,
     "product_name": "KELLOGGS NUTS MUSELLI DELIGHT",
     "product_size": "425G",
     "product_price": 199,
@@ -4367,7 +4367,7 @@
     "status": "available"
   },
   {
-    "product_id": 10397,
+    "A": 10397,
     "product_name": "KELLOGG'S ALL BRAN WHEAT FLAKES",
     "product_size": "425GRAM",
     "product_price": 199,
@@ -4378,7 +4378,7 @@
     "status": "available"
   },
   {
-    "product_id": 10398,
+    "A": 10398,
     "product_name": "DAAWAT DUBAR BASMATI RICE",
     "product_size": "1 KG",
     "product_price": 84,
@@ -4389,7 +4389,7 @@
     "status": "available"
   },
   {
-    "product_id": 10399,
+    "A": 10399,
     "product_name": "DAAWAT PULAV BASMATI RICE",
     "product_size": "1KG",
     "product_price": 90,
@@ -4400,7 +4400,7 @@
     "status": "available"
   },
   {
-    "product_id": 10400,
+    "A": 10400,
     "product_name": "DAAWAT ROZANA-GINI 70",
     "product_size": "5KG",
     "product_price": 290,
@@ -4411,7 +4411,7 @@
     "status": "available"
   },
   {
-    "product_id": 10401,
+    "A": 10401,
     "product_name": "DAAWAT ROZANA-MINI 60",
     "product_size": "5KG",
     "product_price": 240,
@@ -4422,7 +4422,7 @@
     "status": "available"
   },
   {
-    "product_id": 10402,
+    "A": 10402,
     "product_name": "DAAWAT ROZANA-NIKI 40",
     "product_size": "5KG",
     "product_price": 150,
@@ -4433,7 +4433,7 @@
     "status": "available"
   },
   {
-    "product_id": 10403,
+    "A": 10403,
     "product_name": "DAAWAT ROZANA- TINI 50",
     "product_size": "5KG",
     "product_price": 210,
@@ -4444,7 +4444,7 @@
     "status": "available"
   },
   {
-    "product_id": 10404,
+    "A": 10404,
     "product_name": "POHA PACKET",
     "product_size": "1KG",
     "product_price": 40,
@@ -4455,7 +4455,7 @@
     "status": "available"
   },
   {
-    "product_id": 10405,
+    "A": 10405,
     "product_name": "RISE-BASMATI",
     "product_size": "1KG",
     "product_price": 55,
@@ -4466,7 +4466,7 @@
     "status": "available"
   },
   {
-    "product_id": 10406,
+    "A": 10406,
     "product_name": "SOOJI (KHULI)",
     "product_size": "1 kg",
     "product_price": 31,
@@ -4477,7 +4477,7 @@
     "status": "available"
   },
   {
-    "product_id": 10407,
+    "A": 10407,
     "product_name": "SOOJI Gangwal",
     "product_size": "500 GRAM",
     "product_price": 24,
@@ -4488,7 +4488,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10408,
+    "A": 10408,
     "product_name": "SOOJI Fortune",
     "product_size": "500 GRAM",
     "product_price": 24,
@@ -4499,7 +4499,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10409,
+    "A": 10409,
     "product_name": "SALT Tata",
     "product_size": "1 KG",
     "product_price": 19,
@@ -4510,7 +4510,7 @@
     "status": "available"
   },
   {
-    "product_id": 10410,
+    "A": 10410,
     "product_name": "SALT Ankur",
     "product_size": "1 KG",
     "product_price": 10,
@@ -4521,7 +4521,7 @@
     "status": "available"
   },
   {
-    "product_id": 10411,
+    "A": 10411,
     "product_name": "SALT Bhaskar",
     "product_size": "1KG",
     "product_price": 10,
@@ -4532,7 +4532,7 @@
     "status": "available"
   },
   {
-    "product_id": 10412,
+    "A": 10412,
     "product_name": "ACHAR MASALA Pushp",
     "product_size": "500GRAM",
     "product_price": 90,
@@ -4543,7 +4543,7 @@
     "status": "available"
   },
   {
-    "product_id": 10413,
+    "A": 10413,
     "product_name": "PEANUT OIL (MOONGFALI) PATANJALI",
     "product_size": "1 LITER",
     "product_price": 160,
@@ -4554,7 +4554,7 @@
     "status": "available"
   },
   {
-    "product_id": 10414,
+    "A": 10414,
     "product_name": "PEANUT OIL (MOONGFALI) DHARA",
     "product_size": "1 LITER",
     "product_price": 170,
@@ -4565,7 +4565,7 @@
     "status": "available"
   },
   {
-    "product_id": 10415,
+    "A": 10415,
     "product_name": "CHHOLE",
     "product_size": "500GRAM",
     "product_price": 44,
@@ -4576,7 +4576,7 @@
     "status": "available"
   },
   {
-    "product_id": 10416,
+    "A": 10416,
     "product_name": "URAD DAL CHILKA",
     "product_size": "500GRAM",
     "product_price": 43,
@@ -4587,7 +4587,7 @@
     "status": "available"
   },
   {
-    "product_id": 10417,
+    "A": 10417,
     "product_name": "URAD DAL DHULI",
     "product_size": "500GRAM",
     "product_price": 55,
@@ -4598,7 +4598,7 @@
     "status": "available"
   },
   {
-    "product_id": 10418,
+    "A": 10418,
     "product_name": "URAD DAL DHULI",
     "product_size": "1 KG",
     "product_price": 105,
@@ -4609,7 +4609,7 @@
     "status": "available"
   },
   {
-    "product_id": 10419,
+    "A": 10419,
     "product_name": "URAD DAL CHILKA",
     "product_size": "1KG",
     "product_price": 95,
@@ -4620,7 +4620,7 @@
     "status": "available"
   },
   {
-    "product_id": 10420,
+    "A": 10420,
     "product_name": "MOONG DAL DHULI",
     "product_size": "500GRAM",
     "product_price": 62,
@@ -4631,7 +4631,7 @@
     "status": "available"
   },
   {
-    "product_id": 10421,
+    "A": 10421,
     "product_name": "MOONG DAL CHILKA",
     "product_size": "500GRAM",
     "product_price": 55,
@@ -4642,7 +4642,7 @@
     "status": "available"
   },
   {
-    "product_id": 10422,
+    "A": 10422,
     "product_name": "MOONG DAL DHULI",
     "product_size": "1 KG",
     "product_price": 120,
@@ -4653,7 +4653,7 @@
     "status": "available"
   },
   {
-    "product_id": 10423,
+    "A": 10423,
     "product_name": "MOONG DAL CHHILKA",
     "product_size": "1KG",
     "product_price": 105,
@@ -4664,7 +4664,7 @@
     "status": "available"
   },
   {
-    "product_id": 10424,
+    "A": 10424,
     "product_name": "Toor DAL (Arhar)",
     "product_size": "1KG",
     "product_price": 110,
@@ -4675,7 +4675,7 @@
     "status": "available"
   },
   {
-    "product_id": 10425,
+    "A": 10425,
     "product_name": "POHA LOOSE",
     "product_size": "1KG",
     "product_price": 35,
@@ -4686,7 +4686,7 @@
     "status": "available"
   },
   {
-    "product_id": 10426,
+    "A": 10426,
     "product_name": "POHA(SANSKAR)",
     "product_size": "1KG",
     "product_price": 50,
@@ -4697,7 +4697,7 @@
     "status": "available"
   },
   {
-    "product_id": 10427,
+    "A": 10427,
     "product_name": "OIL DALDA",
     "product_size": "1 KG",
     "product_price": 95,
@@ -4708,7 +4708,7 @@
     "status": "available"
   },
   {
-    "product_id": 10428,
+    "A": 10428,
     "product_name": "SUNFLOWER OIL FORTUNE",
     "product_size": "1KG",
     "product_price": 120,
@@ -4719,7 +4719,7 @@
     "status": "available"
   },
   {
-    "product_id": 10429,
+    "A": 10429,
     "product_name": "SARSO OIL DALDA",
     "product_size": "1KG",
     "product_price": 115,
@@ -4730,7 +4730,7 @@
     "status": "available"
   },
   {
-    "product_id": 10430,
+    "A": 10430,
     "product_name": "SUNFLOWER OIL DALDA",
     "product_size": "1KG",
     "product_price": 125,
@@ -4741,7 +4741,7 @@
     "status": "available"
   },
   {
-    "product_id": 10431,
+    "A": 10431,
     "product_name": "SOYA OIL DALDA",
     "product_size": "1KG",
     "product_price": 105,
@@ -4752,7 +4752,7 @@
     "status": "available"
   },
   {
-    "product_id": 10432,
+    "A": 10432,
     "product_name": "PALM OIL RUCHI",
     "product_size": "1KG",
     "product_price": 105,
@@ -4763,7 +4763,7 @@
     "status": "available"
   },
   {
-    "product_id": 10433,
+    "A": 10433,
     "product_name": "CHANA DAL",
     "product_size": "1KG",
     "product_price": 65,
@@ -4774,7 +4774,7 @@
     "status": "available"
   },
   {
-    "product_id": 10434,
+    "A": 10434,
     "product_name": "RICE KHULE",
     "product_size": "1KG",
     "product_price": 30,
@@ -4785,7 +4785,7 @@
     "status": "available"
   },
   {
-    "product_id": 10435,
+    "A": 10435,
     "product_name": "RICE KHULE",
     "product_size": "1KG",
     "product_price": 40,
@@ -4796,7 +4796,7 @@
     "status": "available"
   },
   {
-    "product_id": 10436,
+    "A": 10436,
     "product_name": "RICE KHULE",
     "product_size": "1KG",
     "product_price": 55,
@@ -4807,7 +4807,7 @@
     "status": "available"
   },
   {
-    "product_id": 10437,
+    "A": 10437,
     "product_name": "INDIA GATE RICE MINI MONGRA 2",
     "product_size": "10KG",
     "product_price": 340,
@@ -4818,7 +4818,7 @@
     "status": "available"
   },
   {
-    "product_id": 10438,
+    "A": 10438,
     "product_name": "INDIA GATE RICE DUBAR",
     "product_size": "5KG",
     "product_price": 450,
@@ -4829,7 +4829,7 @@
     "status": "available"
   },
   {
-    "product_id": 10439,
+    "A": 10439,
     "product_name": "INDIA GATE RICE TIBAR",
     "product_size": "5KG",
     "product_price": 475,
@@ -4840,7 +4840,7 @@
     "status": "available"
   },
   {
-    "product_id": 10440,
+    "A": 10440,
     "product_name": "INDIA GATE RICE CLASSIC",
     "product_size": "1KG",
     "product_price": 160,
@@ -4851,7 +4851,7 @@
     "status": "available"
   },
   {
-    "product_id": 10441,
+    "A": 10441,
     "product_name": "INDIA GATE RICE MONGRA",
     "product_size": "5KG",
     "product_price": 300,
@@ -4862,7 +4862,7 @@
     "status": "available"
   },
   {
-    "product_id": 10442,
+    "A": 10442,
     "product_name": "INDIA GATE RICE MINI MONGRA",
     "product_size": "10KG",
     "product_price": 440,
@@ -4873,7 +4873,7 @@
     "status": "available"
   },
   {
-    "product_id": 10443,
+    "A": 10443,
     "product_name": "ATTA TULSI",
     "product_size": "24KG",
     "product_price": 600,
@@ -4884,7 +4884,7 @@
     "status": "available"
   },
   {
-    "product_id": 10444,
+    "A": 10444,
     "product_name": "AATA TULSI",
     "product_size": "5KG",
     "product_price": 150,
@@ -4895,7 +4895,7 @@
     "status": "available"
   },
   {
-    "product_id": 10445,
+    "A": 10445,
     "product_name": "AATA OM",
     "product_size": "24KG",
     "product_price": 590,
@@ -4906,7 +4906,7 @@
     "status": "available"
   },
   {
-    "product_id": 10446,
+    "A": 10446,
     "product_name": "CLOVE(LONG)",
     "product_size": "50G",
     "product_price": 42,
@@ -4917,7 +4917,7 @@
     "status": "available"
   },
   {
-    "product_id": 10447,
+    "A": 10447,
     "product_name": "BLACK PEPPER (KALI MIRCH)",
     "product_size": "50G",
     "product_price": 30,
@@ -4928,7 +4928,7 @@
     "status": "available"
   },
   {
-    "product_id": 10448,
+    "A": 10448,
     "product_name": "CARDAMOM (ILAICHI)",
     "product_size": "50G",
     "product_price": 275,
@@ -4939,7 +4939,7 @@
     "status": "available"
   },
   {
-    "product_id": 10449,
+    "A": 10449,
     "product_name": "KHAMAN DHOKLA (GANGWAL)",
     "product_size": "500G",
     "product_price": 70,
@@ -4950,7 +4950,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10450,
+    "A": 10450,
     "product_name": "CHANA",
     "product_size": "1 KG",
     "product_price": 60,
@@ -4961,7 +4961,7 @@
     "status": "available"
   },
   {
-    "product_id": 10451,
+    "A": 10451,
     "product_name": "BHHORA SAKKAR",
     "product_size": "1KG",
     "product_price": 48,
@@ -4972,7 +4972,7 @@
     "status": "available"
   },
   {
-    "product_id": 10452,
+    "A": 10452,
     "product_name": "SUGAR",
     "product_size": "1KG",
     "product_price": 41,
@@ -4983,7 +4983,7 @@
     "status": "available"
   },
   {
-    "product_id": 10453,
+    "A": 10453,
     "product_name": "KAJU OM",
     "product_size": "250G",
     "product_price": 200,
@@ -4994,7 +4994,7 @@
     "status": "available"
   },
   {
-    "product_id": 10454,
+    "A": 10454,
     "product_name": "ALMONDS LOOSE",
     "product_size": "250 G",
     "product_price": 220,
@@ -5005,7 +5005,7 @@
     "status": "available"
   },
   {
-    "product_id": 10455,
+    "A": 10455,
     "product_name": "RAISINS (KISMIS)",
     "product_size": "250G",
     "product_price": 60,
@@ -5016,7 +5016,7 @@
     "status": "available"
   },
   {
-    "product_id": 10456,
+    "A": 10456,
     "product_name": "PISTA",
     "product_size": "100G",
     "product_price": 180,
@@ -5027,7 +5027,7 @@
     "status": "available"
   },
   {
-    "product_id": 10457,
+    "A": 10457,
     "product_name": "CHIRONJI",
     "product_size": "50G",
     "product_price": 55,
@@ -5038,7 +5038,7 @@
     "status": "available"
   },
   {
-    "product_id": 10458,
+    "A": 10458,
     "product_name": "MAKHANA",
     "product_size": "250G",
     "product_price": 170,
@@ -5049,7 +5049,7 @@
     "status": "available"
   },
   {
-    "product_id": 10459,
+    "A": 10459,
     "product_name": "GARAM MASALA",
     "product_size": "100G",
     "product_price": 78,
@@ -5060,7 +5060,7 @@
     "status": "available"
   },
   {
-    "product_id": 10460,
+    "A": 10460,
     "product_name": "CHAT MASALA",
     "product_size": "50G",
     "product_price": 33,
@@ -5071,7 +5071,7 @@
     "status": "available"
   },
   {
-    "product_id": 10461,
+    "A": 10461,
     "product_name": "AMCHUR MASALA",
     "product_size": "100G",
     "product_price": 26,
@@ -5082,7 +5082,7 @@
     "status": "available"
   },
   {
-    "product_id": 10462,
+    "A": 10462,
     "product_name": "DHANA MASALA",
     "product_size": "500G",
     "product_price": 90,
@@ -5093,7 +5093,7 @@
     "status": "available"
   },
   {
-    "product_id": 10463,
+    "A": 10463,
     "product_name": "HALDI POWDER GOLDIE",
     "product_size": "500G",
     "product_price": 90,
@@ -5104,7 +5104,7 @@
     "status": "available"
   },
   {
-    "product_id": 10464,
+    "A": 10464,
     "product_name": "CHILLI POWDER GOLDIE",
     "product_size": "500G",
     "product_price": 110,
@@ -5115,7 +5115,7 @@
     "status": "available"
   },
   {
-    "product_id": 10465,
+    "A": 10465,
     "product_name": "KASHMIRI LAL MIRCH GOLDIE",
     "product_size": "50G",
     "product_price": 25,
@@ -5126,7 +5126,7 @@
     "status": "available"
   },
   {
-    "product_id": 10466,
+    "A": 10466,
     "product_name": "KASOORI MAITHI GOLDIE",
     "product_size": "25G",
     "product_price": 20,
@@ -5137,7 +5137,7 @@
     "status": "available"
   },
   {
-    "product_id": 10467,
+    "A": 10467,
     "product_name": "SAMBHAR MASALA",
     "product_size": "50G",
     "product_price": 23,
@@ -5148,7 +5148,7 @@
     "status": "available"
   },
   {
-    "product_id": 10468,
+    "A": 10468,
     "product_name": "CHHOLE MASSALA",
     "product_size": "50G",
     "product_price": 34,
@@ -5159,7 +5159,7 @@
     "status": "available"
   },
   {
-    "product_id": 10469,
+    "A": 10469,
     "product_name": "PAV BHAJI MASALA",
     "product_size": "50G",
     "product_price": 32,
@@ -5170,7 +5170,7 @@
     "status": "available"
   },
   {
-    "product_id": 10470,
+    "A": 10470,
     "product_name": "SHEJWAN CHUTNEY",
     "product_size": "1 PACKET",
     "product_price": 10,
@@ -5181,7 +5181,7 @@
     "status": "available"
   },
   {
-    "product_id": 10471,
+    "A": 10471,
     "product_name": "SHEJWAN CHUTNEY",
     "product_size": "250G",
     "product_price": 75,
@@ -5192,7 +5192,7 @@
     "status": "available"
   },
   {
-    "product_id": 10472,
+    "A": 10472,
     "product_name": "PANI PURI MASALA",
     "product_size": "50G",
     "product_price": 30,
@@ -5203,7 +5203,7 @@
     "status": "available"
   },
   {
-    "product_id": 10473,
+    "A": 10473,
     "product_name": "JAL JEELA POWDER",
     "product_size": "50G",
     "product_price": 23,
@@ -5214,7 +5214,7 @@
     "status": "available"
   },
   {
-    "product_id": 10474,
+    "A": 10474,
     "product_name": "FRIED RICE MASALA",
     "product_size": "20G",
     "product_price": 10,
@@ -5225,7 +5225,7 @@
     "status": "available"
   },
   {
-    "product_id": 10475,
+    "A": 10475,
     "product_name": "SALT(SENDHA NAMAK)",
     "product_size": "1KG",
     "product_price": 50,
@@ -5236,7 +5236,7 @@
     "status": "available"
   },
   {
-    "product_id": 10476,
+    "A": 10476,
     "product_name": "SALT(KALA NAMAK)",
     "product_size": "1KG",
     "product_price": 68,
@@ -5247,7 +5247,7 @@
     "status": "available"
   },
   {
-    "product_id": 10477,
+    "A": 10477,
     "product_name": "Knorr SOUP",
     "product_size": "1 PACKET",
     "product_price": 10,
@@ -5258,7 +5258,7 @@
     "status": "available"
   },
   {
-    "product_id": 10478,
+    "A": 10478,
     "product_name": "TOMATO KETCHUP MAGGI",
     "product_size": "1 LITER",
     "product_price": 145,
@@ -5269,7 +5269,7 @@
     "status": "available"
   },
   {
-    "product_id": 10479,
+    "A": 10479,
     "product_name": "MAGGI (NESTLE)",
     "product_size": "560GRAM",
     "product_price": 85,
@@ -5280,7 +5280,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10480,
+    "A": 10480,
     "product_name": "MAGGI (NESTLE)",
     "product_size": "420GRAM",
     "product_price": 66,
@@ -5291,7 +5291,7 @@
     "status": "available"
   },
   {
-    "product_id": 10481,
+    "A": 10481,
     "product_name": "MAGGI (NESTLE)",
     "product_size": "280GRAM",
     "product_price": 45,
@@ -5302,7 +5302,7 @@
     "status": "available"
   },
   {
-    "product_id": 10482,
+    "A": 10482,
     "product_name": "MAGGI (NESTLE)",
     "product_size": "140GRAM",
     "product_price": 23,
@@ -5313,7 +5313,7 @@
     "status": "available"
   },
   {
-    "product_id": 10483,
+    "A": 10483,
     "product_name": "MAGGI (NESTLE)",
     "product_size": "70GRAM",
     "product_price": 12,
@@ -5324,7 +5324,7 @@
     "status": "available"
   },
   {
-    "product_id": 10484,
+    "A": 10484,
     "product_name": "MAGGI (CHINGS)",
     "product_size": "70GRAM",
     "product_price": 15,
@@ -5335,7 +5335,7 @@
     "status": "available"
   },
   {
-    "product_id": 10485,
+    "A": 10485,
     "product_name": "MAGGI (CHINGS)",
     "product_size": "280GRAM",
     "product_price": 45,
@@ -5346,7 +5346,7 @@
     "status": "available"
   },
   {
-    "product_id": 10486,
+    "A": 10486,
     "product_name": "PASTA KULA",
     "product_size": "1KG",
     "product_price": 50,
@@ -5357,7 +5357,7 @@
     "status": "available"
   },
   {
-    "product_id": 10487,
+    "A": 10487,
     "product_name": "PASTA HALDIRAM",
     "product_size": "150",
     "product_price": 20,
@@ -5368,7 +5368,7 @@
     "status": "available"
   },
   {
-    "product_id": 10488,
+    "A": 10488,
     "product_name": "MACRONI",
     "product_size": "150G",
     "product_price": 20,
@@ -5379,7 +5379,7 @@
     "status": "available"
   },
   {
-    "product_id": 10489,
+    "A": 10489,
     "product_name": "MACRONI KULA",
     "product_size": "1KG",
     "product_price": 50,
@@ -5390,7 +5390,7 @@
     "status": "available"
   },
   {
-    "product_id": 10490,
+    "A": 10490,
     "product_name": "CHOWMEIN TOP TASTE",
     "product_size": "700GRAM",
     "product_price": 60,
@@ -5401,7 +5401,7 @@
     "status": "available"
   },
   {
-    "product_id": 10491,
+    "A": 10491,
     "product_name": "CHOWMIEN",
     "product_size": "700GRAM",
     "product_price": 30,
@@ -5412,7 +5412,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10492,
+    "A": 10492,
     "product_name": "SINGHADE KA AATA",
     "product_size": "1KG",
     "product_price": 160,
@@ -5423,7 +5423,7 @@
     "status": "available"
   },
   {
-    "product_id": 10493,
+    "A": 10493,
     "product_name": "SABU DANE (KHULA) MOTIDANA",
     "product_size": "1KG",
     "product_price": 84,
@@ -5434,7 +5434,7 @@
     "status": "available"
   },
   {
-    "product_id": 10494,
+    "A": 10494,
     "product_name": "SABU DANE (KHULA) KHICHDI",
     "product_size": "1KG",
     "product_price": 84,
@@ -5445,7 +5445,7 @@
     "status": "available"
   },
   {
-    "product_id": 10495,
+    "A": 10495,
     "product_name": "SABUDANE PACKET BRLAXMI",
     "product_size": "500",
     "product_price": 45,
@@ -5456,7 +5456,7 @@
     "status": "available"
   },
   {
-    "product_id": 10496,
+    "A": 10496,
     "product_name": "MEETHA SODA",
     "product_size": "100G",
     "product_price": 10,
@@ -5467,7 +5467,7 @@
     "status": "available"
   },
   {
-    "product_id": 10497,
+    "A": 10497,
     "product_name": "MOONGFALI DANA",
     "product_size": "1KG",
     "product_price": 90,
@@ -5478,7 +5478,7 @@
     "status": "available"
   },
   {
-    "product_id": 10498,
+    "A": 10498,
     "product_name": "RAJMA",
     "product_size": "1KG",
     "product_price": 100,
@@ -5489,7 +5489,7 @@
     "status": "available"
   },
   {
-    "product_id": 10499,
+    "A": 10499,
     "product_name": "KHAS KHAS DANE",
     "product_size": "50GRAM",
     "product_price": 55,
@@ -5500,7 +5500,7 @@
     "status": "available"
   },
   {
-    "product_id": 10500,
+    "A": 10500,
     "product_name": "KHADA MASALA",
     "product_size": "100GRAM",
     "product_price": 50,
@@ -5511,7 +5511,7 @@
     "status": "available"
   },
   {
-    "product_id": 10501,
+    "A": 10501,
     "product_name": "KHADA MASALA",
     "product_size": "200GRAM",
     "product_price": 100,
@@ -5522,7 +5522,7 @@
     "status": "available"
   },
   {
-    "product_id": 10502,
+    "A": 10502,
     "product_name": "CHAAT MATAR",
     "product_size": "50GRAM",
     "product_price": 33,
@@ -5533,7 +5533,7 @@
     "status": "available"
   },
   {
-    "product_id": 10503,
+    "A": 10503,
     "product_name": "SAUNTH (DRY GINGER)",
     "product_size": "50GRAM",
     "product_price": 20,
@@ -5544,7 +5544,7 @@
     "status": "available"
   },
   {
-    "product_id": 10504,
+    "A": 10504,
     "product_name": "HEENG",
     "product_size": "20GRSM",
     "product_price": 85,
@@ -5555,7 +5555,7 @@
     "status": "available"
   },
   {
-    "product_id": 10505,
+    "A": 10505,
     "product_name": "HEENG",
     "product_size": "10GRAM",
     "product_price": 42,
@@ -5566,7 +5566,7 @@
     "status": "available"
   },
   {
-    "product_id": 10506,
+    "A": 10506,
     "product_name": "CHEESE",
     "product_size": "AMUL 6 PIECE",
     "product_price": 69,
@@ -5577,7 +5577,7 @@
     "status": "available"
   },
   {
-    "product_id": 10507,
+    "A": 10507,
     "product_name": "CHILI SAUCE",
     "product_size": "660GRAM",
     "product_price": 55,
@@ -5588,7 +5588,7 @@
     "status": "available"
   },
   {
-    "product_id": 10508,
+    "A": 10508,
     "product_name": "CHILI SAUCE TOPS",
     "product_size": "200GRAM",
     "product_price": 50,
@@ -5599,7 +5599,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10509,
+    "A": 10509,
     "product_name": "SOYA SAUCE TOPS",
     "product_size": "200GRAM",
     "product_price": 50,
@@ -5610,7 +5610,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10510,
+    "A": 10510,
     "product_name": "SOYA SAUCE TOPS",
     "product_size": "660GRAM",
     "product_price": 55,
@@ -5621,7 +5621,7 @@
     "status": "available"
   },
   {
-    "product_id": 10511,
+    "A": 10511,
     "product_name": "JAM KISSAN",
     "product_size": "200GRAM",
     "product_price": 60,
@@ -5632,7 +5632,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10512,
+    "A": 10512,
     "product_name": "JAM KISSAN",
     "product_size": "500GRAM",
     "product_price": 145,
@@ -5643,7 +5643,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10513,
+    "A": 10513,
     "product_name": "VINEGAR TOPS",
     "product_size": "600GRAM",
     "product_price": 45,
@@ -5654,7 +5654,7 @@
     "status": "available"
   },
   {
-    "product_id": 10514,
+    "A": 10514,
     "product_name": "VINEGAR TOPS",
     "product_size": "200GRAM",
     "product_price": 25,
@@ -5665,7 +5665,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10515,
+    "A": 10515,
     "product_name": "MAKKA DANA",
     "product_size": "500GRAM",
     "product_price": 50,
@@ -5676,7 +5676,7 @@
     "status": "available"
   },
   {
-    "product_id": 10516,
+    "A": 10516,
     "product_name": "CORN FLOUR TOPS",
     "product_size": "100GRAM",
     "product_price": 25,
@@ -5687,7 +5687,7 @@
     "status": "available"
   },
   {
-    "product_id": 10517,
+    "A": 10517,
     "product_name": "MAIDA",
     "product_size": "1KG",
     "product_price": 27,
@@ -5698,7 +5698,7 @@
     "status": "available"
   },
   {
-    "product_id": 10518,
+    "A": 10518,
     "product_name": "BESAN",
     "product_size": "1KG",
     "product_price": 70,
@@ -5709,7 +5709,7 @@
     "status": "available"
   },
   {
-    "product_id": 10519,
+    "A": 10519,
     "product_name": "BESAN FORTUNE",
     "product_size": "1KG",
     "product_price": 90,
@@ -5720,7 +5720,7 @@
     "status": "available"
   },
   {
-    "product_id": 10520,
+    "A": 10520,
     "product_name": "CHAI PATTI AGNI",
     "product_size": "1KG",
     "product_price": 180,
@@ -5731,7 +5731,7 @@
     "status": "available"
   },
   {
-    "product_id": 10521,
+    "A": 10521,
     "product_name": "CHAI PATTI AGNI",
     "product_size": "250GRAM",
     "product_price": 48,
@@ -5742,7 +5742,7 @@
     "status": "available"
   },
   {
-    "product_id": 10522,
+    "A": 10522,
     "product_name": "CHAI PATTI TAAZA",
     "product_size": "1KG",
     "product_price": 230,
@@ -5753,7 +5753,7 @@
     "status": "available"
   },
   {
-    "product_id": 10523,
+    "A": 10523,
     "product_name": "CHAI PATTI TAAZA",
     "product_size": "500GRAM",
     "product_price": 160,
@@ -5764,7 +5764,7 @@
     "status": "available"
   },
   {
-    "product_id": 10524,
+    "A": 10524,
     "product_name": "CHAI PATTI TAAZA",
     "product_size": "250GRAM",
     "product_price": 57,
@@ -5775,7 +5775,7 @@
     "status": "available"
   },
   {
-    "product_id": 10525,
+    "A": 10525,
     "product_name": "CHAI PATTI RED LABEL",
     "product_size": "1KG",
     "product_price": 370,
@@ -5786,7 +5786,7 @@
     "status": "available"
   },
   {
-    "product_id": 10526,
+    "A": 10526,
     "product_name": "CHAI PATTI RED LABEL",
     "product_size": "500GRAM",
     "product_price": 195,
@@ -5797,7 +5797,7 @@
     "status": "available"
   },
   {
-    "product_id": 10527,
+    "A": 10527,
     "product_name": "CHAI PATTI RED LABEL",
     "product_size": "250GRAM",
     "product_price": 95,
@@ -5808,7 +5808,7 @@
     "status": "available"
   },
   {
-    "product_id": 10528,
+    "A": 10528,
     "product_name": "CHAI PATTI TAZ MAHAL",
     "product_size": "250GRAM",
     "product_price": 120,
@@ -5819,7 +5819,7 @@
     "status": "available"
   },
   {
-    "product_id": 10529,
+    "A": 10529,
     "product_name": "CHAI PATTI TAZ MAHAL",
     "product_size": "500GRAM",
     "product_price": 230,
@@ -5830,7 +5830,7 @@
     "status": "available"
   },
   {
-    "product_id": 10530,
+    "A": 10530,
     "product_name": "CHAI PATTI TAZ MAHAL",
     "product_size": "1KG",
     "product_price": 455,
@@ -5841,7 +5841,7 @@
     "status": "available"
   },
   {
-    "product_id": 10531,
+    "A": 10531,
     "product_name": "HALDIRAM BHUJIYA SEV",
     "product_size": "",
     "product_price": 20,
@@ -5852,7 +5852,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10532,
+    "A": 10532,
     "product_name": "KURKURE(CHILI)",
     "product_size": "107GRAM",
     "product_price": 20,
@@ -5863,7 +5863,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10533,
+    "A": 10533,
     "product_name": "KURKURE(MASALA)",
     "product_size": "52GRAM",
     "product_price": 20,
@@ -5874,7 +5874,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10534,
+    "A": 10534,
     "product_name": "KURKURE(CHILI)",
     "product_size": "52GRAM",
     "product_price": 20,
@@ -5885,7 +5885,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10535,
+    "A": 10535,
     "product_name": "LAYS(CLASSIC SALTED)",
     "product_size": "30GRAM",
     "product_price": 20,
@@ -5896,7 +5896,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10536,
+    "A": 10536,
     "product_name": "LAYS(CLASSIC SALTED)",
     "product_size": "61GRAM",
     "product_price": 20,
@@ -5907,7 +5907,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10537,
+    "A": 10537,
     "product_name": "LAYS(MAGIC MASALA)",
     "product_size": "30GRAM",
     "product_price": 10,
@@ -5918,7 +5918,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10538,
+    "A": 10538,
     "product_name": "LAYS(MAGIC MASALA)",
     "product_size": "61GRAM",
     "product_price": 20,
@@ -5929,7 +5929,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10539,
+    "A": 10539,
     "product_name": "LAYS(TMATO TANGY)",
     "product_size": "30GRAM",
     "product_price": 10,
@@ -5940,7 +5940,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10540,
+    "A": 10540,
     "product_name": "LAYS(TOMATO TANGGY)",
     "product_size": "61GRAM",
     "product_price": 20,
@@ -5951,7 +5951,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10541,
+    "A": 10541,
     "product_name": "HALDIRAM ALOOBHUJIA",
     "product_size": "1KG",
     "product_price": 190,
@@ -5962,7 +5962,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10542,
+    "A": 10542,
     "product_name": "HALDIRAM ALOOBHUJIA",
     "product_size": "150GRAM",
     "product_price": 35,
@@ -5973,7 +5973,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10543,
+    "A": 10543,
     "product_name": "HALDIRAM ALOOBHUJIA",
     "product_size": "350GRAM",
     "product_price": 80,
@@ -5984,7 +5984,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10544,
+    "A": 10544,
     "product_name": "HALDIRAM BHUJIYA SEV",
     "product_size": "1KG",
     "product_price": 210,
@@ -5995,7 +5995,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10545,
+    "A": 10545,
     "product_name": "HARDIRAM BHUJIYA SEV",
     "product_size": "150GRAM",
     "product_price": 35,
@@ -6006,7 +6006,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10547,
+    "A": 10547,
     "product_name": "HALDIRAM BHUJIYA SEV",
     "product_size": "1KG",
     "product_price": 210,
@@ -6017,7 +6017,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10548,
+    "A": 10548,
     "product_name": "BRITANNIA CAKE FRUITY FUN",
     "product_size": "75GRAM",
     "product_price": 20,
@@ -6028,7 +6028,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10549,
+    "A": 10549,
     "product_name": "BRITANNIA CAKE FRUITY FUN",
     "product_size": "140GRAM",
     "product_price": 30,
@@ -6039,7 +6039,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10550,
+    "A": 10550,
     "product_name": "BRITANNIA CAKE FRUITY FUN",
     "product_size": "60GRAM",
     "product_price": 15,
@@ -6050,7 +6050,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10551,
+    "A": 10551,
     "product_name": "BRITANNIA GOOD DAY",
     "product_size": "200GRAM",
     "product_price": 30,
@@ -6061,7 +6061,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10552,
+    "A": 10552,
     "product_name": "BRITANNIA GOOD DAY",
     "product_size": "60GRAM",
     "product_price": 10,
@@ -6072,7 +6072,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10553,
+    "A": 10553,
     "product_name": "PARLE KRACK JACK",
     "product_size": "200GRAM",
     "product_price": 20,
@@ -6083,7 +6083,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10554,
+    "A": 10554,
     "product_name": "PARLE KRACK JACK",
     "product_size": "75GRAM",
     "product_price": 10,
@@ -6094,7 +6094,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10555,
+    "A": 10555,
     "product_name": "PARLE MONACO",
     "product_size": "75GRAM",
     "product_price": 10,
@@ -6105,7 +6105,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10556,
+    "A": 10556,
     "product_name": "PARLE ORIGINAL GLUCO",
     "product_size": "800GRAM",
     "product_price": 57,
@@ -6116,7 +6116,7 @@
     "status": "available"
   },
   {
-    "product_id": 10557,
+    "A": 10557,
     "product_name": "PARLE ORIGINAL GLUCO",
     "product_size": "250GRAM",
     "product_price": 20,
@@ -6127,7 +6127,7 @@
     "status": "available"
   },
   {
-    "product_id": 10558,
+    "A": 10558,
     "product_name": "PARLE ORIGINAL GLUCO",
     "product_size": "70GRAM",
     "product_price": 5,
@@ -6138,7 +6138,7 @@
     "status": "available"
   },
   {
-    "product_id": 10559,
+    "A": 10559,
     "product_name": "PARLE ORIGINAL GLUCO",
     "product_size": "140GRAM",
     "product_price": 10,
@@ -6149,7 +6149,7 @@
     "status": "available"
   },
   {
-    "product_id": 10560,
+    "A": 10560,
     "product_name": "PARLE-G GOLD",
     "product_size": "200GRAM",
     "product_price": 20,
@@ -6160,7 +6160,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10561,
+    "A": 10561,
     "product_name": "PARLE-G GOLD",
     "product_size": "600GRAM",
     "product_price": 50,
@@ -6171,7 +6171,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10562,
+    "A": 10562,
     "product_name": "PARLE-G GOLD",
     "product_size": "125GRAM",
     "product_price": 10,
@@ -6182,7 +6182,7 @@
     "status": "available"
   },
   {
-    "product_id": 10563,
+    "A": 10563,
     "product_name": "PATANJALI COCONUT BISCUIT",
     "product_size": "100GRAM",
     "product_price": 10,
@@ -6193,7 +6193,7 @@
     "status": "available"
   },
   {
-    "product_id": 10564,
+    "A": 10564,
     "product_name": "PATANJALI COCONUT BISCUIT",
     "product_size": "300GRAM",
     "product_price": 30,
@@ -6204,7 +6204,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10565,
+    "A": 10565,
     "product_name": "PATANJALI NAMKEEN BISCUITS",
     "product_size": "40GRAM",
     "product_price": 5,
@@ -6215,7 +6215,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10566,
+    "A": 10566,
     "product_name": "PATANJALI NAMKEEN BISCUITS",
     "product_size": "125GRAM",
     "product_price": 15,
@@ -6226,7 +6226,7 @@
     "status": "available"
   },
   {
-    "product_id": 10567,
+    "A": 10567,
     "product_name": "PATANJALI NAMKEEN BISCUITS",
     "product_size": "80GRAM",
     "product_price": 10,
@@ -6237,7 +6237,7 @@
     "status": "available"
   },
   {
-    "product_id": 10568,
+    "A": 10568,
     "product_name": "DABUR HONEY",
     "product_size": "50GRAM",
     "product_price": 40,
@@ -6248,7 +6248,7 @@
     "status": "available"
   },
   {
-    "product_id": 10569,
+    "A": 10569,
     "product_name": "DABUR HONEY",
     "product_size": "100GRAM",
     "product_price": 60,
@@ -6259,7 +6259,7 @@
     "status": "available"
   },
   {
-    "product_id": 10570,
+    "A": 10570,
     "product_name": "DABUR HONEY",
     "product_size": "250GRAM",
     "product_price": 125,
@@ -6270,7 +6270,7 @@
     "status": "available"
   },
   {
-    "product_id": 10571,
+    "A": 10571,
     "product_name": "DABUR HONEY",
     "product_size": "500GRAM",
     "product_price": 199,
@@ -6281,7 +6281,7 @@
     "status": "available"
   },
   {
-    "product_id": 10572,
+    "A": 10572,
     "product_name": "DABUR HONEY",
     "product_size": "1KG",
     "product_price": 385,
@@ -6292,7 +6292,7 @@
     "status": "available"
   },
   {
-    "product_id": 10573,
+    "A": 10573,
     "product_name": "PATANJALI HONEY",
     "product_size": "250GRAM",
     "product_price": 70,
@@ -6303,7 +6303,7 @@
     "status": "available"
   },
   {
-    "product_id": 10574,
+    "A": 10574,
     "product_name": "PATANJALI HONEY",
     "product_size": "500GRAM",
     "product_price": 140,
@@ -6314,7 +6314,7 @@
     "status": "available"
   },
   {
-    "product_id": 10575,
+    "A": 10575,
     "product_name": "PATANJALI HONEY",
     "product_size": "1KG",
     "product_price": 270,
@@ -6325,7 +6325,7 @@
     "status": "available"
   },
   {
-    "product_id": 10576,
+    "A": 10576,
     "product_name": "AAKASHMIXTURE",
     "product_size": "900GRAM",
     "product_price": 175,
@@ -6336,7 +6336,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10577,
+    "A": 10577,
     "product_name": "AAKASHMIXTURE",
     "product_size": "350GRAM",
     "product_price": 65,
@@ -6347,7 +6347,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10578,
+    "A": 10578,
     "product_name": "BIKANO ALOO BUJIA",
     "product_size": "1KG",
     "product_price": 210,
@@ -6358,7 +6358,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10579,
+    "A": 10579,
     "product_name": "BIKANO ALOO BUJIA",
     "product_size": "400GRAM",
     "product_price": 80,
@@ -6369,7 +6369,7 @@
     "status": "N"
   },
   {
-    "product_id": 10580,
+    "A": 10580,
     "product_name": "GUD DESI",
     "product_size": "500GRAM",
     "product_price": 25,
@@ -6380,7 +6380,7 @@
     "status": "available"
   },
   {
-    "product_id": 10581,
+    "A": 10581,
     "product_name": "GUD BATI",
     "product_size": "500GRAM",
     "product_price": 24,
@@ -6391,7 +6391,7 @@
     "status": "available"
   },
   {
-    "product_id": 10582,
+    "A": 10582,
     "product_name": "GUD DESI",
     "product_size": "1KG",
     "product_price": 45,
@@ -6402,7 +6402,7 @@
     "status": "available"
   },
   {
-    "product_id": 10583,
+    "A": 10583,
     "product_name": "GUD BATI",
     "product_size": "1KG",
     "product_price": 42,
@@ -6413,7 +6413,7 @@
     "status": "available"
   },
   {
-    "product_id": 10584,
+    "A": 10584,
     "product_name": "SUGER FREE",
     "product_size": "100GRAM",
     "product_price": 130,
@@ -6424,7 +6424,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10585,
+    "A": 10585,
     "product_name": "SUGER FREE",
     "product_size": "300 PELLETS",
     "product_price": 175,
@@ -6435,7 +6435,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10586,
+    "A": 10586,
     "product_name": "SUGER FREE",
     "product_size": "500 PELLETS",
     "product_price": 240,
@@ -6446,7 +6446,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10587,
+    "A": 10587,
     "product_name": "SUGER FREE",
     "product_size": "10 GRAM",
     "product_price": 65,
@@ -6457,7 +6457,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10588,
+    "A": 10588,
     "product_name": "EXO STEEL SCRUB",
     "product_size": "1 PC",
     "product_price": 12,
@@ -6468,7 +6468,7 @@
     "status": "available"
   },
   {
-    "product_id": 10589,
+    "A": 10589,
     "product_name": "EXO STEEL SCRUB",
     "product_size": "12 PC",
     "product_price": 120,
@@ -6479,7 +6479,7 @@
     "status": "available"
   },
   {
-    "product_id": 10590,
+    "A": 10590,
     "product_name": "SCRUB PAD",
     "product_size": "1 PC",
     "product_price": 15,
@@ -6490,7 +6490,7 @@
     "status": "available"
   },
   {
-    "product_id": 10591,
+    "A": 10591,
     "product_name": "SCRUB PAD",
     "product_size": "3 PC",
     "product_price": 40,
@@ -6501,7 +6501,7 @@
     "status": "available"
   },
   {
-    "product_id": 10592,
+    "A": 10592,
     "product_name": "BROOM NORMAL",
     "product_size": "1 PC",
     "product_price": 170,
@@ -6512,7 +6512,7 @@
     "status": "available"
   },
   {
-    "product_id": 10593,
+    "A": 10593,
     "product_name": "SURF EXCEL LIQUID",
     "product_size": "500 ML",
     "product_price": 122,
@@ -6523,7 +6523,7 @@
     "status": "available"
   },
   {
-    "product_id": 10594,
+    "A": 10594,
     "product_name": "SURF EXCEL LIQUID",
     "product_size": "200 ML",
     "product_price": 50,
@@ -6534,7 +6534,7 @@
     "status": "available"
   },
   {
-    "product_id": 10595,
+    "A": 10595,
     "product_name": "SURF EXCEL LIQUID",
     "product_size": "1 LITER",
     "product_price": 182,
@@ -6545,7 +6545,7 @@
     "status": "available"
   },
   {
-    "product_id": 10596,
+    "A": 10596,
     "product_name": "VANISH LIQUID CHLORINE FREE",
     "product_size": "180ML",
     "product_price": 35,
@@ -6556,7 +6556,7 @@
     "status": "available"
   },
   {
-    "product_id": 10597,
+    "A": 10597,
     "product_name": "VANISH LIQUID CHLORINE FREE",
     "product_size": "900ML",
     "product_price": 165,
@@ -6567,7 +6567,7 @@
     "status": "available"
   },
   {
-    "product_id": 10598,
+    "A": 10598,
     "product_name": "VANISH LIQUID CHLORINE FREE",
     "product_size": "500ML",
     "product_price": 95,
@@ -6578,7 +6578,7 @@
     "status": "available"
   },
   {
-    "product_id": 10599,
+    "A": 10599,
     "product_name": "HARPIC POWER PLUS",
     "product_size": "500ML",
     "product_price": 80,
@@ -6589,7 +6589,7 @@
     "status": "available"
   },
   {
-    "product_id": 10600,
+    "A": 10600,
     "product_name": "HARPIC POWER PLUS",
     "product_size": "1L",
     "product_price": 155,
@@ -6600,7 +6600,7 @@
     "status": "available"
   },
   {
-    "product_id": 10601,
+    "A": 10601,
     "product_name": "HARPIC POWER PLUS",
     "product_size": "200ML",
     "product_price": 35,
@@ -6611,7 +6611,7 @@
     "status": "available"
   },
   {
-    "product_id": 10602,
+    "A": 10602,
     "product_name": "HARPIC POWER PLUS",
     "product_size": "650ML",
     "product_price": 80,
@@ -6622,7 +6622,7 @@
     "status": "available"
   },
   {
-    "product_id": 10603,
+    "A": 10603,
     "product_name": "REAL MIXED FRUIT JUICE",
     "product_size": "1L",
     "product_price": 98,
@@ -6633,7 +6633,7 @@
     "status": "available"
   },
   {
-    "product_id": 10604,
+    "A": 10604,
     "product_name": "REAL APPLE JUICE",
     "product_size": "1L",
     "product_price": 92,
@@ -6644,7 +6644,7 @@
     "status": "available"
   },
   {
-    "product_id": 10605,
+    "A": 10605,
     "product_name": "BAJAJ AMOND DROP HAIR OIL",
     "product_size": "100GM",
     "product_price": 63,
@@ -6655,7 +6655,7 @@
     "status": "available"
   },
   {
-    "product_id": 10606,
+    "A": 10606,
     "product_name": "BAJAJ AMOND DROP HAIR OIL",
     "product_size": "200GM",
     "product_price": 115,
@@ -6666,7 +6666,7 @@
     "status": "available"
   },
   {
-    "product_id": 10607,
+    "A": 10607,
     "product_name": "BAJAJ AMOND DROP HAIR OIL",
     "product_size": "500GM",
     "product_price": 260,
@@ -6677,7 +6677,7 @@
     "status": "available"
   },
   {
-    "product_id": 10608,
+    "A": 10608,
     "product_name": "BAJAJ AMOND DROP HAIR OIL",
     "product_size": "300GM",
     "product_price": 154,
@@ -6688,7 +6688,7 @@
     "status": "available"
   },
   {
-    "product_id": 10609,
+    "A": 10609,
     "product_name": "BAJAJ AMOND DROP HAIR OIL",
     "product_size": "50GM",
     "product_price": 30,
@@ -6699,7 +6699,7 @@
     "status": "available"
   },
   {
-    "product_id": 10610,
+    "A": 10610,
     "product_name": "AGNI CHA IPATTI",
     "product_size": "1 KG",
     "product_price": 180,
@@ -6710,7 +6710,7 @@
     "status": "available"
   },
   {
-    "product_id": 10611,
+    "A": 10611,
     "product_name": "AGNI CHAI PATTI",
     "product_size": "250GRAM",
     "product_price": 48,
@@ -6721,7 +6721,7 @@
     "status": "available"
   },
   {
-    "product_id": 10612,
+    "A": 10612,
     "product_name": "TAAZA CHAI PATTI",
     "product_size": "250GRAM",
     "product_price": 57,
@@ -6732,7 +6732,7 @@
     "status": "available"
   },
   {
-    "product_id": 10613,
+    "A": 10613,
     "product_name": "TAAZA CHAI PATTI",
     "product_size": "500GRAM",
     "product_price": 160,
@@ -6743,7 +6743,7 @@
     "status": "available"
   },
   {
-    "product_id": 10614,
+    "A": 10614,
     "product_name": "TAAZA CHAI PATTI",
     "product_size": "1 KG",
     "product_price": 230,
@@ -6754,7 +6754,7 @@
     "status": "available"
   },
   {
-    "product_id": 10615,
+    "A": 10615,
     "product_name": "RED LABEL CHAI PATTI",
     "product_size": "250GRAM",
     "product_price": 95,
@@ -6765,7 +6765,7 @@
     "status": "available"
   },
   {
-    "product_id": 10616,
+    "A": 10616,
     "product_name": "RED LABEL CHAI PATTI",
     "product_size": "500GRAM",
     "product_price": 195,
@@ -6776,7 +6776,7 @@
     "status": "available"
   },
   {
-    "product_id": 10617,
+    "A": 10617,
     "product_name": "RED LABEL CHAI PATTI",
     "product_size": "1KG",
     "product_price": 370,
@@ -6787,7 +6787,7 @@
     "status": "available"
   },
   {
-    "product_id": 10618,
+    "A": 10618,
     "product_name": "TAJ MAHAL CHAI PATTI",
     "product_size": "500GRAM",
     "product_price": 230,
@@ -6798,7 +6798,7 @@
     "status": "available"
   },
   {
-    "product_id": 10619,
+    "A": 10619,
     "product_name": "TAJ MAHAL CHAI PATTI",
     "product_size": "1 KG",
     "product_price": 455,
@@ -6809,7 +6809,7 @@
     "status": "available"
   },
   {
-    "product_id": 10620,
+    "A": 10620,
     "product_name": "TAJ MAHAL CHAI PATTI",
     "product_size": "250GRAM",
     "product_price": 120,
@@ -6820,7 +6820,7 @@
     "status": "available"
   },
   {
-    "product_id": 10621,
+    "A": 10621,
     "product_name": "MARVEL CHAI PATTI",
     "product_size": "250GRAM",
     "product_price": 90,
@@ -6831,7 +6831,7 @@
     "status": "available"
   },
   {
-    "product_id": 10622,
+    "A": 10622,
     "product_name": "MARVEL CHAI PATTI",
     "product_size": "500GRAM",
     "product_price": 180,
@@ -6842,7 +6842,7 @@
     "status": "available"
   },
   {
-    "product_id": 10623,
+    "A": 10623,
     "product_name": "MARVEL CHAI PATTI",
     "product_size": "1 KG",
     "product_price": 360,
@@ -6853,7 +6853,7 @@
     "status": "available"
   },
   {
-    "product_id": 10624,
+    "A": 10624,
     "product_name": "DOUBLE DIAMOND CHAI PATTI",
     "product_size": "250GRAM",
     "product_price": 95,
@@ -6864,7 +6864,7 @@
     "status": "available"
   },
   {
-    "product_id": 10625,
+    "A": 10625,
     "product_name": "DOUBLE DIAMOND CHAI PATTI",
     "product_size": "500GRAM",
     "product_price": 190,
@@ -6875,7 +6875,7 @@
     "status": "available"
   },
   {
-    "product_id": 10626,
+    "A": 10626,
     "product_name": "DOUBLE DIAMOND CHAI PATTI",
     "product_size": "1KG",
     "product_price": 380,
@@ -6886,7 +6886,7 @@
     "status": "available"
   },
   {
-    "product_id": 10627,
+    "A": 10627,
     "product_name": "CUSTORD POWDER(TOPS)",
     "product_size": "100GRAM",
     "product_price": 38,
@@ -6897,7 +6897,7 @@
     "status": "available"
   },
   {
-    "product_id": 10628,
+    "A": 10628,
     "product_name": "VANILA ESSENCE",
     "product_size": "10GRAM",
     "product_price": 20,
@@ -6908,7 +6908,7 @@
     "status": "available"
   },
   {
-    "product_id": 10629,
+    "A": 10629,
     "product_name": "NUTRELA SOYA CHUNKS",
     "product_size": "1 PACK",
     "product_price": 10,
@@ -6919,7 +6919,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10630,
+    "A": 10630,
     "product_name": "PARACHUTE COCONUT OIL",
     "product_size": "500GRAM",
     "product_price": 200,
@@ -6930,7 +6930,7 @@
     "status": "available"
   },
   {
-    "product_id": 10631,
+    "A": 10631,
     "product_name": "COCONOUT OIL",
     "product_size": "200GRAM",
     "product_price": 70,
@@ -6941,7 +6941,7 @@
     "status": "available"
   },
   {
-    "product_id": 10632,
+    "A": 10632,
     "product_name": "NESCAFE COFFEE",
     "product_size": "25GRAM",
     "product_price": 75,
@@ -6952,7 +6952,7 @@
     "status": "available"
   },
   {
-    "product_id": 10633,
+    "A": 10633,
     "product_name": "NESCAFE COFFEE",
     "product_size": "50GRAM",
     "product_price": 145,
@@ -6963,7 +6963,7 @@
     "status": "available"
   },
   {
-    "product_id": 10634,
+    "A": 10634,
     "product_name": "SOYABEAN",
     "product_size": "1KG",
     "product_price": 70,
@@ -6974,7 +6974,7 @@
     "status": "available"
   },
   {
-    "product_id": 10635,
+    "A": 10635,
     "product_name": "SAUF (PATLI)",
     "product_size": "100GRAM",
     "product_price": 25,
@@ -6985,7 +6985,7 @@
     "status": "available"
   },
   {
-    "product_id": 10636,
+    "A": 10636,
     "product_name": "METHI",
     "product_size": "100GRAM",
     "product_price": 10,
@@ -6996,7 +6996,7 @@
     "status": "available"
   },
   {
-    "product_id": 10637,
+    "A": 10637,
     "product_name": "RAISINS(KISMIS)",
     "product_size": "100GRAM",
     "product_price": 26,
@@ -7007,7 +7007,7 @@
     "status": "available"
   },
   {
-    "product_id": 10638,
+    "A": 10638,
     "product_name": "JEERA",
     "product_size": "100GRAM",
     "product_price": 25,
@@ -7018,7 +7018,7 @@
     "status": "available"
   },
   {
-    "product_id": 10639,
+    "A": 10639,
     "product_name": "AZWAIN",
     "product_size": "100GRAM",
     "product_price": 20,
@@ -7029,7 +7029,7 @@
     "status": "available"
   },
   {
-    "product_id": 10640,
+    "A": 10640,
     "product_name": "PEELI SARSO",
     "product_size": "100GRAM",
     "product_price": 10,
@@ -7040,7 +7040,7 @@
     "status": "available"
   },
   {
-    "product_id": 10641,
+    "A": 10641,
     "product_name": "SAUF (BADI)",
     "product_size": "100GRAM",
     "product_price": 20,
@@ -7051,7 +7051,7 @@
     "status": "available"
   },
   {
-    "product_id": 10642,
+    "A": 10642,
     "product_name": "CAMPHOR(KAPOOR)",
     "product_size": "50GRAM",
     "product_price": 60,
@@ -7062,7 +7062,7 @@
     "status": "available"
   },
   {
-    "product_id": 10643,
+    "A": 10643,
     "product_name": "MATCH BOX",
     "product_size": "PACK OF 10",
     "product_price": 10,
@@ -7073,7 +7073,7 @@
     "status": "available"
   },
   {
-    "product_id": 10644,
+    "A": 10644,
     "product_name": "AGARBATTI (CYCLE)",
     "product_size": "1PACK",
     "product_price": 10,
@@ -7084,7 +7084,7 @@
     "status": "available"
   },
   {
-    "product_id": 10645,
+    "A": 10645,
     "product_name": "AGARBATTI (CYCLE)",
     "product_size": "1PACK",
     "product_price": 20,
@@ -7095,7 +7095,7 @@
     "status": "available"
   },
   {
-    "product_id": 10646,
+    "A": 10646,
     "product_name": "AGARBATTI (CYCLE)",
     "product_size": "1PACK",
     "product_price": 50,
@@ -7106,7 +7106,7 @@
     "status": "available"
   },
   {
-    "product_id": 10647,
+    "A": 10647,
     "product_name": "DHOOPBATTI (KASHI)",
     "product_size": "1 PACK",
     "product_price": 10,
@@ -7117,7 +7117,7 @@
     "status": "available"
   },
   {
-    "product_id": 10648,
+    "A": 10648,
     "product_name": "HAWAN SAMAGRI",
     "product_size": "1KG",
     "product_price": 100,
@@ -7128,7 +7128,7 @@
     "status": "available"
   },
   {
-    "product_id": 10649,
+    "A": 10649,
     "product_name": "HORLICKS",
     "product_size": "75GRAM",
     "product_price": 30,
@@ -7139,7 +7139,7 @@
     "status": "available"
   },
   {
-    "product_id": 10650,
+    "A": 10650,
     "product_name": "HORLICKS",
     "product_size": "500GRAM",
     "product_price": 200,
@@ -7150,7 +7150,7 @@
     "status": "available"
   },
   {
-    "product_id": 10651,
+    "A": 10651,
     "product_name": "BOURNVITA",
     "product_size": "75GRAM",
     "product_price": 30,
@@ -7161,7 +7161,7 @@
     "status": "available"
   },
   {
-    "product_id": 10652,
+    "A": 10652,
     "product_name": "BOURNVITA",
     "product_size": "500GRAM",
     "product_price": 220,
@@ -7172,7 +7172,7 @@
     "status": "available"
   },
   {
-    "product_id": 10653,
+    "A": 10653,
     "product_name": "BOURNVITA",
     "product_size": "1KG",
     "product_price": 400,
@@ -7183,7 +7183,7 @@
     "status": "available"
   },
   {
-    "product_id": 10654,
+    "A": 10654,
     "product_name": "COMPLAN KESAR BADAM REFIL",
     "product_size": "500GRAM",
     "product_price": 290,
@@ -7194,7 +7194,7 @@
     "status": "available"
   },
   {
-    "product_id": 10655,
+    "A": 10655,
     "product_name": "COMPLAN CHOCLATE",
     "product_size": "500GRAM",
     "product_price": 280,
@@ -7205,7 +7205,7 @@
     "status": "available"
   },
   {
-    "product_id": 10656,
+    "A": 10656,
     "product_name": "AMUL GHEE COW",
     "product_size": "1KG",
     "product_price": 535,
@@ -7216,7 +7216,7 @@
     "status": "available"
   },
   {
-    "product_id": 10657,
+    "A": 10657,
     "product_name": "AMUL GHEE BUFFALOW",
     "product_size": "1KG",
     "product_price": 520,
@@ -7227,7 +7227,7 @@
     "status": "available"
   },
   {
-    "product_id": 10658,
+    "A": 10658,
     "product_name": "ANIK GHEE",
     "product_size": "1KG",
     "product_price": 540,
@@ -7238,7 +7238,7 @@
     "status": "available"
   },
   {
-    "product_id": 10659,
+    "A": 10659,
     "product_name": "CHANDAN",
     "product_size": "20GRAM",
     "product_price": 10,
@@ -7249,7 +7249,7 @@
     "status": "available"
   },
   {
-    "product_id": 10660,
+    "A": 10660,
     "product_name": "ROORI",
     "product_size": "20GRAM",
     "product_price": 10,
@@ -7260,7 +7260,7 @@
     "status": "available"
   },
   {
-    "product_id": 10661,
+    "A": 10661,
     "product_name": "KHADA DHANA",
     "product_size": "500GRAM",
     "product_price": 50,
@@ -7271,7 +7271,7 @@
     "status": "available"
   },
   {
-    "product_id": 10662,
+    "A": 10662,
     "product_name": "KHADA DHANA",
     "product_size": "1KG",
     "product_price": 100,
@@ -7282,7 +7282,7 @@
     "status": "available"
   },
   {
-    "product_id": 10663,
+    "A": 10663,
     "product_name": "COLGATE TOOTHPASTE",
     "product_size": "100GRAM",
     "product_price": 50,
@@ -7293,7 +7293,7 @@
     "status": "available"
   },
   {
-    "product_id": 10664,
+    "A": 10664,
     "product_name": "COLGATE TOOTHPASTE",
     "product_size": "200GRAM",
     "product_price": 90,
@@ -7304,7 +7304,7 @@
     "status": "available"
   },
   {
-    "product_id": 10665,
+    "A": 10665,
     "product_name": "COLGATE TOOTHPASTE",
     "product_size": "300GRAM",
     "product_price": 134,
@@ -7315,7 +7315,7 @@
     "status": "available"
   },
   {
-    "product_id": 10666,
+    "A": 10666,
     "product_name": "COLGATE TOOTHPASTE",
     "product_size": "500GRAM",
     "product_price": 176,
@@ -7326,7 +7326,7 @@
     "status": "available"
   },
   {
-    "product_id": 10667,
+    "A": 10667,
     "product_name": "PEPSODENT TOOTHPASTE",
     "product_size": "100GRAM",
     "product_price": 52,
@@ -7337,7 +7337,7 @@
     "status": "available"
   },
   {
-    "product_id": 10668,
+    "A": 10668,
     "product_name": "PEPSODENT TOOTHPASTE",
     "product_size": "150GRAM",
     "product_price": 82,
@@ -7348,7 +7348,7 @@
     "status": "available"
   },
   {
-    "product_id": 10669,
+    "A": 10669,
     "product_name": "PEPSODENT TOOTHPASTE",
     "product_size": "200GRAM",
     "product_price": 96,
@@ -7359,7 +7359,7 @@
     "status": "available"
   },
   {
-    "product_id": 10670,
+    "A": 10670,
     "product_name": "CLOSEUP TOOTHPASTE",
     "product_size": "100GRAM",
     "product_price": 40,
@@ -7370,7 +7370,7 @@
     "status": "available"
   },
   {
-    "product_id": 10671,
+    "A": 10671,
     "product_name": "CLOSEUP TOOTHPASTE",
     "product_size": "200GRAM",
     "product_price": 82,
@@ -7381,7 +7381,7 @@
     "status": "available"
   },
   {
-    "product_id": 10672,
+    "A": 10672,
     "product_name": "CLOSEUP TOOTHPASTE",
     "product_size": "300GRAM",
     "product_price": 140,
@@ -7392,7 +7392,7 @@
     "status": "available"
   },
   {
-    "product_id": 10673,
+    "A": 10673,
     "product_name": "GUD(JAGGERY)",
     "product_size": "1KG",
     "product_price": 38,
@@ -7403,7 +7403,7 @@
     "status": "available"
   },
   {
-    "product_id": 10674,
+    "A": 10674,
     "product_name": "TOOTH BRUSH",
     "product_size": "1pcs",
     "product_price": 10,
@@ -7414,7 +7414,7 @@
     "status": "available"
   },
   {
-    "product_id": 10675,
+    "A": 10675,
     "product_name": "TOOTH BRUSH",
     "product_size": "1pcs",
     "product_price": 20,
@@ -7425,7 +7425,7 @@
     "status": "available"
   },
   {
-    "product_id": 10676,
+    "A": 10676,
     "product_name": "TOOTH BRUSH",
     "product_size": "1pcs",
     "product_price": 30,
@@ -7436,7 +7436,7 @@
     "status": "available"
   },
   {
-    "product_id": 10677,
+    "A": 10677,
     "product_name": "NEIL UJALA",
     "product_size": "75GRAM",
     "product_price": 22,
@@ -7447,7 +7447,7 @@
     "status": "available"
   },
   {
-    "product_id": 10678,
+    "A": 10678,
     "product_name": "NEIL UJALA",
     "product_size": "250GRAM",
     "product_price": 65,
@@ -7458,7 +7458,7 @@
     "status": "available"
   },
   {
-    "product_id": 10679,
+    "A": 10679,
     "product_name": "TIDE DETERGENT",
     "product_size": "500GRAM",
     "product_price": 56,
@@ -7469,7 +7469,7 @@
     "status": "available"
   },
   {
-    "product_id": 10680,
+    "A": 10680,
     "product_name": "TIDE DETERGENT",
     "product_size": "1KG",
     "product_price": 103,
@@ -7480,7 +7480,7 @@
     "status": "available"
   },
   {
-    "product_id": 10681,
+    "A": 10681,
     "product_name": "TIDE DETERGENT",
     "product_size": "5KG",
     "product_price": 485,
@@ -7491,7 +7491,7 @@
     "status": "available"
   },
   {
-    "product_id": 10682,
+    "A": 10682,
     "product_name": "TIDE DETERGENT",
     "product_size": "8KG",
     "product_price": 700,
@@ -7502,7 +7502,7 @@
     "status": "available"
   },
   {
-    "product_id": 10683,
+    "A": 10683,
     "product_name": "GHADI DETERGENT",
     "product_size": "500GRAM",
     "product_price": 274,
@@ -7513,7 +7513,7 @@
     "status": "available"
   },
   {
-    "product_id": 10684,
+    "A": 10684,
     "product_name": "GHADI DETERGENT",
     "product_size": "1KG",
     "product_price": 50,
@@ -7524,7 +7524,7 @@
     "status": "available"
   },
   {
-    "product_id": 10685,
+    "A": 10685,
     "product_name": "GHADI DETERGENT",
     "product_size": "2KG",
     "product_price": 100,
@@ -7535,7 +7535,7 @@
     "status": "available"
   },
   {
-    "product_id": 10686,
+    "A": 10686,
     "product_name": "GHADI DETERGENT",
     "product_size": "3KG",
     "product_price": 150,
@@ -7546,7 +7546,7 @@
     "status": "available"
   },
   {
-    "product_id": 10687,
+    "A": 10687,
     "product_name": "WHEEL DETERGENT",
     "product_size": "1KG",
     "product_price": 52,
@@ -7557,7 +7557,7 @@
     "status": "available"
   },
   {
-    "product_id": 10688,
+    "A": 10688,
     "product_name": "NIVEA FACEWASH",
     "product_size": "50GRAM",
     "product_price": 95,
@@ -7568,7 +7568,7 @@
     "status": "available"
   },
   {
-    "product_id": 10689,
+    "A": 10689,
     "product_name": "MEDIMEX SOAP",
     "product_size": "100GRAM",
     "product_price": 45,
@@ -7579,7 +7579,7 @@
     "status": "available"
   },
   {
-    "product_id": 10690,
+    "A": 10690,
     "product_name": "MEDIMEX SOAP",
     "product_size": "PACK OF 3",
     "product_price": 135,
@@ -7590,7 +7590,7 @@
     "status": "available"
   },
   {
-    "product_id": 10691,
+    "A": 10691,
     "product_name": "HIMALAYA FACEWASH",
     "product_size": "100GRAM",
     "product_price": 115,
@@ -7601,7 +7601,7 @@
     "status": "available"
   },
   {
-    "product_id": 10692,
+    "A": 10692,
     "product_name": "DETTOL SOAP",
     "product_size": "45GRAM",
     "product_price": 10,
@@ -7612,7 +7612,7 @@
     "status": "available"
   },
   {
-    "product_id": 10693,
+    "A": 10693,
     "product_name": "DETTOL SOAP",
     "product_size": "75GRAM",
     "product_price": 24,
@@ -7623,7 +7623,7 @@
     "status": "available"
   },
   {
-    "product_id": 10694,
+    "A": 10694,
     "product_name": "DETTOL SOAP",
     "product_size": "125GRAM",
     "product_price": 45,
@@ -7634,7 +7634,7 @@
     "status": "available"
   },
   {
-    "product_id": 10695,
+    "A": 10695,
     "product_name": "DOVE SOAP",
     "product_size": "50GRAM",
     "product_price": 20,
@@ -7645,7 +7645,7 @@
     "status": "available"
   },
   {
-    "product_id": 10696,
+    "A": 10696,
     "product_name": "DOVE SOAP",
     "product_size": "75GRAM",
     "product_price": 45,
@@ -7656,7 +7656,7 @@
     "status": "available"
   },
   {
-    "product_id": 10697,
+    "A": 10697,
     "product_name": "BUTTER",
     "product_size": "100G",
     "product_price": 48,
@@ -7667,7 +7667,7 @@
     "status": "available"
   },
   {
-    "product_id": 10698,
+    "A": 10698,
     "product_name": "BUTTER",
     "product_size": "500GRAM",
     "product_price": 235,
@@ -7678,7 +7678,7 @@
     "status": "available"
   },
   {
-    "product_id": 10699,
+    "A": 10699,
     "product_name": "HIMALAYA FACE WASH",
     "product_size": "50GRAM",
     "product_price": 60,
@@ -7689,7 +7689,7 @@
     "status": "available"
   },
   {
-    "product_id": 10700,
+    "A": 10700,
     "product_name": "VIM BAR",
     "product_size": "100GRAM",
     "product_price": 10,
@@ -7700,7 +7700,7 @@
     "status": "available"
   },
   {
-    "product_id": 10701,
+    "A": 10701,
     "product_name": "VIM BAR",
     "product_size": "200GRAM",
     "product_price": 20,
@@ -7711,7 +7711,7 @@
     "status": "available"
   },
   {
-    "product_id": 10702,
+    "A": 10702,
     "product_name": "VIM BAR",
     "product_size": "250GRAM",
     "product_price": 27,
@@ -7722,7 +7722,7 @@
     "status": "available"
   },
   {
-    "product_id": 10703,
+    "A": 10703,
     "product_name": "VIM BAR",
     "product_size": "500GRAM",
     "product_price": 48,
@@ -7733,7 +7733,7 @@
     "status": "available"
   },
   {
-    "product_id": 10704,
+    "A": 10704,
     "product_name": "VIM LIQUID",
     "product_size": "200GRAM",
     "product_price": 45,
@@ -7744,7 +7744,7 @@
     "status": "available"
   },
   {
-    "product_id": 10705,
+    "A": 10705,
     "product_name": "VIM LIQUID",
     "product_size": "500GRAM",
     "product_price": 105,
@@ -7755,7 +7755,7 @@
     "status": "available"
   },
   {
-    "product_id": 10706,
+    "A": 10706,
     "product_name": "ALLOUT (REFIL)",
     "product_size": "45 NIGHT",
     "product_price": 70,
@@ -7766,7 +7766,7 @@
     "status": "available"
   },
   {
-    "product_id": 10707,
+    "A": 10707,
     "product_name": "ALLOUT WITH MACHINE",
     "product_size": "1PACK",
     "product_price": 89,
@@ -7777,7 +7777,7 @@
     "status": "available"
   },
   {
-    "product_id": 10708,
+    "A": 10708,
     "product_name": "MORTIEN(REFIL)",
     "product_size": "1PACK",
     "product_price": 66,
@@ -7788,7 +7788,7 @@
     "status": "available"
   },
   {
-    "product_id": 10709,
+    "A": 10709,
     "product_name": "MORTIEN(REFIL) + MACHINE",
     "product_size": "1PACK",
     "product_price": 89,
@@ -7799,7 +7799,7 @@
     "status": "available"
   },
   {
-    "product_id": 10710,
+    "A": 10710,
     "product_name": "MAX COIL",
     "product_size": "1PACK",
     "product_price": 25,
@@ -7810,7 +7810,7 @@
     "status": "available"
   },
   {
-    "product_id": 10711,
+    "A": 10711,
     "product_name": "LIFEBOY HAND WASH(REFIL)",
     "product_size": "200ML",
     "product_price": 25,
@@ -7821,7 +7821,7 @@
     "status": "available"
   },
   {
-    "product_id": 10712,
+    "A": 10712,
     "product_name": "LIFEBOY HAND WASH(REFIL)",
     "product_size": "900ML",
     "product_price": 170,
@@ -7832,7 +7832,7 @@
     "status": "available"
   },
   {
-    "product_id": 10713,
+    "A": 10713,
     "product_name": "DETTOL HANDWASH(REFIL)",
     "product_size": "200ML",
     "product_price": 50,
@@ -7843,7 +7843,7 @@
     "status": "available"
   },
   {
-    "product_id": 10714,
+    "A": 10714,
     "product_name": "DETTOL HANDWASH(REFIL) WITH PUMP",
     "product_size": "200ML",
     "product_price": 95,
@@ -7854,7 +7854,7 @@
     "status": "available"
   },
   {
-    "product_id": 10715,
+    "A": 10715,
     "product_name": "DETTOL HANDWASH (REFIL)",
     "product_size": "750ML",
     "product_price": 105,
@@ -7865,7 +7865,7 @@
     "status": "NA"
   },
   {
-    "product_id": 10716,
+    "A": 10716,
     "product_name": "SANTOOR HANDWASH",
     "product_size": "1L",
     "product_price": 200,
@@ -7876,7 +7876,7 @@
     "status": "available"
   },
   {
-    "product_id": 10717,
+    "A": 10717,
     "product_name": "FAST CARD",
     "product_size": "1PACK",
     "product_price": 10,
@@ -7887,7 +7887,7 @@
     "status": "available"
   },
   {
-    "product_id": 10718,
+    "A": 10718,
     "product_name": "TOAST rusk",
     "product_size": "1PACK",
     "product_price": 40,
@@ -7898,7 +7898,7 @@
     "status": "available"
   },
   {
-    "product_id": 10719,
+    "A": 10719,
     "product_name": "SOYA BARI",
     "product_size": "200GRAM",
     "product_price": 45,
@@ -7909,7 +7909,7 @@
     "status": "available"
   },
   {
-    "product_id": 10720,
+    "A": 10720,
     "product_name": "PUNGA",
     "product_size": "1KG",
     "product_price": 60,
@@ -7920,7 +7920,7 @@
     "status": "available"
   },
   {
-    "product_id": 10721,
+    "A": 10721,
     "product_name": "V-JOHN SHAVING CREAM",
     "product_size": "150GRAM",
     "product_price": 50,
@@ -7931,7 +7931,7 @@
     "status": "available"
   },
   {
-    "product_id": 10722,
+    "A": 10722,
     "product_name": "GILLETE SHAVING CREAM",
     "product_size": "25GRAM",
     "product_price": 35,
@@ -7942,7 +7942,7 @@
     "status": "available"
   },
   {
-    "product_id": 10723,
+    "A": 10723,
     "product_name": "RAAI",
     "product_size": "100G",
     "product_price": 11,
@@ -7953,7 +7953,7 @@
     "status": "available"
   },
   {
-    "product_id": 10724,
+    "A": 10724,
     "product_name": "CORN FLAKES",
     "product_size": "500GRAM",
     "product_price": 120,
@@ -7964,7 +7964,7 @@
     "status": "available"
   },
   {
-    "product_id": 10725,
+    "A": 10725,
     "product_name": "CORNFLEX",
     "product_size": "200GRAM",
     "product_price": 50,
@@ -7975,7 +7975,7 @@
     "status": "available"
   },
   {
-    "product_id": 10726,
+    "A": 10726,
     "product_name": "ODOMAS",
     "product_size": "50G",
     "product_price": 50,
@@ -7986,7 +7986,7 @@
     "status": "available"
   },
   {
-    "product_id": 10727,
+    "A": 10727,
     "product_name": "SHUPADI Sabut",
     "product_size": "100GRAM",
     "product_price": 36,
@@ -7997,7 +7997,7 @@
     "status": "available"
   },
   {
-    "product_id": 10728,
+    "A": 10728,
     "product_name": "SHUPADI(KUTI)",
     "product_size": "100GRAM",
     "product_price": 38,
@@ -8008,7 +8008,7 @@
     "status": "available"
   },
   {
-    "product_id": 10729,
+    "A": 10729,
     "product_name": "TUMBHAKU(PATTE)",
     "product_size": "1",
     "product_price": 5,
@@ -8019,7 +8019,7 @@
     "status": "available"
   },
   {
-    "product_id": 10730,
+    "A": 10730,
     "product_name": "DHOKLA POWDER",
     "product_size": "500GRAM",
     "product_price": 70,
@@ -8030,7 +8030,7 @@
     "status": "available"
   },
   {
-    "product_id": 10731,
+    "A": 10731,
     "product_name": "IDLI POWDER",
     "product_size": "500GRAM",
     "product_price": 70,
@@ -8041,7 +8041,7 @@
     "status": "available"
   },
   {
-    "product_id": 10732,
+    "A": 10732,
     "product_name": "DOSA POWDER",
     "product_size": "500GRAM",
     "product_price": 58,
@@ -8052,7 +8052,7 @@
     "status": "available"
   },
   {
-    "product_id": 10733,
+    "A": 10733,
     "product_name": "LAAI",
     "product_size": "500GRAM",
     "product_price": 30,
@@ -8063,7 +8063,7 @@
     "status": "available"
   },
   {
-    "product_id": 10734,
+    "A": 10734,
     "product_name": "HALDIRAM SONPAPDI",
     "product_size": "500GRAM",
     "product_price": 115,
@@ -8074,7 +8074,7 @@
     "status": "available"
   },
   {
-    "product_id": 10735,
+    "A": 10735,
     "product_name": "HALDIRAM SONPAPDI",
     "product_size": "250GRAM",
     "product_price": 60,
@@ -8085,7 +8085,7 @@
     "status": "available"
   },
   {
-    "product_id": 10736,
+    "A": 10736,
     "product_name": "PHENYL",
     "product_size": "1L",
     "product_price": 50,
@@ -8096,7 +8096,7 @@
     "status": "available"
   },
   {
-    "product_id": 10737,
+    "A": 10737,
     "product_name": "PICKELS TOPS",
     "product_size": "1KG",
     "product_price": 110,
@@ -8107,7 +8107,7 @@
     "status": "available"
   },
   {
-    "product_id": 10738,
+    "A": 10738,
     "product_name": "HARPIC",
     "product_size": "500ML",
     "product_price": 88,
@@ -8118,7 +8118,7 @@
     "status": "available"
   },
   {
-    "product_id": 10739,
+    "A": 10739,
     "product_name": "HARPIC",
     "product_size": "1L",
     "product_price": 165,
@@ -8129,7 +8129,7 @@
     "status": "available"
   },
   {
-    "product_id": 10740,
+    "A": 10740,
     "product_name": "MISRI",
     "product_size": "1KG",
     "product_price": 65,
@@ -8140,7 +8140,7 @@
     "status": "available"
   },
   {
-    "product_id": 10741,
+    "A": 10741,
     "product_name": "TIKIYA PACKETS",
     "product_size": "1PACKET",
     "product_price": 40,
@@ -8151,7 +8151,7 @@
     "status": "available"
   },
   {
-    "product_id": 10742,
+    "A": 10742,
     "product_name": "BAKING POWDER",
     "product_size": "100GRAM",
     "product_price": 30,
@@ -8162,7 +8162,7 @@
     "status": "available"
   },
   {
-    "product_id": 10743,
+    "A": 10743,
     "product_name": "MAGGI MASALA",
     "product_size": "1pcs",
     "product_price": 5,
@@ -8173,7 +8173,7 @@
     "status": "available"
   },
   {
-    "product_id": 10744,
+    "A": 10744,
     "product_name": "PASTA MASALA",
     "product_size": "1pcs",
     "product_price": 5,
@@ -8184,7 +8184,7 @@
     "status": "available"
   },
   {
-    "product_id": 10745,
+    "A": 10745,
     "product_name": "MILK POWDER EVERYDAY",
     "product_size": "400GRAM",
     "product_price": 200,
@@ -8195,7 +8195,7 @@
     "status": "available"
   },
   {
-    "product_id": 10746,
+    "A": 10746,
     "product_name": "MILK POWDER EVERYDAY",
     "product_size": "200GRAM",
     "product_price": 105,
@@ -8206,7 +8206,7 @@
     "status": "available"
   },
   {
-    "product_id": 10747,
+    "A": 10747,
     "product_name": "MILK POWDER EVERYDAY",
     "product_size": "1KG",
     "product_price": 480,
@@ -8217,7 +8217,7 @@
     "status": "available"
   },
   {
-    "product_id": 10748,
+    "A": 10748,
     "product_name": "BLADE(SUPERMAX)",
     "product_size": "1PCS",
     "product_price": 20,
@@ -8228,7 +8228,7 @@
     "status": "available"
   },
   {
-    "product_id": 10749,
+    "A": 10749,
     "product_name": "AKHROAT",
     "product_size": "1KG",
     "product_price": 800,
@@ -8239,7 +8239,7 @@
     "status": "available"
   },
   {
-    "product_id": 10750,
+    "A": 10750,
     "product_name": "KALIMIRCH POWDER",
     "product_size": "50GRAM",
     "product_price": 105,
@@ -8250,7 +8250,7 @@
     "status": "available"
   },
   {
-    "product_id": 10751,
+    "A": 10751,
     "product_name": "RASNA",
     "product_size": "1 BOTTLE",
     "product_price": 140,
@@ -8261,7 +8261,7 @@
     "status": "available"
   },
   {
-    "product_id": 10752,
+    "A": 10752,
     "product_name": "ROOAFZA",
     "product_size": "1 BOTTLE",
     "product_price": 140,
@@ -8272,7 +8272,7 @@
     "status": "available"
   },
   {
-    "product_id": 10753,
+    "A": 10753,
     "product_name": "ACHAR MASALA LALAJI",
     "product_size": "500GRAM",
     "product_price": 80,
@@ -8283,7 +8283,7 @@
     "status": "available"
   },
   {
-    "product_id": 10754,
+    "A": 10754,
     "product_name": "INDIA GATE SUPER",
     "product_size": "1KG",
     "product_price": 140,
@@ -8294,7 +8294,7 @@
     "status": "available"
   },
   {
-    "product_id": 10755,
+    "A": 10755,
     "product_name": "INDIA GATE REGULAR CHOICE",
     "product_size": "1KG",
     "product_price": 75,
@@ -8305,7 +8305,7 @@
     "status": "available"
   },
   {
-    "product_id": 10756,
+    "A": 10756,
     "product_name": "INDIA GATE CLASSIC",
     "product_size": "5KG",
     "product_price": 800,
@@ -8316,7 +8316,7 @@
     "status": "available"
   },
   {
-    "product_id": 10757,
+    "A": 10757,
     "product_name": "KAJU KHULA",
     "product_size": "250GRAM",
     "product_price": 190,
@@ -8327,7 +8327,7 @@
     "status": "available"
   },
   {
-    "product_id": 10758,
+    "A": 10758,
     "product_name": "KISMIS (KANDHARI)",
     "product_size": "250GRAM",
     "product_price": 100,
@@ -8338,7 +8338,7 @@
     "status": "available"
   },
   {
-    "product_id": 10759,
+    "A": 10759,
     "product_name": "BAJAJ ALMOND DROP HAIR OIL",
     "product_size": "100GRAM",
     "product_price": 70,
@@ -8349,7 +8349,7 @@
     "status": "available"
   },
   {
-    "product_id": 10760,
+    "A": 10760,
     "product_name": "BAJAJ ALMOND DROP HAIR OIL",
     "product_size": "200GRAM",
     "product_price": 125,
@@ -8360,7 +8360,7 @@
     "status": "available"
   },
   {
-    "product_id": 10761,
+    "A": 10761,
     "product_name": "BAJAJ ALMOND DROP HAIR OIL",
     "product_size": "500GRAM",
     "product_price": 280,
@@ -8371,7 +8371,7 @@
     "status": "available"
   },
   {
-    "product_id": 10762,
+    "A": 10762,
     "product_name": "BAJAJ ALMOND DROP HAIR OIL",
     "product_size": "300GRAM",
     "product_price": 175,
@@ -8382,7 +8382,7 @@
     "status": "available"
   },
   {
-    "product_id": 10763,
+    "A": 10763,
     "product_name": "BAJAJ ALMOND DROP HAIR OIL",
     "product_size": "50ML",
     "product_price": 35,
@@ -8393,7 +8393,7 @@
     "status": "available"
   },
   {
-    "product_id": 10764,
+    "A": 10764,
     "product_name": "DABUR ALMOND HAIR OIL",
     "product_size": "100ML",
     "product_price": 65,
@@ -8404,7 +8404,7 @@
     "status": "available"
   },
   {
-    "product_id": 10765,
+    "A": 10765,
     "product_name": "DABUR ALMOND HAIR OIL",
     "product_size": "500ML",
     "product_price": 255,
@@ -8415,7 +8415,7 @@
     "status": "available"
   },
   {
-    "product_id": 10766,
+    "A": 10766,
     "product_name": "DABUR AMLA HAIR OIL",
     "product_size": "275ML",
     "product_price": 134,
@@ -8426,7 +8426,7 @@
     "status": "available"
   },
   {
-    "product_id": 10767,
+    "A": 10767,
     "product_name": "DABUR AMLA HAIR OIL",
     "product_size": "90ML",
     "product_price": null,
@@ -8437,7 +8437,7 @@
     "status": "available"
   },
   {
-    "product_id": 10768,
+    "A": 10768,
     "product_name": "DABUR AMLA HAIR OIL",
     "product_size": "180ML",
     "product_price": 88,
@@ -8448,7 +8448,7 @@
     "status": "available"
   },
   {
-    "product_id": 10769,
+    "A": 10769,
     "product_name": "DABUR AMLA HAIR OIL",
     "product_size": "450ML",
     "product_price": null,
@@ -8459,7 +8459,7 @@
     "status": "available"
   },
   {
-    "product_id": 10770,
+    "A": 10770,
     "product_name": "CHOCOS",
     "product_size": "1",
     "product_price": 55,
@@ -8470,7 +8470,7 @@
     "status": "available"
   },
   {
-    "product_id": 10771,
+    "A": 10771,
     "product_name": "CHOCOS",
     "product_size": "1",
     "product_price": 110,
@@ -8481,7 +8481,7 @@
     "status": "available"
   },
   {
-    "product_id": 10772,
+    "A": 10772,
     "product_name": "NON DUST BROOMS (JHADU)",
     "product_size": "1",
     "product_price": null,
@@ -8492,7 +8492,7 @@
     "status": "available"
   },
   {
-    "product_id": 10773,
+    "A": 10773,
     "product_name": "MALAI BARFI",
     "product_size": "1 KG",
     "product_price": 310,
@@ -8503,7 +8503,7 @@
     "status": "available"
   },
   {
-    "product_id": 10774,
+    "A": 10774,
     "product_name": "MALAI BARFI",
     "product_size": "500 GM",
     "product_price": 160,
@@ -8514,7 +8514,7 @@
     "status": "available"
   },
   {
-    "product_id": 10775,
+    "A": 10775,
     "product_name": "MILK CAKE BARFI",
     "product_size": "1 KG",
     "product_price": 310,
@@ -8525,7 +8525,7 @@
     "status": "available"
   },
   {
-    "product_id": 10776,
+    "A": 10776,
     "product_name": "MILK CAKE BARFI",
     "product_size": "500 GM",
     "product_price": 160,
@@ -8536,7 +8536,7 @@
     "status": "available"
   },
   {
-    "product_id": 10777,
+    "A": 10777,
     "product_name": "KAJU KATLI",
     "product_size": "1 KG",
     "product_price": 860,
@@ -8547,7 +8547,7 @@
     "status": "available"
   },
   {
-    "product_id": 10778,
+    "A": 10778,
     "product_name": "KAJU KATLI",
     "product_size": "500 GM",
     "product_price": 450,
@@ -8558,7 +8558,7 @@
     "status": "available"
   },
   {
-    "product_id": 10779,
+    "A": 10779,
     "product_name": "KAJU KATLI",
     "product_size": "250 GM",
     "product_price": 230,
@@ -8569,7 +8569,7 @@
     "status": "available"
   },
   {
-    "product_id": 10780,
+    "A": 10780,
     "product_name": "CHIRONJI BARFI",
     "product_size": "1 KG",
     "product_price": 430,
@@ -8580,7 +8580,7 @@
     "status": "available"
   },
   {
-    "product_id": 10781,
+    "A": 10781,
     "product_name": "CHIRONJI BARFI",
     "product_size": "500 GM",
     "product_price": 220,
@@ -8591,7 +8591,7 @@
     "status": "available"
   },
   {
-    "product_id": 10782,
+    "A": 10782,
     "product_name": "DESI GHEE PAIDA",
     "product_size": "1 KG",
     "product_price": 270,
@@ -8602,7 +8602,7 @@
     "status": "available"
   },
   {
-    "product_id": 10783,
+    "A": 10783,
     "product_name": "DESI GHEE PAIDA",
     "product_size": "500 GM",
     "product_price": 140,
@@ -8613,7 +8613,7 @@
     "status": "available"
   },
   {
-    "product_id": 10784,
+    "A": 10784,
     "product_name": "DESI GHEE KE BESAN LADDU",
     "product_size": "1 KG",
     "product_price": 310,
@@ -8624,7 +8624,7 @@
     "status": "available"
   },
   {
-    "product_id": 10785,
+    "A": 10785,
     "product_name": "DESI GHEE KE BESAN LADDU",
     "product_size": "500 GM",
     "product_price": 160,
@@ -8635,7 +8635,7 @@
     "status": "available"
   },
   {
-    "product_id": 10786,
+    "A": 10786,
     "product_name": "BESAN LADDU",
     "product_size": "1 KG",
     "product_price": 150,
@@ -8646,7 +8646,7 @@
     "status": "available"
   },
   {
-    "product_id": 10787,
+    "A": 10787,
     "product_name": "BESAN LADDU",
     "product_size": "500 GM",
     "product_price": 80,
@@ -8657,7 +8657,7 @@
     "status": "available"
   },
   {
-    "product_id": 10788,
+    "A": 10788,
     "product_name": "MALAI PAIDA(WHITE PAIDA SMALL)",
     "product_size": "1 KG",
     "product_price": 310,
@@ -8668,7 +8668,7 @@
     "status": "available"
   },
   {
-    "product_id": 10789,
+    "A": 10789,
     "product_name": "MALAI PAIDA(WHITE PAIDA SMALL)",
     "product_size": "500 GM",
     "product_price": 160,
@@ -8679,7 +8679,7 @@
     "status": "available"
   },
   {
-    "product_id": 10790,
+    "A": 10790,
     "product_name": "GULAB JAMUN",
     "product_size": "1 KG",
     "product_price": 190,
@@ -8690,7 +8690,7 @@
     "status": "available"
   },
   {
-    "product_id": 10791,
+    "A": 10791,
     "product_name": "GULAB JAMUN",
     "product_size": "500 GM",
     "product_price": 100,
@@ -8701,7 +8701,7 @@
     "status": "available"
   },
   {
-    "product_id": 10792,
+    "A": 10792,
     "product_name": "RASUGULLA",
     "product_size": "1 KG",
     "product_price": 230,
@@ -8712,7 +8712,7 @@
     "status": "available"
   },
   {
-    "product_id": 10793,
+    "A": 10793,
     "product_name": "RASUGULLA",
     "product_size": "500 GM",
     "product_price": 120,
@@ -8723,7 +8723,7 @@
     "status": "available"
   },
   {
-    "product_id": 10794,
+    "A": 10794,
     "product_name": "MILK CAKE",
     "product_size": "1 KG",
     "product_price": 30,
@@ -8734,7 +8734,7 @@
     "status": "available"
   },
   {
-    "product_id": 10795,
+    "A": 10795,
     "product_name": "MILK CAKE",
     "product_size": "500 GM",
     "product_price": 160,
@@ -8745,7 +8745,7 @@
     "status": "available"
   },
   {
-    "product_id": 10796,
+    "A": 10796,
     "product_name": "MEETI GUJIYA",
     "product_size": "10 PC",
     "product_price": 70,
@@ -8756,7 +8756,7 @@
     "status": "available"
   },
   {
-    "product_id": 10797,
+    "A": 10797,
     "product_name": "RABDI",
     "product_size": "1 KG",
     "product_price": 310,
@@ -8767,7 +8767,7 @@
     "status": "available"
   },
   {
-    "product_id": 10798,
+    "A": 10798,
     "product_name": "RABDI",
     "product_size": "500 GM",
     "product_price": 180,
@@ -8778,7 +8778,7 @@
     "status": "available"
   },
   {
-    "product_id": 10799,
+    "A": 10799,
     "product_name": "CHOTI SAMOSI",
     "product_size": "1 KG",
     "product_price": 180,
@@ -8789,7 +8789,7 @@
     "status": "available"
   },
   {
-    "product_id": 10800,
+    "A": 10800,
     "product_name": "CHOTI SAMOSI",
     "product_size": "500 GM",
     "product_price": 90,
@@ -8800,7 +8800,7 @@
     "status": "available"
   },
   {
-    "product_id": 10801,
+    "A": 10801,
     "product_name": "SALONI",
     "product_size": "1 KG",
     "product_price": 120,
@@ -8811,7 +8811,7 @@
     "status": "available"
   },
   {
-    "product_id": 10802,
+    "A": 10802,
     "product_name": "SALONI",
     "product_size": "500 GM",
     "product_price": 60,
@@ -8822,7 +8822,7 @@
     "status": "available"
   },
   {
-    "product_id": 10803,
+    "A": 10803,
     "product_name": "KASTURI MEETHI SALONI",
     "product_size": "1 KG",
     "product_price": 140,
@@ -8833,7 +8833,7 @@
     "status": "available"
   },
   {
-    "product_id": 10804,
+    "A": 10804,
     "product_name": "KASTURI MEETHI SALONI",
     "product_size": "500 GM",
     "product_price": 80,
@@ -8844,7 +8844,7 @@
     "status": "available"
   },
   {
-    "product_id": 10805,
+    "A": 10805,
     "product_name": "HARI DHANIYA NAMKEEN",
     "product_size": "1 KG",
     "product_price": 160,
@@ -8855,7 +8855,7 @@
     "status": "available"
   },
   {
-    "product_id": 10806,
+    "A": 10806,
     "product_name": "HARI DHANIYA NAMKEEN",
     "product_size": "500 GM",
     "product_price": 80,
@@ -8866,7 +8866,7 @@
     "status": "available"
   },
   {
-    "product_id": 10807,
+    "A": 10807,
     "product_name": "BOMBAY MIXTURE NAMKEEN",
     "product_size": "1 KG",
     "product_price": 160,
@@ -8877,7 +8877,7 @@
     "status": "available"
   },
   {
-    "product_id": 10808,
+    "A": 10808,
     "product_name": "BOMBAY MIXTURE NAMKEEN",
     "product_size": "500 GM",
     "product_price": 80,
@@ -8888,7 +8888,7 @@
     "status": "available"
   },
   {
-    "product_id": 10809,
+    "A": 10809,
     "product_name": "GHATIYA SADA",
     "product_size": "1 KG",
     "product_price": 160,
@@ -8899,7 +8899,7 @@
     "status": "available"
   },
   {
-    "product_id": 10810,
+    "A": 10810,
     "product_name": "GHATIYA SADA",
     "product_size": "500 GM",
     "product_price": 80,
@@ -8910,7 +8910,7 @@
     "status": "available"
   },
   {
-    "product_id": 10811,
+    "A": 10811,
     "product_name": "ALOO BHUJIA",
     "product_size": "1 KG",
     "product_price": 160,
@@ -8921,7 +8921,7 @@
     "status": "available"
   },
   {
-    "product_id": 10812,
+    "A": 10812,
     "product_name": "ALOO BHUJIA",
     "product_size": "500 GM",
     "product_price": 80,
@@ -8932,7 +8932,7 @@
     "status": "available"
   },
   {
-    "product_id": 10813,
+    "A": 10813,
     "product_name": "SADA POHA BHUJIYA",
     "product_size": "1 KG",
     "product_price": 160,
@@ -8943,7 +8943,7 @@
     "status": "available"
   },
   {
-    "product_id": 10814,
+    "A": 10814,
     "product_name": "SADA POHA BHUJIYA",
     "product_size": "500 GM",
     "product_price": 80,
@@ -8954,7 +8954,7 @@
     "status": "available"
   },
   {
-    "product_id": 10815,
+    "A": 10815,
     "product_name": "POHA MIXTURE",
     "product_size": "1 KG",
     "product_price": 160,
@@ -8965,7 +8965,7 @@
     "status": "available"
   },
   {
-    "product_id": 10816,
+    "A": 10816,
     "product_name": "POHA MIXTURE",
     "product_size": "500 GM",
     "product_price": 80,
@@ -8976,7 +8976,7 @@
     "status": "available"
   },
   {
-    "product_id": 10817,
+    "A": 10817,
     "product_name": "CADBURY OREO ",
     "product_size": "12 Pkt",
     "product_price": 120,
@@ -8987,8 +8987,8 @@
     "status": "available"
   },
   {
-    "product_id": 10818,
-    "product_name": "BIKANO Alo Bhujia",
+    "A": 10818,
+    "product_name": "BIKANKO Alo Bhujia",
     "product_size": "1 KG",
     "product_price": 237,
     "product_image_url": "https://images-na.ssl-images-amazon.com/images/I/81eHy3toQvL._SL1500_.jpg",
@@ -8998,8 +8998,8 @@
     "status": "available"
   },
   {
-    "product_id": 10819,
-    "product_name": "BIKANO Bikaneri Bhujia",
+    "A": 10819,
+    "product_name": "BIKANKO Bikaneri Bhujia",
     "product_size": "1 KG",
     "product_price": 237,
     "product_image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcThtY_B36SQpfgF7h_o7rm_Jn0h5Ux_140tZRGCW0bTVHt9r8uL&usqp=CAU",
@@ -9009,8 +9009,8 @@
     "status": "available"
   },
   {
-    "product_id": 10820,
-    "product_name": "BIKANO Khatta Metha",
+    "A": 10820,
+    "product_name": "BIKANKO Khatta Metha",
     "product_size": "1 KG",
     "product_price": 237,
     "product_image_url": "https://fnbshops.com/wp-content/uploads/2019/06/bikano_khatta_meetha_hye6k.jpg",
@@ -9020,8 +9020,8 @@
     "status": "available"
   },
   {
-    "product_id": 10821,
-    "product_name": "BIKANO  Navratan",
+    "A": 10821,
+    "product_name": "BIKANKO  Navratan",
     "product_size": "1 KG",
     "product_price": 237,
     "product_image_url": "https://images-na.ssl-images-amazon.com/images/I/91KzcL9UNGL._SY550_.jpg",
@@ -9031,8 +9031,8 @@
     "status": "available"
   },
   {
-    "product_id": 10822,
-    "product_name": "BIKANO  Shahi Mix",
+    "A": 10822,
+    "product_name": "BIKANKO  Shahi Mix",
     "product_size": "1 KG",
     "product_price": 247,
     "product_image_url": "https://images-na.ssl-images-amazon.com/images/I/71zAuGP-wmL._SX569_.jpg",
@@ -9042,8 +9042,8 @@
     "status": "available"
   },
   {
-    "product_id": 10823,
-    "product_name": "BIKANO All in One",
+    "A": 10823,
+    "product_name": "BIKANKO All in One",
     "product_size": "200 GM",
     "product_price": 50,
     "product_image_url": "https://www.d2dbazar.com/wp-content/uploads/2019/08/BIKANO-ALL-IN-ONE-200GM-600x600.jpg",
@@ -9053,8 +9053,8 @@
     "status": "available"
   },
   {
-    "product_id": 10824,
-    "product_name": "BIKANO Alo Bhujia 200gm+50gm",
+    "A": 10824,
+    "product_name": "BIKANKO Alo Bhujia 200gm+50gm",
     "product_size": "250 GM",
     "product_price": 48,
     "product_image_url": "https://images-na.ssl-images-amazon.com/images/I/81eHy3toQvL._SL1500_.jpg",
@@ -9064,8 +9064,8 @@
     "status": "available"
   },
   {
-    "product_id": 10825,
-    "product_name": "BIKANO Badam Lacha 200gm",
+    "A": 10825,
+    "product_name": "BIKANKO Badam Lacha 200gm",
     "product_size": "200 GM",
     "product_price": 82,
     "product_image_url": "https://lh3.googleusercontent.com/proxy/e7bvcEl5lGdQu2tuvnzKOHsXaJ8EnmywhUJb7UvbrKlqPkMkMpzUpL7A8i18cTxyZ1K1avMZCb08ZVg3-_1TaLcOWTxilGzs-UjjxBwC2hbennF4uziQkoDCZgzNpUs",
@@ -9075,8 +9075,8 @@
     "status": "available"
   },
   {
-    "product_id": 10826,
-    "product_name": "BIKANO Bhelpuri 200gm",
+    "A": 10826,
+    "product_name": "BIKANKO Bhelpuri 200gm",
     "product_size": "200GM",
     "product_price": 45,
     "product_image_url": "https://images-na.ssl-images-amazon.com/images/I/517k-QfNuSL.jpg",
@@ -9086,8 +9086,8 @@
     "status": "available"
   },
   {
-    "product_id": 10827,
-    "product_name": "BIKANO Bikaneri Bhujia 200gm+50gm",
+    "A": 10827,
+    "product_name": "BIKANKO Bikaneri Bhujia 200gm+50gm",
     "product_size": "250 GM",
     "product_price": 48,
     "product_image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcThtY_B36SQpfgF7h_o7rm_Jn0h5Ux_140tZRGCW0bTVHt9r8uL&usqp=CAU",
@@ -9097,8 +9097,8 @@
     "status": "available"
   },
   {
-    "product_id": 10828,
-    "product_name": "BIKANO Chana Masala 200gm",
+    "A": 10828,
+    "product_name": "BIKANKO Chana Masala 200gm",
     "product_size": "200 GM",
     "product_price": 50,
     "product_image_url": "https://images-eu.ssl-images-amazon.com/images/I/51zFYQwSUiL._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_.jpg",
@@ -9108,8 +9108,8 @@
     "status": "available"
   },
   {
-    "product_id": 10829,
-    "product_name": "BIKANO Cornflakes Mix 200gm",
+    "A": 10829,
+    "product_name": "BIKANKO Cornflakes Mix 200gm",
     "product_size": "200 GM",
     "product_price": 65,
     "product_image_url": "https://images-na.ssl-images-amazon.com/images/I/71HeOE%2BnhPL._SX569_.jpg",
@@ -9119,8 +9119,8 @@
     "status": "available"
   },
   {
-    "product_id": 10830,
-    "product_name": "BIKANO KAJU MIX 200gm",
+    "A": 10830,
+    "product_name": "BIKANKO KAJU MIX 200gm",
     "product_size": "200 GM",
     "product_price": 75,
     "product_image_url": "https://images-na.ssl-images-amazon.com/images/I/81eepzDjLyL._SX569_.jpg",
@@ -9130,8 +9130,8 @@
     "status": "available"
   },
   {
-    "product_id": 10831,
-    "product_name": "BIKANO Khata Meetha 200gm+50gm",
+    "A": 10831,
+    "product_name": "BIKANKO Khata Meetha 200gm+50gm",
     "product_size": "250 GM",
     "product_price": 48,
     "product_image_url": "https://fnbshops.com/wp-content/uploads/2019/06/bikano_khatta_meetha_hye6k.jpg",
@@ -9141,8 +9141,8 @@
     "status": "available"
   },
   {
-    "product_id": 10832,
-    "product_name": "BIKANO  Matar Masala 200gm",
+    "A": 10832,
+    "product_name": "BIKANKO  Matar Masala 200gm",
     "product_size": "200 GM",
     "product_price": 55,
     "product_image_url": "https://images-na.ssl-images-amazon.com/images/I/91yyhtXHuOL._SL1500_.jpg",
@@ -9152,8 +9152,8 @@
     "status": "available"
   },
   {
-    "product_id": 10833,
-    "product_name": "BIKANO Moong Dal 200gm*60",
+    "A": 10833,
+    "product_name": "BIKANKO Moong Dal 200gm*60",
     "product_size": "200 GM",
     "product_price": 50,
     "product_image_url": "https://fnbshops.com/wp-content/uploads/2019/06/bikano_moong_dal_pla_q6MXR-598x600.jpg",
@@ -9163,8 +9163,8 @@
     "status": "available"
   },
   {
-    "product_id": 10834,
-    "product_name": "BIKANO Navratan Mix 200gm+50gm",
+    "A": 10834,
+    "product_name": "BIKANKO Navratan Mix 200gm+50gm",
     "product_size": "250 GM",
     "product_price": 48,
     "product_image_url": "https://images-na.ssl-images-amazon.com/images/I/91KzcL9UNGL._SY550_.jpg",
@@ -9174,8 +9174,8 @@
     "status": "available"
   },
   {
-    "product_id": 10835,
-    "product_name": "BIKANO Peanut Salted 200gm",
+    "A": 10835,
+    "product_name": "BIKANKO Peanut Salted 200gm",
     "product_size": "200 GM",
     "product_price": 50,
     "product_image_url": "https://images-na.ssl-images-amazon.com/images/I/91YLZG5KXYL._SY606_.jpg",
@@ -9185,8 +9185,8 @@
     "status": "available"
   },
   {
-    "product_id": 10836,
-    "product_name": "BIKANO Shahi Mix 200gm",
+    "A": 10836,
+    "product_name": "BIKANKO Shahi Mix 200gm",
     "product_size": "200 GM",
     "product_price": 50,
     "product_image_url": "https://images-na.ssl-images-amazon.com/images/I/71zAuGP-wmL._SX569_.jpg",
@@ -9196,8 +9196,8 @@
     "status": "available"
   },
   {
-    "product_id": 10837,
-    "product_name": "BIKANO TASTY 200+50G",
+    "A": 10837,
+    "product_name": "BIKANKO TASTY 200+50G",
     "product_size": "250 GM",
     "product_price": 48,
     "product_image_url": "https://images-na.ssl-images-amazon.com/images/I/7134PT5%2BHWL._SX569_.jpg",
@@ -9207,8 +9207,8 @@
     "status": "available"
   },
   {
-    "product_id": 10838,
-    "product_name": "BIKANO Alo Bhujia 400g",
+    "A": 10838,
+    "product_name": "BIKANKO Alo Bhujia 400g",
     "product_size": "400 GM",
     "product_price": 95,
     "product_image_url": "https://images-na.ssl-images-amazon.com/images/I/81eHy3toQvL._SL1500_.jpg",
@@ -9218,8 +9218,8 @@
     "status": "available"
   },
   {
-    "product_id": 10839,
-    "product_name": "BIKANO Badam Lacha 400g",
+    "A": 10839,
+    "product_name": "BIKANKO Badam Lacha 400g",
     "product_size": "400 GM",
     "product_price": 163,
     "product_image_url": "https://lh3.googleusercontent.com/proxy/e7bvcEl5lGdQu2tuvnzKOHsXaJ8EnmywhUJb7UvbrKlqPkMkMpzUpL7A8i18cTxyZ1K1avMZCb08ZVg3-_1TaLcOWTxilGzs-UjjxBwC2hbennF4uziQkoDCZgzNpUs",
@@ -9229,8 +9229,8 @@
     "status": "available"
   },
   {
-    "product_id": 10840,
-    "product_name": "BIKANO Bikaneri Bhujia 400gm",
+    "A": 10840,
+    "product_name": "BIKANKO Bikaneri Bhujia 400gm",
     "product_size": "400 GM",
     "product_price": 95,
     "product_image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcThtY_B36SQpfgF7h_o7rm_Jn0h5Ux_140tZRGCW0bTVHt9r8uL&usqp=CAU",
@@ -9240,8 +9240,8 @@
     "status": "available"
   },
   {
-    "product_id": 10841,
-    "product_name": "BIKANO Cornflakes Mix 400gm",
+    "A": 10841,
+    "product_name": "BIKANKO Cornflakes Mix 400gm",
     "product_size": "400 GM",
     "product_price": 129,
     "product_image_url": "https://images-na.ssl-images-amazon.com/images/I/71HeOE%2BnhPL._SX569_.jpg",
@@ -9251,8 +9251,8 @@
     "status": "available"
   },
   {
-    "product_id": 10842,
-    "product_name": "BIKANO KAJU MIX 400GM",
+    "A": 10842,
+    "product_name": "BIKANKO KAJU MIX 400GM",
     "product_size": "400 GM",
     "product_price": 139,
     "product_image_url": "https://images-na.ssl-images-amazon.com/images/I/81eepzDjLyL._SX569_.jpg",
@@ -9262,8 +9262,8 @@
     "status": "available"
   },
   {
-    "product_id": 10843,
-    "product_name": "BIKANO Khatta Meetha 400gm",
+    "A": 10843,
+    "product_name": "BIKANKO Khatta Meetha 400gm",
     "product_size": "400 GM",
     "product_price": 95,
     "product_image_url": "https://fnbshops.com/wp-content/uploads/2019/06/bikano_khatta_meetha_hye6k.jpg",
@@ -9273,8 +9273,8 @@
     "status": "available"
   },
   {
-    "product_id": 10844,
-    "product_name": "BIKANO Moong Dal 400gm",
+    "A": 10844,
+    "product_name": "BIKANKO Moong Dal 400gm",
     "product_size": "400 GM",
     "product_price": 99,
     "product_image_url": "https://fnbshops.com/wp-content/uploads/2019/06/bikano_moong_dal_pla_q6MXR-598x600.jpg",
@@ -9284,8 +9284,8 @@
     "status": "available"
   },
   {
-    "product_id": 10845,
-    "product_name": "BIKANO Navratan Mix 400gm",
+    "A": 10845,
+    "product_name": "BIKANKO Navratan Mix 400gm",
     "product_size": "400 GM",
     "product_price": 95,
     "product_image_url": "https://images-na.ssl-images-amazon.com/images/I/91KzcL9UNGL._SY550_.jpg",
@@ -9295,8 +9295,8 @@
     "status": "available"
   },
   {
-    "product_id": 10846,
-    "product_name": "BIKANO Shahi Mix 400gm",
+    "A": 10846,
+    "product_name": "BIKANKO Shahi Mix 400gm",
     "product_size": "400 GM",
     "product_price": 99,
     "product_image_url": "https://images-na.ssl-images-amazon.com/images/I/71zAuGP-wmL._SX569_.jpg",
@@ -9306,8 +9306,8 @@
     "status": "available"
   },
   {
-    "product_id": 10847,
-    "product_name": "BIKANO Tasty 400gm",
+    "A": 10847,
+    "product_name": "BIKANKO Tasty 400gm",
     "product_size": "400 GM",
     "product_price": 95,
     "product_image_url": "https://images-na.ssl-images-amazon.com/images/I/7134PT5%2BHWL._SX569_.jpg",
@@ -9317,8 +9317,8 @@
     "status": "available"
   },
   {
-    "product_id": 10848,
-    "product_name": "BIKANO Dry Petha 400 Gm",
+    "A": 10848,
+    "product_name": "BIKANKO Dry Petha 400 Gm",
     "product_size": "400 GM",
     "product_price": 90,
     "product_image_url": "https://images-na.ssl-images-amazon.com/images/I/71lwVag%2BbrL._SX679_.jpg",
@@ -9328,8 +9328,8 @@
     "status": "available"
   },
   {
-    "product_id": 10849,
-    "product_name": "BIKANO GULAB JAMUN 1kg.",
+    "A": 10849,
+    "product_name": "BIKANKO GULAB JAMUN 1kg.",
     "product_size": "1 KG",
     "product_price": 210,
     "product_image_url": "https://s3.ap-south-1.amazonaws.com/mumbai.urbanpiper.com/media/bizmedia/l/2019/02/08/gulab-jamun-1-kg_COMPRESSED.jpg",
@@ -9339,8 +9339,8 @@
     "status": "available"
   },
   {
-    "product_id": 10850,
-    "product_name": "BIKANO Kesar Angoori Petha",
+    "A": 10850,
+    "product_name": "BIKANKO Kesar Angoori Petha",
     "product_size": "1 KG",
     "product_price": 210,
     "product_image_url": "https://s3.ap-south-1.amazonaws.com/mumbai.urbanpiper.com/media/bizmedia/l/2019/02/08/kesar-angoori-petha-1-kg_COMPRESSED.jpg",
@@ -9350,8 +9350,8 @@
     "status": "available"
   },
   {
-    "product_id": 10851,
-    "product_name": "BIKANO KESAR RASBARI 1kg.",
+    "A": 10851,
+    "product_name": "BIKANKO KESAR RASBARI 1kg.",
     "product_size": "1 KG",
     "product_price": 210,
     "product_image_url": "https://s3.ap-south-1.amazonaws.com/mumbai.urbanpiper.com/media/bizmedia/l/2019/02/08/kesar-rasbhari-1-kg_COMPRESSED.jpg",
@@ -9361,8 +9361,8 @@
     "status": "available"
   },
   {
-    "product_id": 10852,
-    "product_name": "BIKANO Rajbhog 1 Kg",
+    "A": 10852,
+    "product_name": "BIKANKO Rajbhog 1 Kg",
     "product_size": "1 KG",
     "product_price": 210,
     "product_image_url": "https://s3.ap-south-1.amazonaws.com/mumbai.urbanpiper.com/media/bizmedia/l/2019/02/08/rajbhoj-1-kg_COMPRESSED.jpg",
@@ -9372,8 +9372,8 @@
     "status": "available"
   },
   {
-    "product_id": 10853,
-    "product_name": "BIKANO Rasgulla 1kg",
+    "A": 10853,
+    "product_name": "BIKANKO Rasgulla 1kg",
     "product_size": "1 KG",
     "product_price": 210,
     "product_image_url": "https://www.dpsainiflorist.com/wp-content/uploads/2016/10/ras.jpg",
@@ -9383,8 +9383,8 @@
     "status": "available"
   },
   {
-    "product_id": 10854,
-    "product_name": "BIKANO Soan Papdi 250gm +20gm",
+    "A": 10854,
+    "product_name": "BIKANKO Soan Papdi 250gm +20gm",
     "product_size": "250 GM",
     "product_price": 75,
     "product_image_url": "https://images-na.ssl-images-amazon.com/images/I/71YpPtaD9AL._SL1200_.jpg",
@@ -9394,8 +9394,8 @@
     "status": "available"
   },
   {
-    "product_id": 10855,
-    "product_name": "BIKANO Soan Papdi 400gm",
+    "A": 10855,
+    "product_name": "BIKANKO Soan Papdi 400gm",
     "product_size": "400 GM",
     "product_price": 110,
     "product_image_url": "https://images-na.ssl-images-amazon.com/images/I/71YpPtaD9AL._SL1200_.jpg",
@@ -9405,8 +9405,8 @@
     "status": "available"
   },
   {
-    "product_id": 10856,
-    "product_name": "BIKANO Soan Papdi 500gm +20gm",
+    "A": 10856,
+    "product_name": "BIKANKO Soan Papdi 500gm +20gm",
     "product_size": "500 GM",
     "product_price": 140,
     "product_image_url": "https://images-na.ssl-images-amazon.com/images/I/71YpPtaD9AL._SL1200_.jpg",
@@ -9416,8 +9416,8 @@
     "status": "available"
   },
   {
-    "product_id": 10857,
-    "product_name": "BIKANO Soan Papdi 900gm *",
+    "A": 10857,
+    "product_name": "BIKANKO Soan Papdi 900gm *",
     "product_size": "900 GM",
     "product_price": 250,
     "product_image_url": "https://images-na.ssl-images-amazon.com/images/I/71YpPtaD9AL._SL1200_.jpg",
@@ -9427,8 +9427,8 @@
     "status": "available"
   },
   {
-    "product_id": 10858,
-    "product_name": "BIKANO Soan Papdi Desi Ghee 250 Gm",
+    "A": 10858,
+    "product_name": "BIKANKO Soan Papdi Desi Ghee 250 Gm",
     "product_size": "250 GM",
     "product_price": 97,
     "product_image_url": "https://images-na.ssl-images-amazon.com/images/I/61hGiYcQDRL._SL1032_.jpg",
@@ -9438,8 +9438,8 @@
     "status": "available"
   },
   {
-    "product_id": 10859,
-    "product_name": "BIKANO Soan Papdi Desi Ghee 500g*\\",
+    "A": 10859,
+    "product_name": "BIKANKO Soan Papdi Desi Ghee 500g*\\",
     "product_size": "500GM",
     "product_price": 180,
     "product_image_url": "https://images-na.ssl-images-amazon.com/images/I/61hGiYcQDRL._SL1032_.jpg",
@@ -9449,7 +9449,7 @@
     "status": "available"
   },
   {
-    "product_id": 10860,
+    "A": 10860,
     "product_name": "Syrup Jeera Shikanji",
     "product_size": "1 KG",
     "product_price": 150,
@@ -9460,7 +9460,7 @@
     "status": "available"
   },
   {
-    "product_id": 10861,
+    "A": 10861,
     "product_name": "SYRUP KHUSH",
     "product_size": "1 KG",
     "product_price": 150,
@@ -9471,7 +9471,7 @@
     "status": "available"
   },
   {
-    "product_id": 10862,
+    "A": 10862,
     "product_name": "Syrup Orange",
     "product_size": "1 KG",
     "product_price": 150,
@@ -9482,7 +9482,7 @@
     "status": "available"
   },
   {
-    "product_id": 10863,
+    "A": 10863,
     "product_name": "Syrup Rose",
     "product_size": "1 KG",
     "product_price": 150,
@@ -9493,7 +9493,7 @@
     "status": "available"
   },
   {
-    "product_id": 10864,
+    "A": 10864,
     "product_name": "Syrup Thandai",
     "product_size": "1 KG",
     "product_price": 270,

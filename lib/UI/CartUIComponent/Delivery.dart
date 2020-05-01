@@ -149,7 +149,13 @@ void showInSnackBar(String value) {
                       if(_add1Controller.text =="" || _cityController.text =="" || _mobileNumberController.text =="" || _landmarkController.text ==""){
    print("fill all details first");
    showInSnackBar("Kindly fill all details first");
-                  }else{
+                  }else if(_mobileNumberController.text.length <10){
+   showInSnackBar("Invalid Mobile Number");
+                  }
+                  
+                  
+                  
+                  else{
                                        Navigator.of(context).pushReplacement(PageRouteBuilder(
                           pageBuilder: (_, __, ___) => ConfirmScreen(address: _add1Controller.text,city: _cityController.text,landmark: _landmarkController.text,mobile: _mobileNumberController.text,)));
                   }
@@ -165,7 +171,7 @@ void showInSnackBar(String value) {
                       child: Center(
                         child: Text(
                           // AppLocalizations.of(context).tr('goPayment'),
-                          "Go to Payment",
+                          "Proceed",
                           style: TextStyle(
                               color: Colors.white,
                               fontWeight: FontWeight.w700,

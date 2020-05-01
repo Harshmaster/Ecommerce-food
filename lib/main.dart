@@ -8,13 +8,19 @@ import 'package:kirana_app/UI/BottomNavigationBar.dart';
 // import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:kirana_app/UI/LoginOrSignup/ChoseLoginOrSignup.dart';
 import 'package:kirana_app/UI/OnBoarding.dart';
+import 'package:kirana_app/colors.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:firebase_analytics/firebase_analytics.dart';
+import 'package:firebase_analytics/observer.dart';
 
 /// Run first apps open
 void main() => runApp(EasyLocalization(child: myApp())); 
 
 /// Set orienttation
 class myApp extends StatelessWidget {
+
+static FirebaseAnalytics analytics = FirebaseAnalytics();
+static FirebaseAnalyticsObserver observer = FirebaseAnalyticsObserver(analytics: analytics);
 
   @override
   Widget build(BuildContext context) {
@@ -26,12 +32,12 @@ class myApp extends StatelessWidget {
     ]);
     ///Set color status bar
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.light.copyWith(
-      statusBarColor: Colors.transparent, //or set color with: Color(0xFF0000FF)
+      statusBarColor: Colors.white, //or set color with: Color(0xFF0000FF)
     ));
     return EasyLocalizationProvider(
       data: data,
           child: new MaterialApp(
-        title: "Treva Shop",
+        title: "Rasoi Ghar",
         theme: ThemeData(
             brightness: Brightness.light,
             backgroundColor: Colors.white,
@@ -39,7 +45,10 @@ class myApp extends StatelessWidget {
             primaryColorBrightness: Brightness.light,
             primaryColor: Colors.white),
         debugShowCheckedModeBanner: false,
-        home: SplashScreen(),
+        navigatorObservers: <NavigatorObserver>[
+          observer
+        ],
+        home: SplashScreen(analytics:analytics,observer:observer),
        
         // localizationsDelegates: [
         //  GlobalMaterialLocalizations.delegate,
@@ -49,9 +58,9 @@ class myApp extends StatelessWidget {
         //     path: 'assets/language',
         //     )
         // ],
-          supportedLocales: [
-            Locale('en','US'),Locale('zh','HK'),Locale('ar','DZ'),Locale('hi','IN'),Locale('id','ID')
-          ],
+          // supportedLocales: [
+          //   Locale('en','US'),Locale('zh','HK'),Locale('ar','DZ'),Locale('hi','IN'),Locale('id','ID')
+          // ],
           // locale: data.savedLocale,
 
       ),
@@ -59,11 +68,14 @@ class myApp extends StatelessWidget {
   }
 }
 
-class EasylocaLizationDelegate {
-}
+// class EasylocaLizationDelegate {
+// }
 
 /// Component UI
 class SplashScreen extends StatefulWidget {
+final FirebaseAnalytics analytics;
+final FirebaseAnalyticsObserver observer;
+  SplashScreen({this.analytics,this.observer});
   @override
   _SplashScreenState createState() => _SplashScreenState();
 }
@@ -97,6 +109,12 @@ SharedPreferences prefs;
     });
   }
 
+// Future<Null> _sendAnalytics() async{
+// await widget.analytics.logEvent(name: "Splash Screen Logged",
+// parameters: <String,dynamic>{}
+// );
+// print("Splash Screen logged");
+// }
   
   @override
   /// Setting duration in splash screen
@@ -115,7 +133,7 @@ SharedPreferences prefs;
                         Navigator.of(context).pushReplacement(MaterialPageRoute(
             builder: (BuildContext context) => new bottomNavigationBar()));
       }else{
-        Navigator.of(context).pushReplacement(PageRouteBuilder(pageBuilder: (_,__,___)=> ChoseLogin()));
+        Navigator.of(context).pushReplacement(PageRouteBuilder(pageBuilder: (_,__,___)=> ChoseLogin(analytics:widget.analytics,observer: widget.observer,)));
       }
       
       
@@ -127,6 +145,7 @@ SharedPreferences prefs;
     super.initState();
     startTime();
     _function();
+    // _sendAnalytics();r
   }
   /// Code Create UI Splash Screen
   Widget build(BuildContext context) {
@@ -141,7 +160,8 @@ SharedPreferences prefs;
           //     image: DecorationImage(
           //         image: AssetImage('assets/img/man.png'), fit: BoxFit.cover)),
           // color: Colors.orangeAccent,
-          color: Colors.redAccent,
+          // color: Colors.redAccent,
+          color: ColorPlatte.themecolor,
           child: Container(
             /// Set gradient black in image splash screen (Click to open code)
             decoration: BoxDecoration(
@@ -178,7 +198,7 @@ SharedPreferences prefs;
                         tag: "Treva",
                         child: Text(
                           // AppLocalizations.of(context).tr('title'),
-                          "Mirchi \nMasala",
+                          "Rasoi Ghar",
                           style: TextStyle(
                             fontFamily: 'gotik',
                             fontWeight: FontWeight.w900,

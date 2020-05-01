@@ -2,16 +2,24 @@ import 'dart:async';
 
 import 'package:easy_localization/easy_localization_delegate.dart';
 import 'package:easy_localization/easy_localization_provider.dart';
+import 'package:firebase_analytics/observer.dart';
 import 'package:flutter/material.dart';
 import 'package:kirana_app/Service/notification_handler.dart';
+import 'package:kirana_app/colors.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:kirana_app/Service/authentication.dart';
 import 'package:kirana_app/UI/BottomNavigationBar.dart';
 import 'package:kirana_app/UI/LoginOrSignup/Login.dart';
 import 'package:kirana_app/UI/LoginOrSignup/LoginAnimation.dart';
+import 'package:firebase_analytics/firebase_analytics.dart';
 
 class Signup extends StatefulWidget {
+  final FirebaseAnalytics analytics;
+  final FirebaseAnalyticsObserver observer;
+
+  Signup({this.analytics, this.observer});
+
   @override
   _SignupState createState() => _SignupState();
 }
@@ -46,6 +54,15 @@ class _SignupState extends State<Signup> with TickerProviderStateMixin {
     super.dispose();
   }
 
+  final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
+
+  void showInSnackBar(String value) {
+    _scaffoldKey.currentState.showSnackBar(new SnackBar(
+      backgroundColor: Colors.red,
+      content: new Text(value),
+    ));
+  }
+
   TextEditingController _emailController = TextEditingController();
   TextEditingController _passController = TextEditingController();
   TextEditingController _nameController = TextEditingController();
@@ -72,6 +89,7 @@ class _SignupState extends State<Signup> with TickerProviderStateMixin {
     return EasyLocalizationProvider(
       data: data,
       child: Scaffold(
+        key: _scaffoldKey,
         body: Stack(
           children: <Widget>[
             Container(
@@ -81,19 +99,19 @@ class _SignupState extends State<Signup> with TickerProviderStateMixin {
               //   image: AssetImage("assets/img/backgroundgirl.png"),
               //   fit: BoxFit.cover,
               // )),
-              color: Colors.green,
+              color: ColorPlatte.themecolor,
               child: Container(
                 /// Set gradient color in image
-                decoration: BoxDecoration(
-                  gradient: LinearGradient(
-                    colors: [
-                      Color.fromRGBO(0, 0, 0, 0.2),
-                      Color.fromRGBO(0, 0, 0, 0.3)
-                    ],
-                    begin: FractionalOffset.topCenter,
-                    end: FractionalOffset.bottomCenter,
-                  ),
-                ),
+                // decoration: BoxDecoration(
+                //   gradient: LinearGradient(
+                //     colors: [
+                //       Color.fromRGBO(0, 0, 0, 0.2),
+                //       Color.fromRGBO(0, 0, 0, 0.3)
+                //     ],
+                //     begin: FractionalOffset.topCenter,
+                //     end: FractionalOffset.bottomCenter,
+                //   ),
+                // ),
 
                 /// Set component layout
                 child: ListView(
@@ -112,10 +130,10 @@ class _SignupState extends State<Signup> with TickerProviderStateMixin {
                               Row(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: <Widget>[
-                                  Image(
-                                    image: AssetImage("assets/img/Logo.png"),
-                                    height: 70.0,
-                                  ),
+                                  // Image(
+                                  //   image: AssetImage("assets/img/Logo.png"),
+                                  //   height: 70.0,
+                                  // ),
                                   Padding(
                                       padding: EdgeInsets.symmetric(
                                           horizontal: 10.0)),
@@ -125,13 +143,13 @@ class _SignupState extends State<Signup> with TickerProviderStateMixin {
                                     tag: "Treva",
                                     child: Text(
                                       // AppLocalizations.of(context).tr('title'),
-                                      "Mirch Masala",
+                                      "Rasoi Ghar",
                                       style: TextStyle(
                                           fontWeight: FontWeight.w900,
                                           letterSpacing: 0.6,
-                                          fontFamily: "Sans",
+                                          fontFamily: "gotik",
                                           color: Colors.white,
-                                          fontSize: 20.0),
+                                          fontSize: 40.0),
                                     ),
                                   ),
                                 ],
@@ -196,11 +214,11 @@ class _SignupState extends State<Signup> with TickerProviderStateMixin {
                                     Navigator.of(context).pushReplacement(
                                         MaterialPageRoute(
                                             builder: (BuildContext context) =>
-                                                new loginScreen()));
+                                                new loginScreen(analytics: widget.analytics,observer: widget.observer,)));
                                   },
                                   child: Text(
                                     // AppLocalizations.of(context).tr('notHaveLogin'),
-                                    "Allready have a Account??",
+                                    "Already have a Account??",
                                     style: TextStyle(
                                         color: Colors.white,
                                         fontSize: 13.0,
@@ -231,40 +249,49 @@ class _SignupState extends State<Signup> with TickerProviderStateMixin {
                           ? GestureDetector(
                               onTap: () {
                                 print("pressed");
-                                setState(() {
-                                  isloading = true;
-                                });
-                                signUp(
-                                        _nameController.text,
-                                        _emailController.text,
-                                        _passController.text,
-                                        _phonenumberController.text,
-                                        context)
-                                    .then((value) {
-                                  print(value);
 
-                                  if (value) {
-                                    setPrefabData();
-                                    Navigator.of(context).pushReplacement(
-                                        MaterialPageRoute(
-                                            builder: (BuildContext context) =>
-                                                new bottomNavigationBar()));
-                                  } else {
-                                    setState(() {
-                                      isloading = false;
-                                    });
-                                    // setState(() {
-                                    //   tap = 1;
-                                    // });
+                                if (_phonenumberController.text.length < 10 ||
+                                    _phonenumberController.text.length > 10) {
+                                  print("Invalid Phone number");
+                                  showInSnackBar("Invalid Phone number");
+                                } else {
+                                  setState(() {
+                                    isloading = true;
+                                  });
+                                  signUp(
+                                          _nameController.text,
+                                          _emailController.text,
+                                          _passController.text,
+                                          _phonenumberController.text,
+                                          context)
+                                      .then((value) {
+                                    print(value);
 
-                                  }
-                                });
+                                    if (value) {
+                                      setPrefabData();
+                                      Navigator.of(context).pushReplacement(
+                                          MaterialPageRoute(
+                                              builder: (BuildContext context) =>
+                                                  new bottomNavigationBar(analytics: widget.analytics,observer: widget.observer,)));
+                                    } else {
+                                      setState(() {
+                                        isloading = false;
+                                      });
+                                      // setState(() {
+                                      //   tap = 1;
+                                      // });
+
+                                    }
+                                  });
+                                }
                               },
                               child: SizedBox(child: buttonBlackBottom()))
                           : SizedBox(
                               height: 50,
                               width: 50,
-                              child: CircularProgressIndicator(),
+                              child: CircularProgressIndicator(
+                                backgroundColor: Colors.white,
+                              ),
                             ),
                     )
                     // : new LoginAnimation(

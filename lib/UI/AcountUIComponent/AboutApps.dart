@@ -1,6 +1,7 @@
 import 'package:easy_localization/easy_localization_delegate.dart';
 import 'package:easy_localization/easy_localization_provider.dart';
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class aboutApps extends StatefulWidget {
   @override
@@ -23,6 +24,21 @@ class _aboutAppsState extends State<aboutApps> {
     fontWeight: FontWeight.w500,
     fontFamily: "Gotik",
   );
+String userId;
+getid()async{
+
+   SharedPreferences prefs =  await SharedPreferences.getInstance();
+   setState(() {
+     userId = prefs.getString("userId");
+   });
+
+}
+
+@override
+void initState() { 
+  super.initState();
+  getid();
+}
 
   Widget build(BuildContext context) {
         var data = EasyLocalizationProvider.of(context).data;
@@ -32,7 +48,7 @@ class _aboutAppsState extends State<aboutApps> {
         appBar: AppBar(
           title: Text(
             // AppLocalizations.of(context).tr('aboutApps'),
-            "About Mirch Masala",
+            "About Rasoi Ghar",
             style: TextStyle(
                 fontWeight: FontWeight.w700,
                 fontSize: 15.0,
@@ -59,10 +75,7 @@ class _aboutAppsState extends State<aboutApps> {
                   padding: EdgeInsets.only(top: 10.0, left: 15.0,right: 15.0),
                   child: Row(
                     children: <Widget>[
-                      Image.asset(
-                        "assets/img/Logo.png",
-                        height: 50.0,
-                      ),
+                      Icon(Icons.shopping_cart,color: Colors.redAccent,size: 40,),
                       Padding(
                         padding: const EdgeInsets.only(left: 12.0),
                         child: Column(
@@ -70,7 +83,7 @@ class _aboutAppsState extends State<aboutApps> {
                           children: <Widget>[
                             Text(
                               // AppLocalizations.of(context).tr('title'),
-                              "title",
+                              "Rasoi Ghar",
                               style: _txtCustomSub.copyWith(
                                   fontWeight: FontWeight.w600),
                             ),
@@ -95,16 +108,31 @@ class _aboutAppsState extends State<aboutApps> {
                 Padding(
                   padding: const EdgeInsets.all(15.0),
                   child: Text(
-                    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the "
-                        "industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and "
-                        "scrambled it to make a type specimen book. \n\n\n It has survived not only five centuries, but also "
-                        "the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the "
-                        "1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with "
-                        "desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                    "Rasoi Ghar is an online supermarket where customers can purchase - Grocery, household items, personal care products and anything needed in a household on day to day basis. Unbeatable prices and discounts with fast and timely home delivery in chhatarpur mp. Your Grocery is now just a click away. With Rasoi Ghar app you can buy all your household needs including - Grocery, beverages, oils, cleaning products, household items, personal care products - with a touch of your fingertips. why stand in line when you can get online.",
                     style: _txtCustomSub,
                     textAlign: TextAlign.justify,
                   ),
-                )
+                ),
+                       Padding(
+                padding: const EdgeInsets.only(top: 5.0),
+                child: Text(
+                  // AppLocalizations.of(context).tr('name'),
+                  userId != null ? "User Id: "+userId : "Rasoi Ghar User",
+                  style: TextStyle(
+                    fontSize: 10
+                  ),
+                ),
+              ),
+                           Padding(
+                padding: const EdgeInsets.only(top: 5.0),
+                child: Text(
+                  // AppLocalizations.of(context).tr('name'),
+                  "Version 2.2",
+                  style: TextStyle(
+                    fontSize: 10
+                  ),
+                ),
+              ),
               ],
             ),
           ),

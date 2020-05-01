@@ -4,8 +4,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class chatItem extends StatefulWidget {
-  String message = "Please tell us about your isuee...";
-  chatItem({this.message});
   @override
   _chatItemState createState() => _chatItemState();
 }
@@ -25,10 +23,10 @@ class _chatItemState extends State<chatItem> with TickerProviderStateMixin {
   }
 
   final List<Msg> _messages = <Msg>[];
- 
-  final TextEditingController _textController = new TextEditingController(text: custommsg.toString());
+
+  final TextEditingController _textController = new TextEditingController();
   bool _isWriting = false;
-static String custommsg;
+  static String custommsg;
   @override
   void initState() {
     // TODO: implement initState
@@ -38,7 +36,7 @@ static String custommsg;
 
   @override
   Widget build(BuildContext context) {
-    custommsg = widget.message.toString();
+    // custommsg = widget.message.toString();
     var data = EasyLocalizationProvider.of(context).data;
     return EasyLocalizationProvider(
       data: data,
@@ -65,27 +63,34 @@ static String custommsg;
                     stream: Firestore.instance
                         .collection("chat_rooms")
                         .document(userId)
-                        .collection("chats").orderBy("time")
+                        .collection("chats")
+                        .orderBy("time")
                         .snapshots(),
                     builder: (context, snapshot) {
                       if (snapshot.hasData) {
-                        if(snapshot.data.documents.length >0){
-                        return ListView.builder(
-                            shrinkWrap: true,
-                            itemCount: snapshot.data.documents.length,
-                            itemBuilder: (context, index) {
-                              return Container(
-                                
-                            padding: EdgeInsets.symmetric(vertical: 10,horizontal: 10),
-                                child: Text(snapshot
-                                    .data.documents[index].data["text"],style: TextStyle(
-                                      fontSize: 20
-                                    ),),
-                              );
-                            });}
-                             else {
-                        return NoMessage();
-                      }
+                        if (snapshot.data.documents.length > 0) {
+                          return ListView.builder(
+                              shrinkWrap: true,
+                              itemCount: snapshot.data.documents.length,
+                              itemBuilder: (context, index) {
+                                return ChatMessage(
+                                    snapshot.data.documents[index].data["text"],
+                                    "2:30",
+                                    snapshot
+                                        .data.documents[index].data["isUser"]);
+
+                                //   Container(
+
+                                // padding: EdgeInsets.symmetric(vertical: 10,horizontal: 10),
+                                //     child: Text(snapshot
+                                //         .data.documents[index].data["text"],style: TextStyle(
+                                //           fontSize: 20
+                                //         ),),
+                                //   );
+                              });
+                        } else {
+                          return NoMessage();
+                        }
                       } else {
                         return NoMessage();
                       }
@@ -123,40 +128,43 @@ static String custommsg;
     return new IconTheme(
       data: new IconThemeData(color: Theme.of(context).accentColor),
       child: new Container(
-          margin: const EdgeInsets.symmetric(horizontal: 9.0),
+          margin: const EdgeInsets.symmetric(horizontal: 9.0, vertical: 10),
           child: new Row(
             children: <Widget>[
-              Icon(
-                Icons.add,
-                color: Colors.blueAccent,
-                size: 27.0,
-              ),
+              // Icon(
+              //   Icons.add,
+              //   color: Colors.blueAccent,
+              //   size: 27.0,
+              // ),
               new Flexible(
-                child: Padding(
-                  padding: const EdgeInsets.only(left: 5.0),
-                  child: Container(
-                    decoration: BoxDecoration(
-                      border: Border.all(color: Colors.black12),
-                    ),
-                    child: Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: new TextField(
-                        controller: _textController,
-                        
-                        onChanged: (String txt) {
-                          setState(() {
-                            _isWriting = txt.length > 0;
-                          });
-                        },
-                        onSubmitted: _submitMsg,
-                        decoration: new InputDecoration.collapsed(
-                            hintText:
-                                // AppLocalizations.of(context).tr('hintChat'),
-                                "Please tell us about your isuee...",
-                            hintStyle: TextStyle(
-                                fontFamily: "Sans",
-                                fontSize: 16.0,
-                                color: Colors.black26)),
+                child: Container(
+                  // margin: EdgeInsets.symmetric(vertical: 10),
+                  child: Padding(
+                    padding: const EdgeInsets.only(left: 5.0),
+                    child: Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(20),
+                        border: Border.all(color: Colors.black12),
+                      ),
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: new TextField(
+                          controller: _textController,
+                          onChanged: (String txt) {
+                            setState(() {
+                              _isWriting = txt.length > 0;
+                            });
+                          },
+                          onSubmitted: _submitMsg,
+                          decoration: new InputDecoration(
+                              hintText:
+                                  // AppLocalizations.of(context).tr('hintChat'),
+                                  "Please tell us about your issue...",
+                              hintStyle: TextStyle(
+                                  fontFamily: "Sans",
+                                  fontSize: 16.0,
+                                  color: Colors.black26)),
+                        ),
                       ),
                     ),
                   ),
@@ -171,7 +179,7 @@ static String custommsg;
                               ? () => _submitMsg(_textController.text)
                               : null)
                       : new IconButton(
-                          icon: new Icon(Icons.message),
+                          icon: new Icon(Icons.send),
                           onPressed: _isWriting
                               ? () => _submitMsg(_textController.text)
                               : null,
@@ -204,18 +212,48 @@ static String custommsg;
 // }else{
 
 // }
-
-    Firestore.instance
+    var doc = await Firestore.instance
         .collection("chat_rooms")
         .document(userId)
-        .collection("chats")
-        .add({
-      "text": txt,
-      "sender": userId,
-      "time": DateTime.now(),
-    }).then((onValue) {
-      print("Sent!");
-    });
+        .get();
+
+    if (doc.exists) {
+      Firestore.instance
+          .collection("chat_rooms")
+          .document(userId)
+          .collection("chats")
+          .add({
+        "text": txt,
+        "sender": userId,
+        "time": DateTime.now(),
+        "user_name": username,
+        "isUser": true
+      }).then((onValue) {
+        print("Sent!");
+      });
+    } else {
+      print("First time chat");
+      Firestore.instance.collection("chat_rooms").document(userId).setData({
+        "userId": userId,
+        "user_name": username,
+        "first_timestamp": DateTime.now(),
+        "isUser": true,
+        "sender":"admin"
+      });
+
+      Firestore.instance
+          .collection("chat_rooms")
+          .document(userId)
+          .collection("chats")
+          .add({
+        "text": txt,
+        "sender": userId,
+        "time": DateTime.now(),
+         "isUser": true,
+      }).then((onValue) {
+        print("Sent!");
+      });
+    }
 
     // Msg msg = new Msg(
     //   txt: txt,
@@ -234,6 +272,40 @@ static String custommsg;
       msg.animationController.dispose();
     }
     super.dispose();
+  }
+}
+
+class ChatMessage extends StatelessWidget {
+  final String text, time;
+  bool isCurrentUser;
+  ChatMessage(this.text, this.time, this.isCurrentUser);
+  
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      child: Row(
+        mainAxisAlignment:
+            isCurrentUser ? MainAxisAlignment.end : MainAxisAlignment.start,
+        children: <Widget>[
+          Container(
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(15),
+              color: isCurrentUser ? Colors.blueAccent : Colors.blue,
+              // color: Colors.green[300],
+            ),
+            padding: EdgeInsets.all(8),
+            margin: EdgeInsets.all(8),
+            child: Text(
+              text,
+              style: TextStyle(
+                fontSize: 16,
+                color: Colors.white,
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
   }
 }
 
@@ -322,9 +394,9 @@ class NoMessage extends StatelessWidget {
                 fontSize: 17.0,
                 fontFamily: "Popins"),
           )),
-           Padding(
-             padding: const EdgeInsets.symmetric(horizontal: 30,vertical: 20),
-             child: Center(
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 20),
+            child: Center(
                 child: Text(
               // AppLocalizations.of(context).tr('notHaveMessage'),
               "Please drop a text in case of any issue/query",
@@ -334,8 +406,8 @@ class NoMessage extends StatelessWidget {
                   color: Colors.black12,
                   fontSize: 17.0,
                   fontFamily: "Popins"),
-          )),
-           ),
+            )),
+          ),
         ],
       ),
     ));

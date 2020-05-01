@@ -1,13 +1,19 @@
 import 'dart:async';
 import 'package:easy_localization/easy_localization_delegate.dart';
 import 'package:easy_localization/easy_localization_provider.dart';
+import 'package:firebase_analytics/firebase_analytics.dart';
+import 'package:firebase_analytics/observer.dart';
 import 'package:flutter/material.dart';
 import 'package:kirana_app/Library/carousel_pro/src/carousel_pro.dart';
 import 'package:kirana_app/UI/BottomNavigationBar.dart';
 import 'package:kirana_app/UI/LoginOrSignup/Login.dart';
 import 'package:kirana_app/UI/LoginOrSignup/Signup.dart';
+import 'package:kirana_app/colors.dart';
 
 class ChoseLogin extends StatefulWidget {
+  final FirebaseAnalytics analytics;
+final FirebaseAnalyticsObserver observer;
+  ChoseLogin({this.analytics,this.observer});
   @override
   _ChoseLoginState createState() => _ChoseLoginState();
 }
@@ -89,7 +95,7 @@ class _ChoseLoginState extends State<ChoseLogin> with TickerProviderStateMixin {
                   // AssetImage("assets/img/SliderLogin2.png"),
                   // AssetImage('assets/img/SliderLogin3.png'),
                   // AssetImage("assets/img/SliderLogin4.png"),
-                  Container(color: Colors.red,),
+                  Container(color: ColorPlatte.themecolor,),
                 ],
               ),
             ),
@@ -101,14 +107,14 @@ class _ChoseLoginState extends State<ChoseLogin> with TickerProviderStateMixin {
                   ),
               child: Container(
                 /// Set gradient color in image (Click to open code)
-                decoration: BoxDecoration(
-                    gradient: LinearGradient(
-                        colors: [
-                      Color.fromRGBO(0, 0, 0, 0.3),
-                      Color.fromRGBO(0, 0, 0, 0.4)
-                    ],
-                        begin: FractionalOffset.topCenter,
-                        end: FractionalOffset.bottomCenter)),
+                // decoration: BoxDecoration(
+                //     gradient: LinearGradient(
+                //         colors: [
+                //       Color.fromRGBO(0, 0, 0, 0.3),
+                //       Color.fromRGBO(0, 0, 0, 0.4)
+                //     ],
+                //         begin: FractionalOffset.topCenter,
+                //         end: FractionalOffset.bottomCenter)),
 
                 /// Set component layout
                 child: ListView(
@@ -135,9 +141,9 @@ class _ChoseLoginState extends State<ChoseLogin> with TickerProviderStateMixin {
                                       tag: "Treva",
                                       child: Text(
                                         // AppLocalizations.of(context).tr('title'),
-                                        "Mirch Masala",
+                                        "Rasoi Ghar",
                                         style: TextStyle(
-                                          fontFamily: 'Sans',
+                                          fontFamily: 'gotik',
                                           fontWeight: FontWeight.w900,
                                           fontSize: 32.0,
                                           letterSpacing: 0.4,
@@ -148,7 +154,7 @@ class _ChoseLoginState extends State<ChoseLogin> with TickerProviderStateMixin {
                                   ),
                                   Padding(
                                     padding: const EdgeInsets.only(top: 40),
-                                    child: Text("Chatarpur's No. 1\nOnline Grocery App",style: TextStyle(color: Colors.white,fontSize: 26,fontWeight: FontWeight.w700),textAlign: TextAlign.center,),
+                                    child: Text("Online Grocery App",style: TextStyle(color: Colors.white,fontSize: 26,fontWeight: FontWeight.w700,fontFamily: "gotik"),textAlign: TextAlign.center,),
                                   ),
 SizedBox(height: 100,),
                                   /// Padding Text "Get best product in treva shop" (Click to open code)
@@ -217,29 +223,29 @@ SizedBox(height: 100,),
                                         height: 0.2,
                                         width: 80.0,
                                       ),
-                                      Padding(
-                                        padding: EdgeInsets.only(
-                                            left: 10.0, right: 10.0),
+                                      // Padding(
+                                      //   padding: EdgeInsets.only(
+                                      //       left: 10.0, right: 10.0),
 
-                                        /// navigation to home screen if user click "OR SKIP" (Click to open code)
-                                        child: InkWell(
-                                          onTap: () {
-                                            Navigator.of(context).pushReplacement(
-                                                PageRouteBuilder(
-                                                    pageBuilder: (_, __, ___) =>
-                                                        new bottomNavigationBar()));
-                                          },
-                                          child: Text(
-                                            // AppLocalizations.of(context).tr('orSkip'),
-                                            "or Skip",
-                                            style: TextStyle(
-                                                color: Colors.white,
-                                                fontWeight: FontWeight.w100,
-                                                fontFamily: "Sans",
-                                                fontSize: 15.0),
-                                          ),
-                                        ),
-                                      ),
+                                      //   /// navigation to home screen if user click "OR SKIP" (Click to open code)
+                                      //   child: InkWell(
+                                      //     onTap: () {
+                                      //       Navigator.of(context).pushReplacement(
+                                      //           PageRouteBuilder(
+                                      //               pageBuilder: (_, __, ___) =>
+                                      //                   new bottomNavigationBar()));
+                                      //     },
+                                      //     child: Text(
+                                      //       // AppLocalizations.of(context).tr('orSkip'),
+                                      //       "or Skip",
+                                      //       style: TextStyle(
+                                      //           color: Colors.white,
+                                      //           fontWeight: FontWeight.w100,
+                                      //           fontFamily: "Sans",
+                                      //           fontSize: 15.0),
+                                      //     ),
+                                      //   ),
+                                      // ),
 
                                       /// To set white line (Click to open code)
                                       Container(
@@ -333,7 +339,10 @@ class ButtonCustom extends StatelessWidget {
 
 /// Set Animation Login if user click button login
 class AnimationSplashLogin extends StatefulWidget {
-  AnimationSplashLogin({Key key, this.animationController})
+    final FirebaseAnalytics analytics;
+final FirebaseAnalyticsObserver observer;
+
+  AnimationSplashLogin({Key key, this.animationController,this.analytics,this.observer})
       : animation = new Tween(
           end: 900.0,
           begin: 70.0,
@@ -368,7 +377,7 @@ class _AnimationSplashLoginState extends State<AnimationSplashLogin> {
   Widget build(BuildContext context) {
     widget.animationController.addListener(() {
       if (widget.animation.isCompleted) {
-        Navigator.of(context).pushReplacement(MaterialPageRoute(
+        Navigator.of(context).push(MaterialPageRoute(
             builder: (BuildContext context) => new loginScreen()));
       }
     });
@@ -381,7 +390,10 @@ class _AnimationSplashLoginState extends State<AnimationSplashLogin> {
 
 /// Set Animation signup if user click button signup
 class AnimationSplashSignup extends StatefulWidget {
-  AnimationSplashSignup({Key key, this.animationController})
+      final FirebaseAnalytics analytics;
+final FirebaseAnalyticsObserver observer;
+
+  AnimationSplashSignup({Key key, this.animationController,this.analytics,this.observer})
       : animation = new Tween(
           end: 900.0,
           begin: 70.0,
@@ -416,7 +428,7 @@ class _AnimationSplashSignupState extends State<AnimationSplashSignup> {
   Widget build(BuildContext context) {
     widget.animationController.addListener(() {
       if (widget.animation.isCompleted) {
-        Navigator.of(context).pushReplacement(
+        Navigator.of(context).push(
             MaterialPageRoute(builder: (BuildContext context) => new Signup()));
       }
     });

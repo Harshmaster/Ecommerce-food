@@ -4,13 +4,21 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:easy_localization/easy_localization_delegate.dart';
 import 'package:easy_localization/easy_localization_provider.dart';
+import 'package:firebase_analytics/firebase_analytics.dart';
+import 'package:firebase_analytics/observer.dart';
 import 'package:flutter/material.dart';
 import 'package:kirana_app/Service/authentication.dart';
 import 'package:kirana_app/UI/BottomNavigationBar.dart';
 import 'package:kirana_app/UI/LoginOrSignup/LoginAnimation.dart';
 import 'package:kirana_app/UI/LoginOrSignup/Signup.dart';
+import 'package:kirana_app/colors.dart';
 
 class loginScreen extends StatefulWidget {
+    final FirebaseAnalytics analytics;
+final FirebaseAnalyticsObserver observer;
+
+  loginScreen({this.analytics,this.observer});
+  
   @override
   _loginScreenState createState() => _loginScreenState();
 }
@@ -79,19 +87,20 @@ class _loginScreenState extends State<loginScreen>
           //   image: AssetImage("assets/img/loginscreenbackground.png"),
           //   fit: BoxFit.cover,
           // )),
-          color: Colors.redAccent,
+          color: ColorPlatte.themecolor,
           child: Container(
             /// Set gradient color in image (Click to open code)
-            decoration: BoxDecoration(
-              gradient: LinearGradient(
-                colors: [
-                  Color.fromRGBO(0, 0, 0, 0.0),
-                  Color.fromRGBO(0, 0, 0, 0.3)
-                ],
-                begin: FractionalOffset.topCenter,
-                end: FractionalOffset.bottomCenter,
-              ),
-            ),
+            // decoration: BoxDecoration(
+            //   gradient: LinearGradient(
+            //     colors: [
+                
+            //       Color.fromRGBO(0, 0, 0, 0.0),
+            //       Color.fromRGBO(0, 0, 0, 0.3)
+            //     ],
+            //     begin: FractionalOffset.topCenter,
+            //     end: FractionalOffset.bottomCenter,
+            //   ),
+            // ),
 
             /// Set component layout
             child: ListView(
@@ -112,10 +121,10 @@ class _loginScreenState extends State<loginScreen>
                               Row(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: <Widget>[
-                                  Image(
-                                    image: AssetImage("assets/img/Logo.png"),
-                                    height: 70.0,
-                                  ),
+                                  // Image(
+                                  //   image: AssetImage("assets/img/Logo.png"),
+                                  //   height: 70.0,
+                                  // ),
                                   Padding(
                                       padding: EdgeInsets.symmetric(
                                           horizontal: 10.0)),
@@ -125,20 +134,20 @@ class _loginScreenState extends State<loginScreen>
                                     tag: "Treva",
                                     child: Text(
                                       // AppLocalizations.of(context).tr('title'),
-                                      "Mirch\nMasala",
+                                      "Rasoi Ghar",
                                       style: TextStyle(
                                           fontWeight: FontWeight.w900,
                                           // letterSpacing: 0.6,
                                           letterSpacing: 0.8,
                                           color: Colors.white,
-                                          fontFamily: "Sans",
-                                          fontSize: 20.0),
+                                          fontFamily: "gotik",
+                                          fontSize: 40.0),
                                     ),
                                   ),
                                 ],
                               ),
                               SizedBox(
-                                height: 200,
+                                height: 180,
                               ),
 
                               /// ButtonCustomFacebook
@@ -203,7 +212,7 @@ class _loginScreenState extends State<loginScreen>
                                     Navigator.of(context).pushReplacement(
                                         MaterialPageRoute(
                                             builder: (BuildContext context) =>
-                                                new Signup()));
+                                                new Signup(analytics: widget.analytics,observer: widget.observer,)));
                                   },
                                   child: Text(
                                     //  AppLocalizations.of(context).tr('notHave'),
@@ -251,7 +260,7 @@ class _loginScreenState extends State<loginScreen>
                                       Navigator.of(context).pushReplacement(
                                           MaterialPageRoute(
                                               builder: (BuildContext context) =>
-                                                  new bottomNavigationBar()));
+                                                  new bottomNavigationBar(analytics: widget.analytics,observer: widget.observer,)));
                                     } else {
                                       print(value.toString());
                                       setState(() {
@@ -265,7 +274,7 @@ class _loginScreenState extends State<loginScreen>
                                     : SizedBox(
                                         height: 50,
                                         width: 50,
-                                        child: CircularProgressIndicator(),
+                                        child: CircularProgressIndicator(backgroundColor: Colors.white,),
                                       )),
                           )
                         : new LoginAnimation(
@@ -454,7 +463,13 @@ class buttonBlackBottom extends StatelessWidget {
             boxShadow: [BoxShadow(color: Colors.black38, blurRadius: 15.0)],
             borderRadius: BorderRadius.circular(30.0),
             gradient: LinearGradient(
-                colors: <Color>[Color(0xFF121940), Color(0xFF6E48AA)])),
+                colors: <Color>[
+                  
+                  // Color(0xFF121940),
+                   Color(0xFF6E48AA),
+                     Colors.redAccent,
+                  
+                  ])),
       ),
     );
   }

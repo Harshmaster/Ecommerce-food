@@ -1,12 +1,22 @@
 import 'package:easy_localization/easy_localization.dart';
+import 'package:firebase_analytics/firebase_analytics.dart';
+import 'package:firebase_analytics/observer.dart';
 import 'package:flutter/material.dart';
 import 'package:kirana_app/UI/AcountUIComponent/Profile.dart';
 import 'package:kirana_app/UI/BrandUIComponent/BrandLayout.dart';
 import 'package:kirana_app/UI/CartUIComponent/CartLayout.dart';
 import 'package:kirana_app/UI/HomeUIComponent/Home.dart';
+import 'package:kirana_app/colors.dart';
+ 
 
 
 class bottomNavigationBar extends StatefulWidget {
+
+     final FirebaseAnalytics analytics;
+final FirebaseAnalyticsObserver observer;
+
+bottomNavigationBar({this.analytics,this.observer});
+
  @override
  _bottomNavigationBarState createState() => _bottomNavigationBarState();
 }
@@ -17,13 +27,13 @@ class _bottomNavigationBarState extends State<bottomNavigationBar> {
  Widget callPage(int current) {
   switch (current) {
    case 0:
-    return new Menu();
+    return new Menu(analytics: widget.analytics,observer: widget.observer,);
    case 1:
-    return new brand();
+    return new brand(analytics: widget.analytics,observer: widget.observer,);
    case 2:
-    return new cart();
+    return new cart(analytics: widget.analytics,observer: widget.observer,);
    case 3:
-    return new profil();
+    return new profil(analytics: widget.analytics,observer: widget.observer,);
   //  case 3:
   //   return new Container();
     break;
@@ -47,7 +57,7 @@ class _bottomNavigationBarState extends State<bottomNavigationBar> {
                  caption: TextStyle(color: Colors.black26.withOpacity(0.15)))),
          child: BottomNavigationBar(
             
-           backgroundColor: Colors.redAccent,
+           backgroundColor: ColorPlatte.themecolor,
           unselectedItemColor: Colors.white, 
           selectedItemColor: Colors.amberAccent,
           type: BottomNavigationBarType.fixed,
@@ -72,7 +82,7 @@ class _bottomNavigationBarState extends State<bottomNavigationBar> {
                icon: Icon(Icons.shop),
                title: Text(
                 //  AppLocalizations.of(context).tr('brand'),
-                "Stores",
+                "Brands",
                 style: TextStyle(fontFamily: "Berlin", letterSpacing: 0.5),
                )),
            BottomNavigationBarItem(

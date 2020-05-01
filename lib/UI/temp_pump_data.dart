@@ -13,6 +13,8 @@ class FacultyContactPage extends StatefulWidget {
 }
 
 class _FacultyContactPageState extends State<FacultyContactPage> {
+
+
   // String storename;
 
   //   getpref() async {
@@ -24,6 +26,8 @@ class _FacultyContactPageState extends State<FacultyContactPage> {
   //     storename = value;
   //   });
   // }
+
+
   List<FacultyInfo> parseJosn(String response) {
     if (response == null) {
       return [];
@@ -81,24 +85,32 @@ class _FacultyContactPageState extends State<FacultyContactPage> {
                               if (facultyList[index] == null) {
                                 return CircularProgressIndicator();
                               }
-                              // var product_id = Uuid().v4();
-                              // Firestore.instance
-                              //     .collection("products")
-                              //     .document(facultyList[index].id)
-                              //     .setData({
-                              //   "product_name": facultyList[index].name,
-                              //   "product_price": facultyList[index].price.toString(),
-                              //   "product_size": facultyList[index].size,
-                              //   "product_id": facultyList[index].id,
-                              //   "product_image_url":
-                              //       facultyList[index].product_image_url,
-                              //   "product_category": facultyList[index].category,
-                              //   "product_vendor": facultyList[index].vendor,
-                              //   "isRecommended": false,
-                              //   "max_qty": 2
-                              // }).then((onValue) {
-                              //   print("done $index");
-                              // });
+                             if( facultyList[index].available =="available" && facultyList[index].category == "Beverages"){
+    // var product_id = Uuid().v4();
+                              Firestore.instance
+                                  .collection("essential_products")
+                                  .document(facultyList[index].id.toString())
+                                  .setData({
+                                "product_name": facultyList[index].name,
+                                "product_price": facultyList[index].price.toString(),
+                                "product_size": facultyList[index].size,
+                                "product_id": facultyList[index].id.toString(),
+                                "product_image_url":
+                                    facultyList[index].product_image_url,
+                                "product_category": facultyList[index].category,
+                                "product_vendor": facultyList[index].vendor,
+                                "isRecommended": true,
+                                "max_qty": 2,
+                                "product_brand": facultyList[index].brandname
+                              }).then((onValue) {
+                                print("done  cleaning" + facultyList[index].id.toString());
+                                 
+                              });
+                             }
+                             else{
+                               print(index.toString() + "not available");
+                             }
+                          
 
                               return ListTile(
                                   title: Text(facultyList[index].name),
@@ -121,12 +133,14 @@ class _FacultyContactPageState extends State<FacultyContactPage> {
 
 class FacultyInfo {
   final String name;
-  final String id;
-  final String price;
+  final int id;
+  final int price;
   final String size;
   final String category;
   final String vendor;
   final String product_image_url;
+  final String brandname;
+  final String available;
   // final String profileImageUrl;
 
   FacultyInfo(
@@ -136,16 +150,18 @@ class FacultyInfo {
       this.size,
       this.category,
       this.vendor,
-      this.product_image_url});
+      this.product_image_url,this.brandname,this.available});
 
   factory FacultyInfo.fromJson(Map<String, dynamic> json) {
     return new FacultyInfo(
         name: json['product_name'] as String,
-        id: json["product_id"] as String,
-        price: json['product_price'] as String,
+        id: json["product_id"] as int,
+        price: json['product_price'] as int,
         size: json['product_size'] as String,
         category: json['Category'] as String,
         vendor: json['Vendor'] as String,
+        brandname: json["Brand"] as String,
+        available: json["status"] as String,
         // vendor: "Quality Store",
         product_image_url: json["product_image_url"] as String);
   }

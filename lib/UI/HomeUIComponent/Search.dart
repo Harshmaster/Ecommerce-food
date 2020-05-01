@@ -57,7 +57,7 @@ onTap: (){
                       child: Container(
               child: ListTile(
                 title: Text(searchedproduct.name),
-                subtitle: Text(searchedproduct.price),
+                subtitle: Text( "₹" + searchedproduct.price),
                 trailing: Text(searchedproduct.size),
                 leading: ClipRRect(
                   borderRadius: BorderRadius.circular(20),

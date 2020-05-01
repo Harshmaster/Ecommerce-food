@@ -1,21 +1,38 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:easy_localization/easy_localization_delegate.dart';
 import 'package:easy_localization/easy_localization_provider.dart';
+import 'package:firebase_analytics/firebase_analytics.dart';
+import 'package:firebase_analytics/observer.dart';
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-
+import 'package:progress_dialog/progress_dialog.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:kirana_app/ListItem/CartItemData.dart';
 import 'package:kirana_app/UI/CartUIComponent/Delivery.dart';
 import 'package:kirana_app/UI/CartUIComponent/confirm_screen.dart';
+import 'package:kirana_app/colors.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class cart extends StatefulWidget {
+       final FirebaseAnalytics analytics;
+final FirebaseAnalyticsObserver observer;
+
+cart({this.analytics,this.observer});
   @override
   _cartState createState() => _cartState();
 }
 
 class _cartState extends State<cart> {
   String userId;
+
+// Future<Null> _sendAnalytics() async{
+// await widget.analytics.logEvent(name: "Cart Screen Logged",
+// parameters: <String,dynamic>{}
+// );
+// print("Cart Screen logged");
+// }
+
+
 
   getid() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
@@ -33,14 +50,16 @@ class _cartState extends State<cart> {
   void initState() {
     super.initState();
     getid();
+    // _sendAnalytics();
   }
 
-  int cart_count;
+  int cart_count, cart_amount;
   getCartStats() async {
     var doc =
         await Firestore.instance.collection("users").document(userId).get();
     setState(() {
       cart_count = doc["cart_count"];
+      cart_amount = doc["cart_amount"];
     });
   }
 
@@ -79,6 +98,14 @@ class _cartState extends State<cart> {
 
   @override
   Widget build(BuildContext context) {
+
+  var pr = ProgressDialog(context,type: ProgressDialogType.Normal, isDismissible: false);
+
+// show(){
+//   // pr.show();
+//   print("show");
+// }
+
     var data = EasyLocalizationProvider.of(context).data;
     return EasyLocalizationProvider(
       data: data,
@@ -88,7 +115,7 @@ class _cartState extends State<cart> {
             tooltip: "press to buy",
             onPressed: () {
               print("$cart_count in cart");
-              if (cart_count > 0) {
+              if (cart_count > 0 && cart_amount>0) {
                 Navigator.of(context).push(PageRouteBuilder(
                     pageBuilder: (_, __, ___) => new delivery()));
               } else {
@@ -107,14 +134,16 @@ class _cartState extends State<cart> {
           appBar: AppBar(
             iconTheme: IconThemeData(color: Color(0xFF6991C7)),
             centerTitle: true,
-            backgroundColor: Colors.white,
+            // backgroundColor: Colors.white,
+            backgroundColor: ColorPlatte.themecolor,
             title: Text(
               //  AppLocalizations.of(context).tr('cart'),
               "Cart",
               style: TextStyle(
                   fontFamily: "Gotik",
                   fontSize: 18.0,
-                  color: Colors.black54,
+                  // color: Colors.black54,
+                  color: Colors.white,
                   fontWeight: FontWeight.w700),
             ),
             elevation: 0.0,
@@ -150,7 +179,8 @@ class _cartState extends State<cart> {
 
                                  
 
-                                  return CartItem(
+                                  return  
+                                  CartItem(
                                     name: snapshot.data.documents[position]
                                         .data["product_name"],
                                     image: snapshot.data.documents[position]
@@ -168,7 +198,10 @@ class _cartState extends State<cart> {
                                     cart_total: pay,
                                     userId: userId,
                                     cart_count: count,
+                                    // show: show(),
                                   );
+
+
                              
                                 });}else{
                                   return noItemCart();
@@ -243,7 +276,9 @@ class _cartState extends State<cart> {
 class CartItem extends StatefulWidget {
   String name, image, vendor, size, price, itemId, userId;
   int qty, cart_total, cart_count;
-  dynamic update;
+  // dynamic update;
+  TapGestureRecognizer show;
+
 
   CartItem(
       {this.name,
@@ -256,7 +291,8 @@ class CartItem extends StatefulWidget {
       this.userId,
       this.cart_total,
       this.cart_count,
-      this.update});
+      this.show
+     });
   @override
   _CartItemState createState() => _CartItemState();
 }
@@ -264,6 +300,7 @@ class CartItem extends StatefulWidget {
 class _CartItemState extends State<CartItem> {
   @override
   Widget build(BuildContext context) {
+      var pr = ProgressDialog(context,type: ProgressDialogType.Normal, isDismissible: false);
     int pay = widget.qty * int.parse(widget.price);
     return Slidable(
       delegate: new SlidableDrawerDelegate(),
@@ -275,7 +312,7 @@ class _CartItemState extends State<CartItem> {
           color: Colors.redAccent,
           icon: Icons.delete,
           onTap: () async {
-            setState(() {});
+           pr.show();
             var doc = await Firestore.instance
                 .collection("users")
                 .document(widget.userId)
@@ -309,6 +346,7 @@ class _CartItemState extends State<CartItem> {
               duration: Duration(seconds: 2),
               backgroundColor: Colors.redAccent,
             ));
+            pr.hide();
           },
         ),
       ],
@@ -369,7 +407,7 @@ class _CartItemState extends State<CartItem> {
                         mainAxisAlignment: MainAxisAlignment.start,
                         children: <Widget>[
                           Text(
-                            widget.name,
+                            widget.name ==null? "Name": widget.name,
                             style: TextStyle(
                               fontWeight: FontWeight.w700,
                               fontFamily: "Sans",
@@ -379,7 +417,7 @@ class _CartItemState extends State<CartItem> {
                           ),
                           Padding(padding: EdgeInsets.only(top: 10.0)),
                           Text(
-                            widget.vendor,
+                            widget.vendor == null? "":widget.vendor,
                             style: TextStyle(
                               color: Colors.black54,
                               fontWeight: FontWeight.w500,
@@ -413,7 +451,11 @@ class _CartItemState extends State<CartItem> {
                                         )
                                       : InkWell(
                                           onTap: () async {
+                                             pr.show();
                                             await minus(pay);
+                                            pr.hide();
+                                            // widget.show;
+                                           
                                             // widget.update(15);
                                           },
                                           child: Container(
@@ -432,7 +474,7 @@ class _CartItemState extends State<CartItem> {
                                     padding: const EdgeInsets.symmetric(
                                         horizontal: 18.0),
                                     child: Text(
-                                      widget.qty.toString(),
+                                      widget.qty.toString()== null? "":  widget.qty.toString(),
                                       style: TextStyle(),
                                     ),
                                   ),
@@ -449,6 +491,7 @@ class _CartItemState extends State<CartItem> {
                                         )
                                       : InkWell(
                                           onTap: () async {
+                                            pr.show();
                                             setState(() {
                                               plus_loader = true;
                                               widget.qty = widget.qty + 1;
@@ -492,6 +535,7 @@ class _CartItemState extends State<CartItem> {
                                               setState(() {
                                                 plus_loader = false;
                                               });
+                                              pr.hide();
                                             }).catchError((onError) {
                                               print(onError.toString());
                                             });
@@ -544,8 +588,8 @@ class _CartItemState extends State<CartItem> {
                     ),
                     InkWell(
                       onTap: () {
-                        Navigator.of(context).push(PageRouteBuilder(
-                            pageBuilder: (_, __, ___) => delivery()));
+                        // Navigator.of(context).push(PageRouteBuilder(
+                        //     pageBuilder: (_, __, ___) => delivery()));
                       },
                       child: Padding(
                         padding: const EdgeInsets.only(right: 10.0),
@@ -558,7 +602,7 @@ class _CartItemState extends State<CartItem> {
                           child: Center(
                             child: Text(
                               // AppLocalizations.of(context).tr('cartPay'),
-                              pay.toString(),
+                              pay.toString() ==null? "": pay.toString(),
 
                               style: TextStyle(
                                   color: Colors.white,
@@ -645,6 +689,7 @@ class _CartItemState extends State<CartItem> {
         .updateData({"cart_amount": new_value, "cart_count": new_count}).then(
             (onValue) {
       print("user cart stats updated");
+      
    
     }).catchError((onError) {
       print(onError.toString());

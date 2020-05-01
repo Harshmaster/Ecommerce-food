@@ -1,6 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:kirana_app/colors.dart';
 
 class settingAcount extends StatefulWidget {
   @override
@@ -224,7 +225,8 @@ showInSnackBar("Address Saved Successfully");
                                       child: Container(
                       height: 50.0,
                       width: 1000.0,
-                      color: Colors.redAccent,
+                      // color: Colors.redAccent,
+                      color: ColorPlatte.themecolor,
                       child: Padding(
                         padding: const EdgeInsets.only(
                             top: 13.0, left: 20.0, bottom: 15.0),

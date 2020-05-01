@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:easy_localization/easy_localization_delegate.dart';
 import 'package:easy_localization/easy_localization_provider.dart';
@@ -14,9 +15,9 @@ import 'package:shimmer/shimmer.dart';
 import 'package:flutter/material.dart';
 
 class CategoryDetail extends StatefulWidget {
-  final String category_name, category_id;
+  final String category_name, category_id, categoryImg;
 
-  CategoryDetail({this.category_id, this.category_name});
+  CategoryDetail({this.category_id, this.category_name, this.categoryImg});
   @override
   _CategoryDetailState createState() => _CategoryDetailState();
 }
@@ -112,17 +113,32 @@ class _CategoryDetailState extends State<CategoryDetail> {
             //   AssetImage("assets/category_banner/spices4.png"),
 
             banner1 != null
-                ? NetworkImage(banner1)
-                : AssetImage("assets/category_banner/spices1.png"),
+                ? CachedNetworkImage(
+                    imageUrl: banner1,
+                    placeholder: (context, content) {
+                      return Container(
+                        child: Image.asset(widget.categoryImg),
+                      );
+                    },
+                  )
+                // ? NetworkImage()
+                : AssetImage(widget.categoryImg),
             banner2 != null
-                ? NetworkImage(banner2)
-                : AssetImage("assets/category_banner/spices2.png"),
+                ? CachedNetworkImage(
+                    imageUrl: banner2,
+                    placeholder: (context, content) {
+                      return Container(
+                        child: Image.asset(widget.categoryImg),
+                      );
+                    },
+                  )
+                : AssetImage(widget.categoryImg),
             banner3 != null
                 ? NetworkImage(banner3)
-                : AssetImage("assets/category_banner/spices3.png"),
-                     banner4 != null
+                : AssetImage(widget.categoryImg),
+            banner4 != null
                 ? NetworkImage(banner4)
-                : AssetImage("assets/category_banner/spices.png"),
+                : AssetImage(widget.categoryImg),
           ],
         ),
       ),
@@ -142,17 +158,17 @@ class _CategoryDetailState extends State<CategoryDetail> {
                   "Sub Category",
                   style: _customTextStyleBlack,
                 ),
-                InkWell(
-                  onTap: () {
-                    Navigator.of(context).push(PageRouteBuilder(
-                        pageBuilder: (_, __, ___) => new promoDetail()));
-                  },
-                  child: Text(
-                      // AppLocalizations.of(context).tr('seeMore'),
-                      "See more",
-                      style:
-                          _customTextStyleBlue.copyWith(color: Colors.black26)),
-                ),
+                // InkWell(
+                //   onTap: () {
+                //     Navigator.of(context).push(PageRouteBuilder(
+                //         pageBuilder: (_, __, ___) => new promoDetail()));
+                //   },
+                //   child: Text(
+                //       // AppLocalizations.of(context).tr('seeMore'),
+                //       "See more",
+                //       style:
+                //           _customTextStyleBlue.copyWith(color: Colors.black26)),
+                // ),
               ],
             ),
           ),
@@ -207,16 +223,16 @@ class _CategoryDetailState extends State<CategoryDetail> {
                   "Item Discount",
                   style: _customTextStyleBlack,
                 ),
-                InkWell(
-                  onTap: () {
-                    Navigator.of(context).push(PageRouteBuilder(
-                        pageBuilder: (_, __, ___) => new promoDetail()));
-                  },
-                  child: Text(
-                      // AppLocalizations.of(context).tr('seeMore'),
-                      "See more",
-                      style: _customTextStyleBlue),
-                ),
+                // InkWell(
+                //   onTap: () {
+                //     Navigator.of(context).push(PageRouteBuilder(
+                //         pageBuilder: (_, __, ___) => new promoDetail()));
+                //   },
+                //   child: Text(
+                //       // AppLocalizations.of(context).tr('seeMore'),
+                //       "See more",
+                //       style: _customTextStyleBlue),
+                // ),
               ],
             ),
           ),
@@ -263,73 +279,72 @@ class _CategoryDetailState extends State<CategoryDetail> {
                     "Item Popular",
                     style: _customTextStyleBlack,
                   ),
-                  InkWell(
-                    onTap: null,
-                    child: Text(
-                        // AppLocalizations.of(context).tr('seeMore'),
-                        "See more",
-                        style: _customTextStyleBlue),
-                  ),
+                  // InkWell(
+                  //   onTap: null,
+                  //   child: Text(
+                  //       // AppLocalizations.of(context).tr('seeMore'),
+                  //       "See more",
+                  //       style: _customTextStyleBlue),
+                  // ),
                 ],
               ),
             ),
-            
-             SingleChildScrollView(
-        child:
-          StreamBuilder<QuerySnapshot>(
-                        stream: Firestore.instance
-                            .collection("products")
-                            .where("product_category", isEqualTo: widget.category_id)
-                            .snapshots(),
-                        builder: (context, snapshot) {
-                          if (snapshot.hasData) {
-                            return GridView.count(
-                shrinkWrap: true,
-                padding: EdgeInsets.symmetric(horizontal: 10.0, vertical: 20.0),
-                crossAxisSpacing: 10.0,
-                mainAxisSpacing: 17.0,
-                childAspectRatio: 0.545,
-                crossAxisCount: 2,
-                primary: false,
-                children: List.generate(
-                  snapshot.data.documents.length,
-                  (index) => ItemGrid(
-                    promotionData(
-                      title: snapshot.data.documents[index].data["product_name"],
-                     image: snapshot.data.documents[index].data["product_image_url"],
-                     rating: "",
-                     salary: snapshot.data.documents[index].data["product_price"],
-                     sale: "",
-                     category:snapshot.data.documents[index].data["product_category"] ,
-                     qty: snapshot.data.documents[index].data["product_size"],
-                     vendorname: snapshot.data.documents[index].data["product_vendor"]
-                      ),
-                    
-                    
-                    ),
-                ));
 
-                            
-                            // ListView.builder(
-                            //   shrinkWrap: true,
-                            //   itemCount: snapshot.data.documents.length,
-                            //   itemBuilder: (context, index) {
-                               
-                      
-                            //     return Padding(padding: EdgeInsets.all(8),
-                            //     child: Text(snapshot.data.documents[index].data["product_name"]),
-                                 
-                            //     );
-                            //   },
-                            // );
-                          } else {
-                            return Center(
-                     
-                            );
-                          }
-                        }),
-        ),
-            
+            SingleChildScrollView(
+              child: StreamBuilder<QuerySnapshot>(
+                  stream: Firestore.instance
+                      .collection("products")
+                      .where("product_category", isEqualTo: widget.category_id)
+                      .snapshots(),
+                  builder: (context, snapshot) {
+                    if (snapshot.hasData) {
+                      return GridView.count(
+                          shrinkWrap: true,
+                          padding: EdgeInsets.symmetric(
+                              horizontal: 10.0, vertical: 20.0),
+                          crossAxisSpacing: 10.0,
+                          mainAxisSpacing: 17.0,
+                          childAspectRatio: 0.545,
+                          crossAxisCount: 2,
+                          primary: false,
+                          children: List.generate(
+                            snapshot.data.documents.length,
+                            (index) => ItemGrid(
+                              promotionData(
+                                  title: snapshot.data.documents[index]
+                                      .data["product_name"],
+                                  image: snapshot.data.documents[index]
+                                      .data["product_image_url"],
+                                  rating: "",
+                                  salary: snapshot.data.documents[index]
+                                      .data["product_price"],
+                                  sale: "",
+                                  category: snapshot.data.documents[index]
+                                      .data["product_category"],
+                                  qty: snapshot.data.documents[index]
+                                      .data["product_size"],
+                                  vendorname: snapshot.data.documents[index]
+                                      .data["product_vendor"]),
+                            ),
+                          ));
+
+                      // ListView.builder(
+                      //   shrinkWrap: true,
+                      //   itemCount: snapshot.data.documents.length,
+                      //   itemBuilder: (context, index) {
+
+                      //     return Padding(padding: EdgeInsets.all(8),
+                      //     child: Text(snapshot.data.documents[index].data["product_name"]),
+
+                      //     );
+                      //   },
+                      // );
+                    } else {
+                      return Center();
+                    }
+                  }),
+            ),
+
             // SingleChildScrollView(
             //   child: Container(
             //     margin: EdgeInsets.only(right: 10.0),
@@ -344,9 +359,8 @@ class _CategoryDetailState extends State<CategoryDetail> {
             //     ///
             //     child: loadImage
             //         ? _loadingImageAnimation(context)
-            //         : 
-                    
-                    
+            //         :
+
             //         ListView.builder(
             //             scrollDirection: Axis.horizontal,
             //             itemBuilder: (BuildContext context, int index) =>

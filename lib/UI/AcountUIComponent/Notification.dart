@@ -3,6 +3,7 @@ import 'package:easy_localization/easy_localization_delegate.dart';
 import 'package:easy_localization/easy_localization_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:kirana_app/ListItem/notificationsData.dart';
+import 'package:kirana_app/colors.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 // import 'package:treva_shop_flutter/ListItem/notificationsData.dart';
 
@@ -75,7 +76,8 @@ String userId;
             ),
             centerTitle: true,
             elevation: 0.0,
-            backgroundColor: Colors.white,
+            // backgroundColor: Colors.white,
+            backgroundColor: ColorPlatte.themecolor
           ),
           body:  StreamBuilder<QuerySnapshot>(
                         stream: Firestore.instance
@@ -85,7 +87,10 @@ String userId;
                             .snapshots(),
                         builder: (context, snapshot) {
                           if (snapshot.hasData) {
-                            return  ListView.builder(
+
+
+                            if(snapshot.data.documents.length >0){
+                                return  ListView.builder(
               itemCount: snapshot.data.documents.length,
               padding: const EdgeInsets.all(5.0),
               itemBuilder: (context, position) {
@@ -147,10 +152,15 @@ String userId;
                       ),
                     ));
               });
+                            }else{
+                              return noItemNotifications();
+                            }
+                          
+                          
                           }
                           
                           else {
-                            return Container();
+                            return noItemNotifications();
                           }
                         }),
           
@@ -249,7 +259,7 @@ class noItemNotifications extends StatelessWidget {
             Padding(padding: EdgeInsets.only(bottom: 30.0)),
             Text(
               // AppLocalizations.of(context).tr('notHaveNotification'),
-              "notHaveNotification",
+              "No Notification",
               style: TextStyle(
                   fontWeight: FontWeight.w700,
                   fontSize: 18.5,

@@ -36,7 +36,7 @@ TextEditingController _comment = TextEditingController();
     super.initState();
     getid();
   }
-
+bool _screenLoading = true;
   void order() async {
     // var order_id = Uuid().v4();
 
@@ -73,6 +73,7 @@ TextEditingController _comment = TextEditingController();
       "order_vendor": cart_vendor,
       // "order_count": cart_count,
       "order_amount": cart_value,
+      "delivery_charge": charges,
       "order_count": cart_count,
       "user_name": user_name,
       "address": address,
@@ -144,17 +145,23 @@ TextEditingController _comment = TextEditingController();
     total_amount = doc["cart_amount"];
     var extraAmount;
     if (total_amount < 300) {
-      extraAmount = 50;
+      extraAmount = "c0";
     } else if (total_amount < 800) {
-      extraAmount = 40;
+      extraAmount = "c300";
     } else if (total_amount < 1200) {
-      extraAmount = 30;
+      extraAmount = "c800";
+    } else if (total_amount < 1500) {
+      extraAmount = "c1200";
     } else {
-      extraAmount = 0;
+      extraAmount = "c1500";
     }
+    var chargedoc =  await Firestore.instance.collection("stats").document("delivery_charge").collection("charges").document(extraAmount.toString()).get();
+    
+    print("All fee calculation done");
     setState(() {
-      charges =extraAmount;
-      total_pay = total_amount + extraAmount;
+      charges =chargedoc["fee"];
+      total_pay = total_amount + charges;
+      _screenLoading = false;
     });
   }
 
@@ -202,7 +209,12 @@ TextEditingController _comment = TextEditingController();
           iconTheme: IconThemeData(color: Color(0xFF6991C7)),
         ),
         body: SingleChildScrollView(
-          child: Container(
+          child: 
+          
+          
+          _screenLoading? Center(
+            child: CircularProgressIndicator(),
+          ): Container(
             color: Colors.white,
             child: Padding(
               padding:
@@ -395,7 +407,7 @@ TextEditingController _comment = TextEditingController();
                                   style: TextStyle(fontSize: 20),
                                 ),
                                 Text(
-                                  total_pay.toString(),
+                                  total_pay ==null? "": total_pay.toString(),
                                   style: TextStyle(fontSize: 20),
                                 ),
                               ],

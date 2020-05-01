@@ -47,9 +47,9 @@ List<Brand> brandData = [
           itemSale: "200 Sale")),
 
   const Brand(
-      name: "General Super Store",
+      name: "General Super ",
       id: "1",
-      img: "assets/category_banner/vishal.png",
+      img: "assets/category_banner/beauty.png",
       desc:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
       item: items(

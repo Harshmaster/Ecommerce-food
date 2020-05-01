@@ -2,6 +2,7 @@ import 'package:easy_localization/easy_localization_delegate.dart';
 import 'package:easy_localization/easy_localization_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:kirana_app/UI/HomeUIComponent/ChatItem.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class callCenter extends StatefulWidget {
  @override
@@ -32,7 +33,7 @@ class _callCenterState extends State<callCenter> {
      appBar: AppBar(
       title: Text(
       //  AppLocalizations.of(context).tr('callCenter'),
-      "Call Center",
+      "Customer Care",
        style: TextStyle(
            fontWeight: FontWeight.w700,
            fontSize: 16.0,
@@ -90,7 +91,7 @@ class _callCenterState extends State<callCenter> {
                    child: Center(
                        child: Text(
                         // AppLocalizations.of(context).tr('callCenter3'),
-                        "Chat me",
+                        "Chat with us",
                         style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.w700,
@@ -104,8 +105,10 @@ class _callCenterState extends State<callCenter> {
                 padding: const EdgeInsets.only(top: 40.0),
                 child: InkWell(
                  onTap: () {
-                  Navigator.of(context).push(PageRouteBuilder(
-                      pageBuilder: (_, __, ___) => new chatItem()));
+                  // Navigator.of(context).push(PageRouteBuilder(
+                  //     pageBuilder: (_, __, ___) => new chatItem()));
+_launchURL();
+
                  },
                  child: Center(
                   child: Container(
@@ -118,7 +121,7 @@ class _callCenterState extends State<callCenter> {
                    child: Center(
                        child: Text(
                         // AppLocalizations.of(context).tr('callCenter3'),
-                        "Call me",
+                        "Call Us",
                         style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.w700,
@@ -133,4 +136,13 @@ class _callCenterState extends State<callCenter> {
     ),
   );
  }
+
+ _launchURL() async {
+  const url = 'tel:9424922610';
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    throw 'Could not launch $url';
+  }
+}
 }

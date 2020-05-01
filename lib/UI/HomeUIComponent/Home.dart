@@ -1,6 +1,9 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:easy_localization/easy_localization_delegate.dart';
 import 'package:easy_localization/easy_localization_provider.dart';
+import 'package:firebase_analytics/firebase_analytics.dart';
+import 'package:firebase_analytics/observer.dart';
 
 import 'package:flutter/material.dart';
 import 'package:kirana_app/Library/carousel_pro/src/carousel_pro.dart';
@@ -16,6 +19,11 @@ import 'package:kirana_app/UI/HomeUIComponent/Search.dart';
 import 'FlashSale.dart';
 
 class Menu extends StatefulWidget {
+  
+     final FirebaseAnalytics analytics;
+final FirebaseAnalyticsObserver observer;
+
+Menu({this.analytics,this.observer});
   @override
   _MenuState createState() => _MenuState();
 }
@@ -28,9 +36,9 @@ class _MenuState extends State<Menu> with TickerProviderStateMixin {
   bool isStarted = false;
  List<SearchProduct> allFlashProductList = List();
 
-  getRecommended(){
+  getEssentials(){
         List<SearchProduct> productList = List();
-    Firestore.instance.collection("products").where("isRecommended",isEqualTo: true).getDocuments().
+    Firestore.instance.collection("essential_products").getDocuments().
     then((querySnapshot){
      for (var i = 0; i < querySnapshot.documents.length; i++) {
         productList.add(SearchProduct.fromMap(querySnapshot.documents[i].data));
@@ -42,11 +50,42 @@ class _MenuState extends State<Menu> with TickerProviderStateMixin {
     });
   }
 
+  String banner1, banner2, banner3, banner4;
+  getBannerUrl() async {
+    var doc = await Firestore.instance
+        .collection("banners")
+        .document("homepage")
+        .get();
+    if (doc.exists) {
+      print("banner document found");
+      print(doc["banner3"]);
+      setState(() {
+        banner1 = doc["banner1"];
+
+        banner2 = doc["banner2"];
+        banner3 = doc["banner3"];
+        banner4 = doc["banner4"];
+      });
+    } else {
+      print("no banner document");
+    }
+  }
+
+// Future<Null> _sendAnalytics() async{
+// await widget.analytics.logEvent(name: "Menu Screen Logged",
+// parameters: <String,dynamic>{}
+// );
+// print("Menu Screen logged");
+// }
+
+
   @override
   void initState() {
     // TODO: implement initState
-    getRecommended();
+    getEssentials();
+    getBannerUrl();
     super.initState();
+    // _sendAnalytics();
   }
 
 
@@ -59,7 +98,7 @@ class _MenuState extends State<Menu> with TickerProviderStateMixin {
     double size = mediaQueryData.size.height;
 
 
-  Widget mostSellingIntro(){  
+  Widget mostEssentialsIntro(){  
          
        return  Container(
          margin: EdgeInsets.only(right: 30),
@@ -166,9 +205,9 @@ class _MenuState extends State<Menu> with TickerProviderStateMixin {
     };
 
     /// Navigation to categoryDetail.dart if user Click icon in Category
-    var onClickCategory = (String name,String id) {
+    var onClickCategory = (String name,String id,String img) {
       Navigator.of(context).push(PageRouteBuilder(
-          pageBuilder: (_, __, ___) => new CategoryDetail(category_name: name,category_id: id,),
+          pageBuilder: (_, __, ___) => new CategoryDetail(category_name: name,category_id: id,categoryImg: img,),
           // transitionDuration: Duration(milliseconds: 750),
           // transitionsBuilder:
           //     (_, Animation<double> animation, __, Widget child) {
@@ -194,14 +233,61 @@ class _MenuState extends State<Menu> with TickerProviderStateMixin {
         dotSpacing: 16.0,
         dotBgColor: Colors.transparent,
         showIndicator: true,
-        overlayShadow: true,
+        overlayShadow: false,
         overlayShadowColors: Colors.white.withOpacity(0.9),
-        overlayShadowSize: 0.1,
+        overlayShadowSize: 0.0,
         images: [
           // AssetImage("assets/category_banner/beauty.png"),
-            AssetImage("assets/category_banner/grains.png"),
-              AssetImage("assets/category_banner/oils.png"),
-                AssetImage("assets/category_banner/spices.png"),
+            // AssetImage("assets/category_banner/grains.png"),
+            //   AssetImage("assets/category_banner/oils.png"),
+            //     AssetImage("assets/category_banner/spices.png"),
+
+                    banner1 != null
+                ? CachedNetworkImage(
+                    imageUrl: banner1,
+                    placeholder: (context, content) {
+                      return Container(
+                        child: Image.asset("assets/category_banner/spices.png"),
+                      );
+                    },
+                  )
+                // ? NetworkImage()
+                : AssetImage("assets/category_banner/spices.png"),
+
+                      banner2 != null
+                ? CachedNetworkImage(
+                    imageUrl: banner2,
+                    placeholder: (context, content) {
+                      return Container(
+                        child: Image.asset("assets/category_banner/beverages.png"),
+                      );
+                    },
+                  )
+                // ? NetworkImage()
+                : AssetImage("assets/category_banner/beverages.png"),
+
+                      banner3 != null
+                ? CachedNetworkImage(
+                    imageUrl: banner3,
+                    placeholder: (context, content) {
+                      return Container(
+                        child: Image.asset("assets/category_banner/dryfruits.png"),
+                      );
+                    },
+                  )
+                // ? NetworkImage()
+                : AssetImage("assets/category_banner/dryfruits.png"),
+                      banner4 != null
+                ? CachedNetworkImage(
+                    imageUrl: banner4,
+                    placeholder: (context, content) {
+                      return Container(
+                        child: Image.asset("assets/category_banner/cosmetics.jpg"),
+                      );
+                    },
+                  )
+                // ? NetworkImage()
+                : AssetImage("assets/category_banner/cosmetics.jpg"),
        
         ],
       ),
@@ -362,7 +448,7 @@ class _MenuState extends State<Menu> with TickerProviderStateMixin {
        
 
               if(index == 0){
-                return mostSellingIntro();
+                return mostEssentialsIntro();
               }
    SearchProduct searchedproduct = SearchProduct(
               id: allFlashProductList[index-1].id,
@@ -505,14 +591,15 @@ onTap: (){
           ),
           Expanded(
             child: Padding(
-              padding: const EdgeInsets.only(right: 20.0),
+              padding: const EdgeInsets.only(bottom: 2),
+
               child: Column(
                 // scrollDirection: Axis.horizontal,
                 children: <Widget>[
                   Padding(
                     padding: const EdgeInsets.only(
                       top: 20,
-                      bottom: 20
+                      bottom: 5
                       // left: 20.0,
                     ),
                     child: Row(
@@ -526,7 +613,7 @@ onTap: (){
                               // AppLocalizations.of(context).tr('fashionMan'),
                               "Spices",
                       tap: (){
-                          onClickCategory("Spices","Spices");
+                          onClickCategory("Spices","Spices","assets/category_banner/spices.png");
                         },
                         ),
                         // Padding(
@@ -538,7 +625,7 @@ onTap: (){
                               // AppLocalizations.of(context).tr('fashionGirl'),
                               "Oils",
                   tap: (){
-                          onClickCategory("Oils","Oils");
+                          onClickCategory("Oils","Oils","assets/category_banner/oils.png");
                         },
                         ),
                       ],
@@ -551,20 +638,20 @@ onTap: (){
                     children: <Widget>[
                       // Padding(padding: EdgeInsets.only(top: 15.0)),
                       CategoryItemValue(
-                        image: "assets/category_banner/grains.png",
+                        image: "assets/category_banner/staples.jpg",
                         title: "Staples",
                         tap: (){
-                          onClickCategory("Staples","Staples");
+                          onClickCategory("Staples","Staples","assets/category_banner/grains.png");
                         },
                       ),
                       // Padding(
                       //   padding: EdgeInsets.only(top: 10.0),
                       // ),
                       CategoryItemValue(
-                        image: "assets/category_banner/beauty.png",
+                        image: "assets/category_banner/cosmetics.jpg",
                         title: "Cosmetics",
                      tap: (){
-                          onClickCategory("Cosmetics","Cosmetics");
+                          onClickCategory("Cosmetics","Cosmetics","assets/category_banner/cosmetics.jpg");
                         },
                       ),
                     ],
@@ -577,10 +664,10 @@ onTap: (){
                     children: <Widget>[
                       // Padding(padding: EdgeInsets.only(top: 15.0)),
                       CategoryItemValue(
-                        image: "assets/category_banner/grains.png",
+                        image: "assets/category_banner/beverages.png",
                         title: "Beverages",
                         tap: (){
-                          onClickCategory("Beverages","Beverages");
+                          onClickCategory("Beverages","Beverages","assets/category_banner/beverages.png");
                         },
                       ),
                       // Padding(
@@ -590,7 +677,7 @@ onTap: (){
                         image: "assets/category_banner/dryfruits.png",
                         title: "Dry Fruits",
                      tap: (){
-                          onClickCategory("Dry Fruits","Dry Fruits");
+                          onClickCategory("Dry Fruits","Dry Fruits","assets/category_banner/dryfruits.png");
                         },
                       ),
                     ],
@@ -606,7 +693,7 @@ onTap: (){
                         image: "assets/category_banner/cleaning.jpg",
                         title: "Cleaning",
                         tap: (){
-                          onClickCategory("Cleaning","Cleaning ");
+                          onClickCategory("Cleaning","Cleaning ","assets/category_banner/cleaning.jpg");
                         },
                       ),
                       // Padding(
@@ -616,7 +703,7 @@ onTap: (){
                         image: "assets/category_banner/snacks.jpg",
                         title: "Snacks",
                      tap: (){
-                          onClickCategory("Snacks","Snacks");
+                          onClickCategory("Snacks","Snacks","assets/category_banner/snacks.jpg");
                         },
                       ),
                     ],
@@ -880,7 +967,7 @@ class ItemGrid extends StatelessWidget {
                                 topRight: Radius.circular(7.0)),
                             image: DecorationImage(
                                 image: NetworkImage(gridItem.img),
-                                fit: BoxFit.cover)),
+                                fit: BoxFit.contain)),
                       ),
                     ),
                   ),

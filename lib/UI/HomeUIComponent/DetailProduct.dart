@@ -11,6 +11,7 @@ import 'package:kirana_app/UI/CartUIComponent/CartLayout.dart';
 import 'package:kirana_app/UI/CartUIComponent/Delivery.dart';
 import 'package:kirana_app/UI/HomeUIComponent/ChatItem.dart';
 import 'package:kirana_app/UI/HomeUIComponent/ReviewLayout.dart';
+import 'package:kirana_app/UI/HomeUIComponent/Search.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:uuid/uuid.dart';
 
@@ -25,6 +26,32 @@ class detailProduk extends StatefulWidget {
 
 /// Detail Product for Recomended Grid in home screen
 class _detailProdukState extends State<detailProduk> {
+
+
+
+List<SearchProduct> allMostSellingProductList = List();
+
+  getMostSelling(){
+        List<SearchProduct> productList = List();
+    Firestore.instance.collection("most_selling").getDocuments().
+    then((querySnapshot){
+     for (var i = 0; i < querySnapshot.documents.length; i++) {
+        productList.add(SearchProduct.fromMap(querySnapshot.documents[i].data));
+      }
+      setState(() {
+        allMostSellingProductList = productList;
+      });
+
+    });
+  }
+
+
+
+
+
+
+
+
   TextEditingController _qty = TextEditingController(text: "1");
 
   String userId;
@@ -39,6 +66,7 @@ class _detailProdukState extends State<detailProduk> {
   void initState() {
     // TODO: implement initState
     getid();
+      getMostSelling();
     super.initState();
   }
 
@@ -170,65 +198,97 @@ class _detailProdukState extends State<detailProduk> {
               children: <Widget>[
                 Text(
                   // AppLocalizations.of(context).tr('topRated'),
-                  "Top RAted",
+                  "Most Selling Products",
                   style: TextStyle(
                       fontWeight: FontWeight.w600,
                       fontFamily: "Gotik",
                       fontSize: 15.0),
                 ),
-                InkWell(
-                  onTap: () {},
-                  child: Text(
-                    // AppLocalizations.of(context).tr('seeAll'),
-                    "See all",
-                    style: TextStyle(
-                        color: Colors.indigoAccent.withOpacity(0.8),
-                        fontFamily: "Gotik",
-                        fontWeight: FontWeight.w700),
-                  ),
-                )
+                // InkWell(
+                //   onTap: () {},
+                //   child: Text(
+                //     // AppLocalizations.of(context).tr('seeAll'),
+                //     "See all",
+                //     style: TextStyle(
+                //         color: Colors.indigoAccent.withOpacity(0.8),
+                //         fontFamily: "Gotik",
+                //         fontWeight: FontWeight.w700),
+                //   ),
+                // )
               ],
             ),
-            Expanded(
-              child: ListView(
-                padding: EdgeInsets.only(top: 20.0, bottom: 2.0),
-                scrollDirection: Axis.horizontal,
-                children: <Widget>[
-                  FavoriteItem(
-                    image: "assets/imgItem/shoes1.jpg",
-                    title: "productTitle1",
-                    Salary: "\$ 10",
+           
+Expanded(
+  child:  ListView.builder(
+        scrollDirection: Axis.horizontal,
+        itemCount: allMostSellingProductList.length,
+        itemBuilder: ((context, index) {
+       
+
+   SearchProduct searchedproduct = SearchProduct(
+              id: allMostSellingProductList[index].id,
+              name: allMostSellingProductList[index].name,
+              image: allMostSellingProductList[index].image,
+              price: allMostSellingProductList[index].price,
+              size: allMostSellingProductList[index].size);
+          return InkWell(
+onTap: (){
+     Navigator.of(context).pushReplacement(PageRouteBuilder(
+          pageBuilder: (_, __, ___) => detailProduk(GridItem(id: searchedproduct.id,title: searchedproduct.name,img: searchedproduct.image,price: searchedproduct.price,category: searchedproduct.name,qty: searchedproduct.size,vendor_name: searchedproduct.vendor))));
+          
+          },
+                      child:          Container(
+
+                        margin: EdgeInsets.symmetric(horizontal: 10,vertical: 10),
+                        child:     FavoriteItem(
+                    image: searchedproduct.image,
+                    title: searchedproduct.name,
+                    Salary: searchedproduct.price,
                     Rating: "4.8",
                     sale: "65",
                   ),
-                  Padding(padding: EdgeInsets.only(left: 10.0)),
-                  FavoriteItem(
-                    image: "assets/imgItem/shoes1.jpg",
-                    title: "productTitle1",
-                    Salary: "\$ 10",
-                    Rating: "4.8",
-                    sale: "65",
-                  ),
-                  Padding(padding: EdgeInsets.only(left: 10.0)),
-                  FavoriteItem(
-                    image: "assets/imgItem/shoes1.jpg",
-                    title: "productTitle1",
-                    Salary: "\$ 10",
-                    Rating: "4.8",
-                    sale: "65",
-                  ),
-                  Padding(padding: EdgeInsets.only(left: 10.0)),
-                  FavoriteItem(
-                    image: "assets/imgItem/shoes1.jpg",
-                    title: "productTitle1",
-                    Salary: "\$ 10",
-                    Rating: "4.8",
-                    sale: "65",
-                  ),
-                  Padding(padding: EdgeInsets.only(left: 10.0)),
-                ],
-              ),
-            ),
+                      ),
+          );
+         
+        }),
+      ),
+)
+            // Expanded(
+            //   child: ListView(
+            //     padding: EdgeInsets.only(top: 20.0, bottom: 2.0),
+            //     scrollDirection: Axis.horizontal,
+            //     children: <Widget>[
+            //       FavoriteItem(
+            //         image: "assets/imgItem/shoes1.jpg",
+            //         title: "productTitle1",
+            //         Salary: "\$ 10",
+            //         Rating: "4.8",
+            //         sale: "65",
+            //       ),
+            //       Padding(padding: EdgeInsets.only(left: 10.0)),
+              
+            //       Padding(padding: EdgeInsets.only(left: 10.0)),
+            //       FavoriteItem(
+            //         image: "assets/imgItem/shoes1.jpg",
+            //         title: "productTitle1",
+            //         Salary: "\$ 10",
+            //         Rating: "4.8",
+            //         sale: "65",
+            //       ),
+            //       Padding(padding: EdgeInsets.only(left: 10.0)),
+            //       FavoriteItem(
+            //         image: "assets/imgItem/shoes1.jpg",
+            //         title: "productTitle1",
+            //         Salary: "\$ 10",
+            //         Rating: "4.8",
+            //         sale: "65",
+            //       ),
+            //       Padding(padding: EdgeInsets.only(left: 10.0)),
+            //     ],
+            //   ),
+            // ),
+
+
           ],
         ),
       ),
@@ -255,14 +315,14 @@ class _detailProdukState extends State<detailProduk> {
                         Icons.shopping_cart,
                         color: Colors.black26,
                       )),
-                  CircleAvatar(
-                    radius: 10.0,
-                    backgroundColor: Colors.red,
-                    child: Text(
-                      valueItemChart.toString(),
-                      style: TextStyle(color: Colors.white, fontSize: 13.0),
-                    ),
-                  ),
+                  // CircleAvatar(
+                  //   radius: 10.0,
+                  //   backgroundColor: Colors.red,
+                  //   child: Text(
+                  //     valueItemChart.toString(),
+                  //     style: TextStyle(color: Colors.white, fontSize: 13.0),
+                  //   ),
+                  // ),
                 ],
               ),
             ),
@@ -798,15 +858,18 @@ class _detailProdukState extends State<detailProduk> {
             /// and Increase a valueItemChart + 1
             InkWell(
               onTap: () {
-                var snackbar = SnackBar(
-                  content: Text(
-                      // AppLocalizations.of(context).tr('itemAdded'),
-                      "Item Added"),
-                );
-                setState(() {
-                  valueItemChart++;
-                });
-                _key.currentState.showSnackBar(snackbar);
+
+                       Navigator.of(context).push(PageRouteBuilder(
+                              pageBuilder: (_, ___, ____) => new cart()));
+                // var snackbar = SnackBar(
+                //   content: Text(
+                //       // AppLocalizations.of(context).tr('itemAdded'),
+                //       "Item Added"),
+                // );
+                // setState(() {
+                //   valueItemChart++;
+                // });
+                // _key.currentState.showSnackBar(snackbar);
               },
               child: Padding(
                 padding: const EdgeInsets.only(bottom: 5.0),
@@ -1102,7 +1165,7 @@ class FavoriteItem extends StatelessWidget {
                           topLeft: Radius.circular(7.0),
                           topRight: Radius.circular(7.0)),
                       image: DecorationImage(
-                          image: AssetImage(image), fit: BoxFit.cover)),
+                          image: NetworkImage(image), fit: BoxFit.cover)),
                 ),
                 Padding(padding: EdgeInsets.only(top: 15.0)),
                 Padding(

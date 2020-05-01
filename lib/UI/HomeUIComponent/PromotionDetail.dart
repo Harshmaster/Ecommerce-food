@@ -192,21 +192,21 @@ class ItemGrid extends StatelessWidget {
                           image: DecorationImage(
                               image: NetworkImage(item.image), fit: BoxFit.contain)),
                     ),
-                    Container(
-                      height: 25.5,
-                      width: 55.0,
-                      decoration: BoxDecoration(
-                          color: Color(0xFFD7124A),
-                          borderRadius: BorderRadius.only(
-                              bottomRight: Radius.circular(20.0),
-                              topLeft: Radius.circular(5.0))),
-                      child: Center(
-                          child: Text(
-                        "10%",
-                        style: TextStyle(
-                            color: Colors.white, fontWeight: FontWeight.w600),
-                      )),
-                    )
+                    // Container(
+                    //   height: 25.5,
+                    //   width: 55.0,
+                    //   decoration: BoxDecoration(
+                    //       color: Color(0xFFD7124A),
+                    //       borderRadius: BorderRadius.only(
+                    //           bottomRight: Radius.circular(20.0),
+                    //           topLeft: Radius.circular(5.0))),
+                    //   child: Center(
+                    //       child: Text(
+                    //     "10%",
+                    //     style: TextStyle(
+                    //         color: Colors.white, fontWeight: FontWeight.w600),
+                    //   )),
+                    // )
                   ],
                 ),
                 Padding(padding: EdgeInsets.only(top: 7.0)),
