@@ -108,10 +108,10 @@ class _AppbarGradientState extends State<AppbarGradient> {
             /// Icon chat (if user click navigate to chat layout)
             InkWell(
                 onTap: () {
-                  // Navigator.of(context).push(
-                  //     PageRouteBuilder(pageBuilder: (_, __, ___) => new chatItem()));
-                      Navigator.of(context).push(
-                      PageRouteBuilder(pageBuilder: (_, __, ___) => new FacultyContactPage()));
+                  Navigator.of(context).push(
+                      PageRouteBuilder(pageBuilder: (_, __, ___) => new chatItem()));
+                      // Navigator.of(context).push(
+                      // PageRouteBuilder(pageBuilder: (_, __, ___) => new FacultyContactPage()));
 
 
                 },

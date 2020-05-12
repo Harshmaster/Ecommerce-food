@@ -380,6 +380,8 @@ class _AnimationSplashLoginState extends State<AnimationSplashLogin> {
         Navigator.of(context).push(MaterialPageRoute(
             builder: (BuildContext context) => new loginScreen()));
       }
+
+      
     });
     return AnimatedBuilder(
       animation: widget.animationController,
